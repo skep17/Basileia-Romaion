@@ -1,15 +1,4 @@
 ﻿DIPLOMACY = {
-	c:NAH ?= {
-		create_diplomatic_pact = {
-			country = c:PUE
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:TWT
-			type = defensive_pact
-		}
-		set_relations = { country = c:TWT value = 100 }
-	}
 	c:HRE ?= {
 		create_diplomatic_pact = {
 			country = c:br_louisiane
@@ -221,6 +210,61 @@
 		create_unidirectional_truce = {
 			country = c:T06
 			months = 90
+		}
+	}
+	
+	## Mesoamerican Relationships
+	c:NAH ?= {
+		create_diplomatic_pact = {
+			country = c:PUE
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:ZAP
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NAH_PIP
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NAH_NIC
+			type = tributary
+		}
+		create_bidirectional_truce = {
+			country = c:br_louisiane
+			months = 60
+		}
+		set_relations = {
+			country = c:br_louisiane 
+			value = -50
+		}
+		create_diplomatic_pact = {
+			country = c:br_elysium
+			type = defensive_pact
+		}
+		set_relations = {
+			country = c:br_elysium
+			value = 50
+		}
+	}
+	
+	c:MAY_COC = {
+		create_diplomatic_pact = {
+			country = c:MAY_XIU
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:MAY_ITZ
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:MAY_CHL
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:MAY_CHO
+			type = tributary
 		}
 	}
 

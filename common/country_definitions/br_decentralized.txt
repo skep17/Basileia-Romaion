@@ -645,15 +645,6 @@ AMZ = {
 	capital = STATE_AMAZONAS
 }
 
-OAX = { # Oaxaca
-	#color = { 158 118 120 }
-	color = { 70 69 65 }
-	country_type = decentralized
-	tier = principality
-	cultures = { zapotec mixtec }
-	capital = STATE_OAXACA
-}
-
 MCO = { # Michoacan
 	#color = { 158 18 20 }
 	color = { 70 69 65 }
@@ -3412,10 +3403,4 @@ br_itza = {
 	cultures = { mayan }
 	capital = STATE_GUATEMALA
 }
-
-
-
-
-
-
 

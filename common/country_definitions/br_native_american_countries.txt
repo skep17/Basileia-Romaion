@@ -1,0 +1,188 @@
+﻿###########################################
+# BASILEIA ROMAION - NATIVE AMERICAN TAGS #
+###########################################
+
+# By Alexedishi
+
+########################################
+
+# Tags are grouped by the following regions:
+# 1. Mesoamerica
+# 2. Arioamerica/Oasisamerica
+# 3. Woodlands
+
+# Custom tags use the XXX_YYY format where X is the culture supergroup of the tag and Y is the specific country tag. This is to futureproof for future V3 and BR development
+# Several vanilla tags are duplicated here 
+
+########################################
+
+#### MESOAMERICAN TAGS ####
+
+MAY = { # League of Mayapan
+	color = { 98 188 142 }
+	country_type = unrecognized
+	tier = empire
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+
+MAY_COC = { # Cocom
+	color = { 177 163 97 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+
+MAY_CHL = { # Ch'ol
+	color = { 155 87 76 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { west_mayan }
+	capital = STATE_GUATEMALA
+}
+
+MAY_CHO = { # Chontal
+	color = { 80 175 175 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+
+MAY_ITZ = { # Itza
+	color = { 0 230 170 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { mayan }
+	capital = STATE_GUATEMALA
+}
+
+MAY_TZE = { # Tzeltal
+	color = { 133 143 112 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { west_mayan }
+	capital = STATE_CHIAPAS
+}
+
+MAY_TZO = { # Tzotzil
+	color = { 92 103 112 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { west_mayan }
+	capital = STATE_CHIAPAS
+}
+
+MAY_XIU = { # Xiu
+	color = { 150 81 150 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+
+MES_GUN = { # Guna
+	color = { 122 180 210 }
+	country_type = decentralized
+	tier = kingdom
+	cultures = { miskito }
+	capital = STATE_PANAMA
+}
+
+MES_IRE = { # Iréchikwa
+	color = { 122 180 210 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { purepecha }
+	capital = STATE_JALISCO
+}
+
+MES_MNG = { # Mangue/Chorotega
+	color = { 52 83 35 }
+	country_type = decentralized
+	tier = principality
+	cultures = { miskito }
+	capital = STATE_COSTA_RICA
+}
+
+MIX = { # Yucu Dzaa
+	color = { 110 120 230 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { mixtec }
+	religion = br_religion_elysian_orthodox
+	capital = STATE_GUERRERO
+}
+
+MKT = {
+	color = { 90 20 40 }
+	country_type = decentralized
+	tier = principality
+	cultures = { miskito }
+	capital = STATE_NICARAGUA
+}
+
+NAH = { # Aztec Empire
+	color = { 52 84 35 }
+	country_type = unrecognized
+	tier = empire
+	cultures = { nahua }
+	capital = STATE_MEXICO
+}
+
+NAH_AZC = { # Azcapotzalco
+	color = { 88 99 126 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { nahua }
+	capital = STATE_YUCATAN
+}
+
+NAH_CEM = { # Cempoala
+	color = { 156 135 130 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { nahua }
+	capital = STATE_YUCATAN
+}
+
+NAH_NIC = { # Nicarao
+	color = { 127 124 109 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { nahua }
+	capital = STATE_NICARAGUA
+}
+
+NAH_PIP = { # Pipil
+	color = { 92 103 109 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { nahua }
+	capital = STATE_SAN_SALVADOR
+}
+
+OAX = { # Oaxaca
+	color = { 184 158 116 }
+	country_type = decentralized
+	tier = principality
+	cultures = { zapotec mixtec }
+	capital = STATE_OAXACA
+}
+
+ZAP = { # Zapotec
+	color = { 47 29 98 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { zapotec }
+	capital = STATE_CHIAPAS
+}
+
+ZAP_TEH = { # Tehuantepec
+	color = { 184 158 116 }
+	country_type = decentralized
+	tier = principality
+	cultures = { zapotec mixtec }
+	capital = STATE_OAXACA
+}

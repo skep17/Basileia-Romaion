@@ -178,10 +178,12 @@
  CON_ADJ: "Nêhiyawak"
  TUG: "Imazighen"
  TUG_ADJ: "Imazighen"
- NAH: "Aztlán"
- NAH_ADJ: "Aztlán"
+ NAH: "Nahua"
+ NAH_ADJ: "Nahua"
  MNG: "Mirning"
  MNG_ADJ: "Mirning"
+ MKT: "Miskito"
+ MKT_ADJ: "Miskito"
  
   # Dynamic countries
  dyn_c_sicily: "Katepaníkion Italías"

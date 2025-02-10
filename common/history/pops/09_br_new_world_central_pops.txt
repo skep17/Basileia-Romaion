@@ -548,12 +548,23 @@
 			}
 			create_pop = {
 				culture = tarascan
-				size = 425162
+				size = 42516
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = tarascan
-				size = 100000
+				size = 10000
+			}
+		}
+		region_state:MES_IRE = { # taking 90% of tarascan from Drogan's initial math -Alex
+			create_pop = {
+				culture = tarascan
+				size = 328646
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tarascan
+				size = 90000
 			}
 		}
 	}
