@@ -167,7 +167,7 @@
 			name = Aztec_Rebels
 			target_country = c:ZAP_TEH
 			type = dp_annex_subject 
-			add_initiator_backers = { c:PUE c:ZAP c:NAH_PIP NAH_NIC }
+			add_initiator_backers = { c:PUE c:ZAP c:NAH_PIP c:NAH_NIC }
 		}
 	}
 

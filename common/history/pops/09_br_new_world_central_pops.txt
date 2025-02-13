@@ -335,11 +335,22 @@
 		}
 	}
 	s:STATE_VERACRUZ = { # 242658 in 1830, 259463 in 1840
+		# Initial number of 651061 split three ways here
 		region_state:NAH = {
 			create_pop = {
 				culture = nahua
-				size = 651061
-			}		
+				size = 217020
+			}
+			create_pop = {
+				culture = mayan
+				size = 217020
+			}
+		}
+		region_state:MAY_CHO = {
+			create_pop = {
+				culture = mayan
+				size = 217020
+			}	
 		}
 	}
 	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
@@ -377,12 +388,12 @@
 				size = 456461
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 355162
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = tarascan
+				culture = purepecha
 				size = 150000
 			}
 		}	
@@ -392,7 +403,7 @@
 	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
 	# working total number of 548936
 	s:STATE_YUCATAN = { 
-		region_state:NAH = {
+		region_state:MAY_COC = {
 			create_pop = {
 				culture = nahua
 				size = 25961
@@ -407,7 +418,7 @@
 				size = 50000
 			}
 		}
-		region_state:br_maaya = {
+		region_state:MAY_XIU = {
 			create_pop = {
 				culture = mayan
 				size = 65288
@@ -438,7 +449,7 @@
 				size = 444004
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 25162
 			}
 			create_pop = {
@@ -453,7 +464,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = tarascan
+				culture = purepecha
 				size = 10000
 			}
 		}
@@ -462,13 +473,13 @@
 	# total of 231319. This number was revealed to me in a dream.
 	# jk. Couldn't find estimates for Guerrero in 1830 or 1840, but they could be found for 1870 onwards, so some math trickery was done. Neighboring Oaxaca's estimated 1835 population is 74.7% of its 1870 population, and 50.61% of its 1900 population, so those percentages were applied to Guerrero's 1870 and 1900 population figures, and the two results were averaged together into the above.
 	s:STATE_GUERRERO = { 
-		region_state:NAH = {
+		region_state:MIX = {
 			create_pop = {
 				culture = zapotec
 				size = 173183
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 100846
 			}
 			create_pop = {
@@ -491,28 +502,35 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = tarascan
+				culture = purepecha
 				size = 50000
+			}
+		}
+		region_state:MES_IRE = { # Only controls a single province, so only a few pops added in here
+			create_pop = {
+				culture = purepecha
+				size = 10154
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = purepecha
+				size = 5045
 			}
 		}
 	}
 	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
-		region_state:NAH = {
-			create_pop = {
-				culture = zapotec
-				size = 380532
-			}
-			create_pop = {
-				culture = tarascan
-				size = 127073
-			}
+		region_state:ZAP_TEH = {
 			create_pop = {
 				culture = nahua
 				size = 124182
 			}
 			create_pop = {
-				culture = mixtec
-				size = 153183
+				culture = zapotec
+				size = 380532
+			}
+			create_pop = {
+				culture = west_mayan
+				size = 127073
 			}
 			create_pop = {
 				pop_type = slaves
@@ -521,15 +539,21 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = mixtec
-				size = 50000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tarascan
+				culture = west_mayan
 				size = 50000
 			}
 		}
+		region_state:MIX = {
+			create_pop = {
+				culture = mixtec
+				size = 153183
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mixtec
+				size = 50000
+			}
+		}	
 	}
 	# Jalisco: 656881 in 1830, 691397 in 1840, so averaging out to 674139
 	# Michoacan: 435281 in 1830, 497537 in 1840, so averaging out to 466409
@@ -540,30 +564,34 @@
 		region_state:NAH = {
 			create_pop = {
 				culture = nahua
-				size = 375961
+				size = 275961
+			}
+			create_pop = {
+				culture = purepecha
+				size = 42516
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = purepecha
+				size = 10000
+			}
+		}
+		region_state:MES_IRE = { # taking 90% of tarascan from Drogan's initial math -Alex
+			create_pop = {
+				culture = nahua
+				size = 112354
 			}
 			create_pop = {
 				culture = oodham
 				size = 92078
 			}
 			create_pop = {
-				culture = tarascan
-				size = 42516
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tarascan
-				size = 10000
-			}
-		}
-		region_state:MES_IRE = { # taking 90% of tarascan from Drogan's initial math -Alex
-			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 328646
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = tarascan
+				culture = purepecha
 				size = 90000
 			}
 		}
@@ -578,12 +606,12 @@
 				size = 175961
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 425162
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = tarascan
+				culture = purepecha
 				size = 100000
 			}
 		}
@@ -591,30 +619,68 @@
 	# 121424 in 1830, 138595 in 1840
 	# working total of 130010
 	s:STATE_CHIAPAS = {
-		region_state:NAH = {
+		region_state:MAY_CHO = {
 			create_pop = {
 				culture = mayan
+				size = 2160
+			}
+			create_pop = {
+				culture = west_mayan
+				size = 11432
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = west_mayan
+				size = 1000
+			}
+		}
+		region_state:MAY_TZE = {
+			create_pop = {
+				culture = west_mayan
 				size = 242164
 			}
 			create_pop = {
-				culture = nahua
+				culture = zapotec
 				size = 35961
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = mayan
+				culture = west_mayan
 				size = 30000
 			}
 		}
-		region_state:br_itza = {
+		region_state:MAY_TZO = {
 			create_pop = {
-				culture = mayan
-				size = 42160
+				culture = west_mayan
+				size = 242164
+			}
+			create_pop = {
+				culture = zapotec
+				size = 35961
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = mayan
-				size = 3000
+				culture = west_mayan
+				size = 30000
+			}
+		}
+		region_state:ZAP = {
+			create_pop = {
+				culture = zapotec
+				size = 242164
+			}
+			create_pop = {
+				culture = west_mayan
+				size = 15961
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = zapotec
+				size = 30000
+			}
+			create_pop = {
+				culture = nahua
+				size = 23161
 			}
 		}
 	}
@@ -633,9 +699,27 @@
 				size = 8000
 			}
 		}
+		region_state:MES_IRE = {
+			create_pop = {
+				culture = purepecha
+				size = 11961
+			}
+			create_pop = {
+				culture = nahua
+				size = 1961
+			}
+			create_pop = {
+				culture = oodham
+				size = 6300
+			}
+			create_pop = {
+				culture = hokan
+				size = 2000
+			}
+		}
 	}
 	s:STATE_SAN_SALVADOR = {
-		region_state:NAH = {
+		region_state:NAH_PIP = {
 			create_pop = {
 				culture = mayan
 				size = 208204
@@ -656,50 +740,69 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:NAH = {
+		region_state:MAY_ITZ = {
 			create_pop = {
 				culture = mayan
-				size = 292000
+				size = 192000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = mayan
-				size = 50000
+				size = 40000
 			}
 			create_pop = {
 				culture = nahua
 				size = 15961
 			}
 		}
-		region_state:br_itza = {
+		region_state:MAY_CHL = {
 			create_pop = {
 				culture = mayan
-				size = 36200
+				size = 136200
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = mayan
-				size = 5000
+				size = 35000
 			}
 			create_pop = {
-				culture = miskito
+				culture = nahua
 				size = 6000
 			}
-		}
-		region_state:br_maaya = {
 			create_pop = {
 				culture = mayan
-				size = 3620
+				size = 136200
+			}
+			create_pop = {
+				culture = west_mayan
+				size = 15871
+			}
+		}
+		region_state:MAY_XIU = {
+			create_pop = {
+				culture = mayan
+				size = 113620
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = mayan
-				size = 500
+				size = 27000
+			}
+		}
+		region_state:ZAP = {
+			create_pop = {
+				culture = mayan
+				size = 125211
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mayan
+				size = 17855
 			}
 		}
 	}
 	s:STATE_HONDURAS = {
-		region_state:NAH = {
+		region_state:MKT = {
 			create_pop = {
 				culture = mayan
 				size = 285204
@@ -726,7 +829,7 @@
 		}
 	}
 	s:STATE_NICARAGUA = {
-		region_state:NAH = {
+		region_state:NAH_NIC = {
 			create_pop = {
 				culture = mayan
 				size = 174000
@@ -745,6 +848,17 @@
 				size = 40000
 			}
 		}
+		region_state:MKT = {
+			create_pop = {
+				pop_type = slaves
+				culture = mayan
+				size = 300
+			}
+			create_pop = {
+				culture = miskito # Miskito pop. across the 'borders'
+				size = 32000
+			}
+		}
 		region_state:br_misumalpan = {
 			create_pop = {
 				pop_type = slaves
@@ -753,12 +867,12 @@
 			}
 			create_pop = {
 				culture = miskito # Miskito pop. across the 'borders'
-				size = 68000
+				size = 32000
 			}
 		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:NAH = {
+		region_state:MES_MNG = {
 			create_pop = {
 				culture = mayan
 				size = 83992
@@ -770,37 +884,15 @@
 			}
 			create_pop = {
 				culture = miskito # Cape of Gracias a Dios Miskito
-				size = 36000
+				size = 42000
 			}
 			create_pop = {
 				culture = nahua
 				size = 15961
 			}
-		}
-		region_state:br_new_granada = {
-			create_pop = {
-				culture = andalusian
-				size = 1500
-				pop_type = bureaucrats
-			}
-			create_pop = {
-				culture = colonial_andalusian
-				size = 9904
-				working_adult_ratio = 0.38
-			}
-			create_pop = {
-				culture = afro_andalusian
-				size = 1000
-				pop_type = slaves
-			}
 			create_pop = {
 				culture = guajiro
 				size = 3500
-				pop_type = slaves
-			}
-			create_pop = {
-				culture = miskito # Cape of Gracias a Dios Miskito
-				size = 6000
 				pop_type = slaves
 			}
 		}

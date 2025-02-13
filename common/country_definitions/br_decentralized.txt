@@ -645,15 +645,6 @@ AMZ = {
 	capital = STATE_AMAZONAS
 }
 
-MCO = { # Michoacan
-	#color = { 158 18 20 }
-	color = { 70 69 65 }
-	country_type = decentralized
-	tier = principality
-	cultures = { tarascan }
-	capital = STATE_JALISCO
-}
-
 AYM = { # Aymara
 	#color = { 173 211 239 }
 	color = { 70 69 65 }

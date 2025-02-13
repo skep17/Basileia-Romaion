@@ -123,7 +123,7 @@ STATES = {
 			owned_provinces = { x00B080 x10BBF0 x1C03D7 x1DD207 x27C1A1 x2F69FF x403080 x476D93 x4F60EB x5B96E6 x6AAD8E x6F6565 x74AF76 x83F6C7 x929ECC x95CA42 xB57A54 xB7EC5C xC46F80 xD374E4 xD87641 xE40A9D xE755F0 xEA20F2 xEC0A4D xF88218 }
 		}
 		add_homeland = cu:oodham
-		add_homeland = cu:tarascan
+		add_homeland = cu:purepecha
 		add_homeland = cu:nahua
 	}
 	s:STATE_SINALOA = {
@@ -132,7 +132,7 @@ STATES = {
 			owned_provinces = { x007001 x832AE4 x963998 xA4C4A6 xC0B080 xC6D687 xD5299A xDFD0C0 xE0E5E9 }
 		}
 		add_homeland = cu:oodham
-		add_homeland = cu:tarascan
+		add_homeland = cu:purepecha
 		add_homeland = cu:nahua
 	}
 	s:STATE_BAJIO = {
@@ -140,7 +140,7 @@ STATES = {
 			country = c:NAH
 			owned_provinces = { x2214C5 x34ABA3 x44B0D0 x4606C7 x4BFB55 x503080 x5F1A07 x6B4C3A x6FBC1A x70C1FF x71F349 x725961 x732A81 x749EC2 x75E1C3 x9BAC78 xC0B001 xD03080 xD0B080 xD6EED0 xE3628B xEC946F }
 		}
-		add_homeland = cu:tarascan
+		add_homeland = cu:purepecha
 		add_homeland = cu:nahua
 	}
 	s:STATE_YUCATAN = {
@@ -210,7 +210,7 @@ STATES = {
 			owned_provinces = { x0EE3B3 x107001 x1559EB x2E172F x3B18A7 x3F0A44 x41E3BB x4CF985 x4E396E x50B080 x52E09C x65B33C x6CE1F2 x80B8A5 x829A25 x8ABF59 x8EA0AB x8FD9A9 x907001 x90B080 x97CE08 xA18CF4 xBFDB49 xC1F60B xC3A1B7 xCE2837 xE26CDE xE34EE3 xE9BCBE }
 		}
 		add_homeland = cu:nahua
-		add_homeland = cu:tarascan
+		add_homeland = cu:purepecha
 	}
 	s:STATE_ZACATECAS = {
 		create_state = {
@@ -218,7 +218,7 @@ STATES = {
 			owned_provinces = { x06468D x079132 x0C6D43 x1043A1 x10545A x236BF3 x6725CB x6D5F07 x99570C x9AA3B4 x9B87CC x9B8923 xA00496 xB6FB08 xBFB49D xDDC184 xE6A7AE xFC9EFC xFEBF1A }
 		}
 		add_homeland = cu:nahua
-		add_homeland = cu:tarascan		
+		add_homeland = cu:purepecha		
 	}
 	s:STATE_GUATEMALA = {
 		create_state = {
@@ -237,9 +237,7 @@ STATES = {
 			country = c:MAY_XIU
 			owned_provinces = { xD176F3 xC67219 x011E0F x6D71DA x30E01C }
 		}
-
 		add_homeland = cu:mayan
-		add_homeland = cu:miskito
 	}
 	s:STATE_HONDURAS = {
 		create_state = {

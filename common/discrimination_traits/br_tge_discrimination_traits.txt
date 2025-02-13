@@ -1,0 +1,71 @@
+﻿############################
+# CULTURAL HERITAGE TRAITS #
+############################
+
+algic_heritage = {
+	heritage = yes
+}
+
+iroquoian_heritage = {
+	heritage = yes
+}
+
+mesoamerican_heritage = {
+	heritage = yes
+}
+
+na_dene_heritage = {
+	heritage = yes
+}
+
+siouan_heritage = {
+	heritage = yes
+}
+
+#############################
+# RELIGIOUS HERITAGE TRAITS #
+#############################
+
+mesoamerican_tradition = {
+	heritage = yes
+}
+
+###################
+# CULTURAL TRAITS #
+###################
+
+# The Woodlands
+# //
+
+# Arido/Oasis America
+apache = {}
+comanche = {}
+navajo = {}
+oodham = {}
+pueblo = {}
+
+# Mesoamerica
+arawak = {}
+mayan = {}
+misumalpan = {}
+nahua = {}
+otomanguean = {}
+purepecha = {}
+
+# South America
+# //
+
+# Errybody Else
+# //
+
+######################
+# PLACEHOLDER TRAITS #
+######################
+
+north_american_heritage = { # placeholder
+	heritage = yes
+}
+
+south_american_heritage = { # placeholder
+	heritage = yes
+}

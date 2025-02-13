@@ -376,6 +376,22 @@ state_cahokian_standard_of_living_add={
 	}
 }
 
+state_purepecha_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_west_mayan_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 
 ###Religion###
 
@@ -483,7 +499,7 @@ state_br_religion_inti_standard_of_living_add={
 	}
 }
 
-state_br_religion_nahuatl_standard_of_living_add={
+state_br_tge_religion_mesoamerican_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={
@@ -491,7 +507,23 @@ state_br_religion_nahuatl_standard_of_living_add={
 	}
 }
 
-state_br_religion_mesoamerican_standard_of_living_add={
+state_br_tge_religion_teotl_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_br_tge_religion_nahuatl_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_br_tge_religion_mayan_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={
