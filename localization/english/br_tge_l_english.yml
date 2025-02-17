@@ -1,0 +1,285 @@
+﻿l_english:
+ # journal entry groups
+ 
+ 
+ # journal entries
+ 
+ 
+ # decisions
+ 
+ 
+ # tooltips
+ 
+ 
+ # custom_loc
+ 
+ 
+ # script value breakdowns
+ 
+ 
+ # scripted progressbars
+ 
+ 
+ # scripted progressbar breakdowns
+ 
+ 
+ # scripted buttons
+ 
+ 
+ # notifications
+ 
+ 
+ # country_flavor_text
+ 
+ 
+ # countries
+ MAY_COC: "Cocom"
+ MAY_COC_ADJ: "Cocom"
+ MAY_CHL: "Ch'ol"
+ MAY_CHL_ADJ: "Ch'ol"
+ MAY_CHO: "Chontal"
+ MAY_CHO_ADJ: "Chontal"
+ MAY_ITZ: "Itza"
+ MAY_ITZ_ADJ: "Itza"
+ MAY_TZE: "Tzeltal"
+ MAY_TZE_ADJ: "Tzeltal"
+ MAY_TZO: "Tzotzil"
+ MAY_TZO_ADJ: "Tzotzil"
+ MAY_XIU: "Xiu"
+ MAY_XIU_ADJ: "Xiu"
+ MES_GUN: "Guna"
+ MES_GUN_ADJ: "Guna"
+ MES_IRE: "Iréchikwa"
+ MES_IRE_ADJ: "Iréchikwa"
+ MES_MNG: "Chorotega"
+ MES_MNG_ADJ: "Chorotega"
+ MIX: "Yucu Dzaa"
+ MIX_ADJ: "Yucu Dzaan"
+ NAH_AZC: "Azcapotzalco"
+ NAH_AZC_ADJ: "Azcapotzalco"
+ NAH_CEM: "Cempoala"
+ NAH_CEM_ADJ: "Cempoala"
+ NAH_NIC: "Nicarao"
+ NAH_NIC_ADJ: "Nicarao"
+ NAH_PIP: "Pipil"
+ NAH_PIP_ADJ: "Pipil"
+ ZAP: "Zapotec"
+ ZAP_ADJ: "Zapotec"
+ ZAP_TEH: "Tehuantepec"
+ ZAP_TEH_ADJ: "Tehuantepec"
+ 
+ # dynamic country names
+ dyn_c_NAH_aztec: "Mēxihcah"
+ dyn_c_NAH_aztec_adj: "Mēxihcah"
+ 
+ # power blocs
+ aztec_empire: "Ēxcān Tlahtōlōyān"
+ 
+ # modifiers
+ 
+ 
+ # interest group names
+  
+ 
+ # traits
+ 
+ 
+ # ideologies
+ 
+ 
+ # laws
+ 
+ 
+ # institutions
+ 
+ 
+ # diplomatic plays
+ 
+ 
+ # diplomatic actions
+ 
+ 
+ # buildings
+
+
+ # pm groups
+ 
+ 
+ # production methods
+ 
+ 
+ # concepts
+ 
+ 
+ # social hierarchies
+ 
+ 
+ # social classes
+ 
+ # cultures
+ purepecha: "Purépecha"
+ west_mayan: "West Mayan"
+ 
+ # general names
+ 
+ # Maya Names - These are shared between all Maya cultures for now
+ ### Male First Names
+ Acal: "Acal"
+ Ahau: "Ahau"
+ Ah_Puch: "Ah Puch"
+ Akik: "Akik"
+ Ajaw: "Ajaw"
+ Balam: "Ba’lam"
+ Caquix: "Caquix"
+ Chaac: "Chaac"
+ Copal: "Copal"
+ Hunahpu: "Hunahpu"
+ Ix_Chel: "Ix Chel"
+ Ix_Tab: "Ix Tab"
+ Izel: "Izel"
+ Kanek: "Kanek"
+ Kukulkan: "Kukulkan"
+ K-an: "K’an"
+ Paxil: "Paxil"
+ Tzacol: "Tzacol"
+ Uwak: "Uwak"
+ Uxmal: "Uxmal"
+ Yaxkin: "Yaxkin"
+ Xocotl: "Xocotl"
+ ### Female First Names
+ Acatl: "Acatl"
+ Anaca: "Anaca"
+ Ayul: "Ayul"
+ Chalchiuhtlicue: "Chalchiuhtlicue"
+ Chimalma: "Chimalma"
+ Citali: "Citali"
+ Citlalmina: "Citlalmina"
+ Ical: "Ical"
+ Ixchel: "Ixchel"
+ Ixtab: "Ixtab"
+ Izel: "Izel"
+ ### Noble Last Names
+ Quetzal: "Quetzal"
+ Tlaloc: "Tlaloc"
+ Xibalba: "Xibalba"
+ 
+ # Nahua names
+ ### Male First Names
+ Amoxtli: "Amoxtli"
+ Athziri: "Athziri"
+ Chimalli: "Chimalli"
+ Cipactli: "Cipactli"
+ Coyotl: "Coyotl"
+ Cuetlachtli: "Cuetlachtli"
+ Ehecatl: "Ehecatl"
+ Etalpalli: "Etalpalli"
+ Eztli: "Eztli"
+ Huemac: "Huemac"
+ Huitzilin: "Huitzilin"
+ Ilhicamina: "Ilhicamina"
+ Ihuicatl: "Ihuicatl"
+ Itzcoatl: "Itzcoatl"
+ Necalli: "Necalli"
+ Nezahualcoyotl: "Nezahualcoyotl"
+ Nezahualpilli: "Nezahualpilli"
+ Nopaltzin: "Nopaltzin"
+ Tenoch: "Tenoch"
+ Tlazopilli: "Tlazopilli"
+ Yaotl: "Yaotl"
+ Yayauhqui: "Yayauhqui"
+ ### Female First Names
+ Ameyalli: "Ameyalli"
+ Citlali: "Citlali"
+ Izel: "Izel"
+ Malinalxochitl: "Malinalxochitl"
+ Metztli: "Metztli"
+ Nenetl: "Nenetl"
+ Nochtli: "Nochtli"
+ Quetzalli: "Quetzalli"
+ Tlacotl: "Tlacotl"
+ Tonalli: "Tonalli"
+ Xitlaly: "Xitlaly"
+ Xipil: "Xipil"
+ Xochitl: "Xochitl"
+ Yolotl: "Yolotl"
+ Zeltzin: "Zeltzin"
+ ### Noble Last Names
+ Achcauhtli: "Achcauhtli"
+ Cuauhtemoc: "Cuauhtemoc"
+ Huitzilopochtli: "Huitzilopochtli"
+ Mictlantecuhtli: "Mictlantecuhtli"
+ Moyotlan: "Moyotlan"
+ Tezcatlipoca: "Tezcatlipoca"
+ Quetzalcoatl: "Quetzalcoatl"
+ Xochiquetzal: "Xochiquetzal"
+ ### Common Last Names
+ Ahuactzin: "Ahuactzin"
+ Coaguila: "Coaguila"
+ Cuautlaxahue: "Cuautlaxahue"
+ Huanitzin: "Huanitzin"
+ Ixtlilxochitl: "Ixtlilxochitl"
+ Matlacuahuac: "Matlacuahuac"
+ Mayahuel: "Mayahuel"
+ Moxo: "Moxo"
+ Nahui: "Nahui"
+ Ocelotl: "Ocelotl"
+ Panecatl: "Panecatl"
+ Tlaxca: "Tlaxca"
+ Tletla: "Tletla"
+ Tzehe: "Tzehe"
+ Xaxalpa: "Xaxalpa"
+ Zapotitla: "Zapotitla"
+ Zicotencatl: "Zicotencatl"
+ 
+ # Purepecha Names
+ ### Male First Names
+ Hiripan: "Hiripan"
+ Hiquingaje: "Hiquingaje"
+ Karapu: "Karapu"
+ Pawakume: "Pawakume"
+ Tangaxuan: "Tangaxuan"
+ Tarhiakurhi: "Tarhiákurhi"
+ Tzitzipandaquare: "Tzitzipandáquare"
+ Zuangua: "Zuangua"
+ ### Female First Names
+ Atzimba: "Atzimba"
+ Erandi: "Erandi"
+ Ireri: "Ireri"
+ Tsitsiki: "Tsitsiki"
+ Yatzari: "Yatzari"
+ Yuritzi: "Yuritzi"
+ ### Noble Last Names
+ Uacusecha: "Uacúsecha"
+ ### Common Last Names
+ Cuitzeo: "Cuitzeo"
+ Ihuatzio: "Ihuatzio"
+ Jaracuaro: "Jarácuaro"
+ Patzcuaro: "Pátzcuaro"
+ Tzintzuntzan: "Tzintzuntzan"
+ 
+ # Taino names
+ ### Male First Names
+ Ameyro: "Ameyro"
+ Baguanao: "Baguanao"
+ Cacicana: "Cacicana"
+ Caguax: "Caguax"
+ Camaguebax: "Camaguebax"
+ Canimao: "Canimao"
+ Caracamisa: "Caracamisa"
+ Guaucumao: "Guaucumao"
+ Guaicaba: "Guaicaba"
+ Guamayry: "Guamayry"
+ Guayacayex: Guayacayex""
+ Habaguanex: "Habaguanex"
+ Hatuey: "Hatuey"
+ Huarea: "Huarea"
+ Jibacoa: "Jibacoa"
+ Macaca: "Macaca"
+ Maniabon: "Maniabon"
+ Yacahuey: "Yacahuey"
+ Yacaguex: "Yacaguex"
+ ### Female First Names
+ Iguanama: "Iguanama"
+ ### Noble Last Names
+ ### Common Last Names
+ 
