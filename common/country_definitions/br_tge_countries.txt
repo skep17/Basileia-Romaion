@@ -132,10 +132,18 @@ MKT = {
 	capital = STATE_NICARAGUA
 }
 
-NAH = { # Aztec Empire
+NAH = { # Pan-Nahua Tag
 	color = { 52 84 35 }
 	country_type = unrecognized
 	tier = empire
+	cultures = { nahua }
+	capital = STATE_MEXICO
+}
+
+NAH_AZT = { # Aztec Empire
+	color = { 52 84 35 }
+	country_type = unrecognized
+	tier = hegemony
 	cultures = { nahua }
 	religion = br_tge_religion_teotl
 	capital = STATE_MEXICO
