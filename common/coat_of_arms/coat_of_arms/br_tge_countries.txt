@@ -34,6 +34,16 @@
 
 #### MESOAMERICAN COUNTRIES ####
 
+MCO = {
+	pattern = "pattern_solid.tga"
+	color1 = { 255 238 170 }
+	
+	textured_emblem = {
+		texture = "te_tge_irechikwa.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
 NAH = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
