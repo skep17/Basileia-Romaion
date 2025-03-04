@@ -33,7 +33,18 @@ NAH = {
 	flag_definition = {
 		coa = NAH
 		subject_canton = NAH
+		priority = 1
+	}
+	flag_definition = {
+		coa = NAH_AZT_monarchy
+		subject_canton = NAH
 		priority = 100
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+				country_has_state_relgion = rel:br_tge_religion_teotl
+			}
+		}
 	}
 }
 

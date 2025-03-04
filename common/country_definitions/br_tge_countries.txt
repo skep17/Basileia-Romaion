@@ -140,7 +140,7 @@ NAH = { # Pan-Nahua Tag
 	capital = STATE_MEXICO
 }
 
-NAH_AZT = { # Aztec Empire
+NAH_AZT = { # Aztec Empire, specifically referring to the Triple Alliance
 	color = { 52 84 35 }
 	country_type = unrecognized
 	tier = hegemony
