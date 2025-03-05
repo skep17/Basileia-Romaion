@@ -29,10 +29,37 @@
 
 #### MESOAMERICAN COUNTRIES ####
 
+MES_IRE = {
+	flag_definition = {
+		coa = MES_IRE
+		subject_canton = MES_IRE
+		priority = 1
+	}
+}
+
+MIX = {
+	flag_definition = {
+		coa = MIX
+		subject_canton = MIX
+		priority = 1
+	}
+	flag_definition = {
+		coa = MIX_elysian_theocracy
+		subject_canton = MIX_elysian_theocracy
+		priority = 10
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+				country_has_state_religion = rel:br_religion_elysian_orthodox
+			}
+		}
+	}
+}
+
 NAH = {
 	flag_definition = {
-		coa = NAH
-		subject_canton = NAH
+		coa = NAH_AZT
+		subject_canton = NAH_AZT
 		priority = 1
 	}
 	flag_definition = {
@@ -42,7 +69,7 @@ NAH = {
 		trigger = {
 			scope:actor ?= {
 				has_law = law_type:law_monarchy
-				country_has_state_relgion = rel:br_tge_religion_teotl
+				country_has_state_religion = rel:br_tge_religion_teotl
 			}
 		}
 	}

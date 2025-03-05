@@ -44,6 +44,87 @@ MCO = {
 	}
 }
 
+MES_IRE = {
+	pattern = "pattern_solid.tga"
+	color1 = { 215 200 130 }
+	
+	textured_emblem = {
+		texture = "te_tge_irechikwa.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+MIX = {
+	pattern = "pattern_solid.tga"
+	color1 = "light_blue"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+        instance = {
+			scale = { 0.33 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_eight_deer.dds"
+		instance = {
+			scale = { 0.50 0.50 }
+			position = { 0.50 0.50 }
+		}
+	}
+}
+
+MIX_elysian_theocracy = {
+	pattern = "pattern_cross.dds"
+	color1 = "light_blue"
+	
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "white"
+        instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_cross_crosslet.dds"
+		color1 = "white"
+        instance = {
+			scale = { 0.25 0.25 }
+			position = { 0.25 0.25 }
+		}
+		instance = {
+			scale = { 0.25 0.25 }
+			position = { 0.25 0.75 }
+		}
+		instance = {
+			scale = { 0.25 0.25 }
+			position = { 0.75 0.25 }
+		}
+		instance = {
+			scale = { 0.25 0.25 }
+			position = { 0.75 0.75 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_eight_deer.dds"
+		instance = {
+			scale = { 0.50 0.50 }
+			position = { 0.50 0.50 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_greek_orthodox_02.dds"
+		color1 = "black"
+		color2 = { 125 125 125 }
+        instance = {
+			scale = { 0.25 0.25 }
+			position = { 0.5 0.15 }
+		}
+	}
+}
+
 NAH = {
 	pattern = "pattern_solid.tga"
 	color1 = { 47 156 161 }
@@ -52,64 +133,156 @@ NAH = {
 		texture = "ce_tge_bend_sinister_stepped.dds"
 		color1 = { 125 4 30 }
 		color2 = { 231 190 32 }
-        instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+        instance = {
+			scale = { 1.0 1.0 }
+			position = { 0.5 0.5 }
+		}
 	}
 }
 
 NAH_AZT = {
 	pattern = "pattern_solid.tga"
-	color1 = { 43 146 144 }
+	color1 = { 43 156 161 }
 	
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = { 233 155 63 }
-        instance = { scale = { 1 @[4/6]} }
+        instance = {
+			scale = { 1 0.45 }
+			position = { 0.5 0.5 }
+		}
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = { 122 34 44 }
-        instance = { scale = { 1 @[2/6]} }
+        instance = { 
+			scale = { 1 0.33 }
+			position = { 0.5 0.5 }
+		}
 	}
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.25 0.25 } position = { 0.5 0.5 } }
-		instance = { scale = { 0.25 0.25 } position = { 0.3 0.5 } }
-		instance = { scale = { 0.25 0.25 } position = { 0.7 0.5 } }
+	textured_emblem = {
+		texture = "te_tge_nochtli.dds"
+		instance = {
+			scale = { 1 1 }
+			position = { 0.50 0.40 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_tetl.dds"
+		instance = {
+			scale = { 0.45 0.45 }
+			position = { 0.48 0.82 }
+		}
 	}
 }
 
 NAH_AZT_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "green"
-	color2 = "white"
-	color3 = "red"
+	color1 = { 43 156 161 }
 	
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = { 233 155 63 }
-        instance = { scale = { 1 @[4/6]} }
+        instance = {
+			scale = { 1 0.45 }
+		}
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = { 122 34 44 }
-        instance = { scale = { 1 @[2/6]} }
+        instance = { scale = { 1 0.33 } }
 	}
 	textured_emblem = {
 		texture = "te_tge_nochtli.dds"
-		instance = { scale = { 0.5 0.5 }
-		position = { 0.5 0.5 } }
+		instance = {
+			scale = { 0.50 0.50 }
+			position = { 0.50 0.45 }
+		}
 	}
 	textured_emblem = {
 		texture = "te_tge_tetl.dds"
-		instance = { scale = { 0.5 0.5 }
-		position = { 0.5 0.5 } }
+		instance = {
+			scale = { 0.20 0.20 }
+			position = { 0.48 0.65 }
+		}
 	}
 	textured_emblem = {
-		texture = "te_tge_cuauhtli_tenochtitlan.dds"
-		instance = { scale = { 0.5 0.5 }
-		position = { 0.5 0.5 } }
+		texture = "te_tge_motecuhzoma.dds"
+		instance = {
+			scale = { 0.40 0.40 }
+			position = { 0.50 0.15 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_chimalli_tenochtitlan.dds"
+		instance = {
+			scale = { 0.50 0.50 }
+			position = { 0.50 0.85 }
+		}
+	}
+}
+
+NAH_PIP = {
+	pattern = "pattern_solid.tga"
+	color1 = { 64 0 255 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = { 255 255 255 }
+		color2 = { 64 0 255 }
+        instance = {
+			scale = { 1 1 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_kuskatan.dds"
+		instance = {
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+ZAP = {
+	pattern = "pattern_solid.tga"
+	color1 = { 0 0 0 }
+	
+	colored_emblem = {
+		texture = "ce_tge_stripes_mam.dds"
+		color1 = "yellow"
+		color2 = "green"
+		color3 = "red"
+        instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+ZAP_TEH = {
+	pattern = "pattern_solid.tga"
+	color1 = { 0 64 0 }
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = { 136 0 21 }
+        instance = {
+			scale = { 1 0.33 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_tepetl.dds"
+		instance = {
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.60 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_huaxyacac.dds"
+		instance = {
+			scale = { 0.9 0.9 }
+			position = { 0.59 0.24 }
+		}
 	}
 }
 
