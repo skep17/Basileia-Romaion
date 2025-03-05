@@ -125,6 +125,35 @@ MIX_elysian_theocracy = {
 	}
 }
 
+MES_OTO = {
+	pattern = "pattern_solid.tga"
+	color1 = { 0 162 232 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = { 255 127 39 }
+		color2 = { 156 201 22 }
+        instance = {
+			scale = { 1 1 }
+		}
+	}
+	colored_emblem = {
+		texture = "te_tge_otomi_circle.dds"
+		color1 = "white"
+        instance = {
+			scale = { 1.0 1.0 }
+			position = { 0.5 0.5 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_otomi_flames.dds"
+		instance = {
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
 NAH = {
 	pattern = "pattern_solid.tga"
 	color1 = { 47 156 161 }

@@ -55,6 +55,8 @@
  MES_IRE_ADJ: "Iréchikwa"
  MES_MNG: "Chorotega"
  MES_MNG_ADJ: "Chorotega"
+ MES_OTO: "Otomi"
+ MES_OTO_ADJ: "Otomi"
  MIX: "Yucu Dzaa"
  MIX_ADJ: "Yucu Dzaan"
  NAH_AZC: "Azcapotzalco"
@@ -76,6 +78,7 @@
  
  # power blocs
  aztec_empire: "Ēxcān Tlahtōlōyān"
+ league_of_mayapan: "Luub Mayapan"
  
  # modifiers
  

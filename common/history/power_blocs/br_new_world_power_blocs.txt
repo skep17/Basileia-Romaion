@@ -1,5 +1,4 @@
 ﻿POWER_BLOCS = {
-
 #	c:br_elysium = {
 #		create_power_bloc = {
 #			name = treaty_of_independent_colonies
@@ -18,7 +17,6 @@
 #		}
 #	}
 
-
 	c:NAH = {
 		create_power_bloc = {
 			name = aztec_empire 
@@ -36,5 +34,22 @@
 			member = c:NAH_NIC
 		}
 	}
+	
+	c:MAY_COC = {
+		create_power_bloc = {
+			name = league_of_mayapan
+			
+			map_color = { 21 47 108 }
+			
+			founding_date = 1325.1.1
+			identity = identity_trade_league
 
+			principle = principle_internal_trade_1
+			
+			member = c:MAY_XIU
+			member = c:MAY_ITZ
+			member = c:MAY_CHL
+			member = c:MAY_CHO
+		}
+	}
 }

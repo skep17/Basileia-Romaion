@@ -1,12 +1,47 @@
 ﻿COUNTRIES = {
-	c:NAH ?= {
-		set_state_religion = rel:br_tge_religion_teotl
+	# Mesoamerica
+	c:MAY_CHO ?= {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	c:MAY_CHL ?= {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	c:MAY_COC ?= {
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_altepetl = yes
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_peasant_levies
+	}
+	c:MAY_ITZ ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	c:MAY_TZE ?= {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	c:MAY_TZO ?= {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	c:MAY_WAS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	c:MAY_XIU ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
 	}
 	
 	c:MES_IRE ?= {
@@ -19,6 +54,12 @@
 		activate_law = law_type:law_national_militia
 	}
 	
+	MES_OTO ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	
 	c:MIX ?= {
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -28,12 +69,20 @@
 		activate_law = law_type:law_religious_schools
 	}
 	
+	c:NAH ?= {
+		set_state_religion = rel:br_tge_religion_teotl
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_peasant_levies
+	}
 	c:NAH_NIC ?= {
 		effect_starting_technology_tier_6_tech = yes
 		
 		effect_starting_politics_altepetl = yes
 	}
-	
 	c:NAH_PIP ?= {
 		effect_starting_technology_tier_5_tech = yes
 		
@@ -45,16 +94,82 @@
 		
 		effect_starting_politics_altepetl = yes
 	}
-	
 	c:ZAP_TEH ?= {
 		effect_starting_technology_tier_5_tech = yes
 		
 		effect_starting_politics_altepetl = yes
 	}
 	
-	c:MAY_WAS ?= {
-		effect_starting_technology_tier_5_tech = yes
+	# Decentralized Central America
+	c:br_misumalpan ?= {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
 		
-		effect_starting_politics_altepetl = yes
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		activate_law = law_type:law_tribal_armies
+		activate_law = law_type:law_debt_slavery
+		
+	}
+
+	c:br_maaya ?= {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		activate_law = law_type:law_tribal_armies
+		activate_law = law_type:law_debt_slavery
+		
+	}
+
+	c:br_lenca ?= {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		activate_law = law_type:law_tribal_armies
+		activate_law = law_type:law_debt_slavery
+		
+	}
+
+	c:br_itza ?= {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		activate_law = law_type:law_tribal_armies
+		activate_law = law_type:law_debt_slavery
+		
 	}
 }
