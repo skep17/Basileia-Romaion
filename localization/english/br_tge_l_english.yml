@@ -45,6 +45,8 @@
  MAY_TZE_ADJ: "Tzeltal"
  MAY_TZO: "Tzotzil"
  MAY_TZO_ADJ: "Tzotzil"
+ MAY_WAS: "Wastek"
+ MAY_WAS_ADJ: "Wastekan"
  MAY_XIU: "Xiu"
  MAY_XIU_ADJ: "Xiu"
  MES_GUN: "Guna"
@@ -116,9 +118,32 @@
  
  # social classes
  
+ 
+ # religions
+ br_tge_religion_mesoamerican: "Mesoamerican"
+ br_tge_religion_teotl: "Teotl"
+ br_tge_religion_nahuatl: "Tonalist"
+ br_tge_religion_mayan: "Mayanism"
+ 
  # cultures
+ otomi: "Otomi"
  purepecha: "Purépecha"
+ wastek: "Wastek"
  west_mayan: "West Mayan"
+ 
+ # discrimination traits
+ algic_heritage: "Algic Heritage"
+ iroquoian_heritage: "Iroquoian Heritage"
+ mesoamerican_heritage: "Mesoamerican Heritage"
+ na_dene_heritage: "Na-Dene Heritage"
+ siouan_heritage: "Siouan Heritage"
+ 
+ mesoamerican_tradition: "Mesoamerican Tradition"
+ 
+ tanoan: "Tanoan"
+ 
+ north_american_heritage: "North American Tradition"
+ south_american_heritage: "South American Tradition"
  
  # general names
  
@@ -136,7 +161,6 @@
  Hunahpu: "Hunahpu"
  Ix_Chel: "Ix Chel"
  Ix_Tab: "Ix Tab"
- Izel: "Izel"
  Kanek: "Kanek"
  Kukulkan: "Kukulkan"
  K-an: "K’an"
@@ -169,7 +193,7 @@
  Athziri: "Athziri"
  Chimalli: "Chimalli"
  Cipactli: "Cipactli"
- Coyotl: "Coyotl"
+ 
  Cuetlachtli: "Cuetlachtli"
  Ehecatl: "Ehecatl"
  Etalpalli: "Etalpalli"
@@ -185,7 +209,6 @@
  Nopaltzin: "Nopaltzin"
  Tenoch: "Tenoch"
  Tlazopilli: "Tlazopilli"
- Yaotl: "Yaotl"
  Yayauhqui: "Yayauhqui"
  ### Female First Names
  Ameyalli: "Ameyalli"
@@ -200,7 +223,6 @@
  Tonalli: "Tonalli"
  Xitlaly: "Xitlaly"
  Xipil: "Xipil"
- Xochitl: "Xochitl"
  Yolotl: "Yolotl"
  Zeltzin: "Zeltzin"
  ### Noble Last Names
@@ -208,28 +230,38 @@
  Cuauhtemoc: "Cuauhtemoc"
  Huitzilopochtli: "Huitzilopochtli"
  Mictlantecuhtli: "Mictlantecuhtli"
- Moyotlan: "Moyotlan"
  Tezcatlipoca: "Tezcatlipoca"
  Quetzalcoatl: "Quetzalcoatl"
  Xochiquetzal: "Xochiquetzal"
  ### Common Last Names
- Ahuactzin: "Ahuactzin"
- Coaguila: "Coaguila"
- Cuautlaxahue: "Cuautlaxahue"
- Huanitzin: "Huanitzin"
- Ixtlilxochitl: "Ixtlilxochitl"
- Matlacuahuac: "Matlacuahuac"
- Mayahuel: "Mayahuel"
- Moxo: "Moxo"
- Nahui: "Nahui"
- Ocelotl: "Ocelotl"
- Panecatl: "Panecatl"
- Tlaxca: "Tlaxca"
- Tletla: "Tletla"
- Tzehe: "Tzehe"
- Xaxalpa: "Xaxalpa"
- Zapotitla: "Zapotitla"
- Zicotencatl: "Zicotencatl"
+ 
+ 
+ # Otomi Names
+ ### Male First Names
+ Dazu: "Däzu̱"
+ Mexe: "Mexe"
+ Mindahi: "Mindahi"
+ Nk_injua: "Nkꞌinjua"
+ Tamxi: "Tamxi"
+ Teko: "Tëko"
+ Ts_ints_u: "Ts'ints'̱u"
+ Zate: "Zate"
+ ### Female First Names
+ Dehe: "Dehe"
+ Hyadi: "Hyadi"
+ Jodri: "Jodri"
+ Xith: "Xith"
+ Xiye: "Xiye"
+ ### Noble Last Names
+ Damxi: "Dämxi"
+ Juaipada: "Juaipada"
+ Nxuni: "Nxu̱ni"
+ ### Common Last Names
+ Dathe: "Däthe"
+ Hmamhai: "Hmämhai"
+ Kaminyo: "Kämiñꞌyo"
+ Nahnu: "ñähñu"
+ Tukru: "Tukru"
  
  # Purepecha Names
  ### Male First Names
@@ -269,7 +301,7 @@
  Guaucumao: "Guaucumao"
  Guaicaba: "Guaicaba"
  Guamayry: "Guamayry"
- Guayacayex: Guayacayex""
+ Guayacayex: "Guayacayex""
  Habaguanex: "Habaguanex"
  Hatuey: "Hatuey"
  Huarea: "Huarea"

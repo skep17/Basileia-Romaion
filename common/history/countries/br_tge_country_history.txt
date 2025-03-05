@@ -1,0 +1,60 @@
+﻿COUNTRIES = {
+	c:NAH ?= {
+		set_state_religion = rel:br_tge_religion_teotl
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_peasant_levies
+	}
+	
+	c:MES_IRE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_national_militia
+	}
+	
+	c:MIX ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_religious_schools
+	}
+	
+	c:NAH_NIC ?= {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	
+	c:NAH_PIP ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	
+	c:ZAP ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	
+	c:ZAP_TEH ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+	
+	c:MAY_WAS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
+	}
+}

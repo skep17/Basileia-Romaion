@@ -43,6 +43,7 @@ comanche = {}
 navajo = {}
 oodham = {}
 pueblo = {}
+tanoan = {}
 
 # Mesoamerica
 arawak = {}
@@ -50,6 +51,7 @@ mayan = {}
 misumalpan = {}
 nahua = {}
 otomanguean = {}
+otomi = {}
 purepecha = {}
 
 # South America

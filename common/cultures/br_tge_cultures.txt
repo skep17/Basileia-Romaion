@@ -985,6 +985,47 @@ nahua= {
 	graphics = decentralised_americas
 }
 
+otomi = {
+	color = { 169 58 12 }
+	religion = br_tge_religion_mesoamerican
+	traits = { mesoamerican_heritage otomi }
+	
+	male_common_first_names={
+		Dazu
+		Mexe
+		Mindahi
+		Nk_injua
+		Nxuni
+		Tamxi
+		Teko
+		Ts_ints_u
+		Zate
+	}
+	female_common_first_names = {
+		Dehe
+		Hyadi
+		Jodri
+		Xith
+		Xiye
+	}	
+	noble_last_names = {
+		Damxi
+		Juaipada
+		Nxuni
+	}
+	common_last_names={
+		Dathe
+		Hmamhai
+		Kaminyo
+		Nahnu
+		Tukru
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
 purepecha = {
 	color = { 100 124 50 }
 	religion = br_tge_religion_mesoamerican
@@ -1082,6 +1123,92 @@ taino = { #
 		Pae_z Palacio
 		Rivero Ramos
 		Zapata
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+wastek = {
+	color= hsv{ 0.69 0.08 0.55 }
+	religion = br_tge_religion_mayan
+	traits = { mesoamerican_heritage mayan }
+	male_common_first_names = {
+		Acal
+		Ahau
+		Ah_Puch
+		Akik
+		Ajaw
+		Akbal
+		Balam
+		Caquix
+		Chaac
+		Chimalma
+		Copal
+		Hunahpu
+		Ical
+		Itzel
+		Iztli
+		Ixchel
+		Ix_Chel
+		Ix_Tab
+		Izel
+		Kanek
+		Kukulkan
+		K-an
+		Paxil
+		Tzacol
+		Uwak
+		Uxmal
+		Yaxkin
+		Xocotl
+	}
+	female_common_first_names = {
+		Acatl
+		Anaca
+		Ayul
+		Chalchiuhtlicue
+		Chimalma
+		Citali
+		Citlalmina
+		Ical
+		Itzel
+		Ixchel
+		Ixtab
+		Izel
+	}	
+	noble_last_names = {
+		Pec
+		Quetzal
+		Tlaloc
+		Xibalba
+	}
+	common_last_names = {
+		Ak_ab_al
+		Cal
+		Canek
+		Canul
+		Ceh
+		Chee
+		Choc
+		Coc
+		Curruchic
+		Ixquiac
+		Kan
+		Mas
+		Menchu
+		Mes
+		Pek
+		Pop
+		Puk
+		Shal
+		Sho
+		Tecu
+		Teul
+		Tuyuc
+		Xicara
+		Xiloj
 	}
 	ethnicities = {
 		1 = native_american

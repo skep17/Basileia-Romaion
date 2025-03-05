@@ -1,0 +1,34 @@
+﻿POPULATION = {
+	c:NAH ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MES_IRE ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MIX ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_very_low = yes
+	}
+	c:NAH_NIC ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:NAH_PIP ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:ZAP ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:ZAP_TEH ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_WAS ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+}
