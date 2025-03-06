@@ -66,7 +66,7 @@ effect_starting_politics_oligarchy_republic_default = {
 
 # Mesoamerican States
 effect_starting_politics_altepetl = {
-	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_altepetl
 	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_state_religion
 	activate_law = law_type:law_hereditary_bureaucrats

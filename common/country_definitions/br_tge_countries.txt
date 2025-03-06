@@ -128,7 +128,7 @@ MES_OTO = { # Otomi People
 	country_type = unrecognized
 	tier = principality
 	cultures = { otomi }
-	capital = STATE_BAIJO
+	capital = STATE_BAJIO
 }
 
 MIX = { # Yucu Dzaa

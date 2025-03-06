@@ -93,7 +93,8 @@
  
  
  # laws
- 
+ law_altepetl: "Altepetl"
+ law_altepetl_desc: "A system of polities comprised of commoner housing units led by a single dynastic ruler, with these ruler united by tributary relationships to a hegemonic power."
  
  # institutions
  
@@ -106,7 +107,7 @@
  
  # buildings
  building_huey_teocalli: "Huēyi Teōcalli"
- building_chichen_itza: "Chichʼen Itzaʼ"
+ # building_chichen_itza: "Chichʼen Itzaʼ"
 
  # pm groups
  
@@ -185,7 +186,6 @@
  Ical: "Ical"
  Ixchel: "Ixchel"
  Ixtab: "Ixtab"
- Izel: "Izel"
  ### Noble Last Names
  Quetzal: "Quetzal"
  Tlaloc: "Tlaloc"
@@ -269,10 +269,14 @@
  
  # Purepecha Names
  ### Male First Names
+ Aramen: "Aramen"
  Hiripan: "Hiripan"
  Hiquingaje: "Hiquingaje"
  Karapu: "Karapu"
+ Paguingata: "Paguingata"
  Pawakume: "Pawakume"
+ Sicuirancha: "Sicuirancha"
+ Tigame: "Tigame"
  Tangaxuan: "Tangaxuan"
  Tarhiakurhi: "Tarhiákurhi"
  Tzitzipandaquare: "Tzitzipandáquare"
@@ -292,6 +296,7 @@
  Jaracuaro: "Jarácuaro"
  Patzcuaro: "Pátzcuaro"
  Tzintzuntzan: "Tzintzuntzan"
+ Xaratanga: "Xaratanga"
  
  # Taino names
  ### Male First Names

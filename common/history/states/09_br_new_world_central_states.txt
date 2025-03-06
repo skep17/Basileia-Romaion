@@ -138,9 +138,17 @@ STATES = {
 	s:STATE_BAJIO = {
 		create_state = {
 			country = c:NAH
-			owned_provinces = { x2214C5 x34ABA3 x44B0D0 x4606C7 x4BFB55 x503080 x5F1A07 x6B4C3A x6FBC1A x70C1FF x71F349 x725961 x732A81 x749EC2 x75E1C3 x9BAC78 xC0B001 xD03080 xD0B080 xD6EED0 xE3628B xEC946F }
+			owned_provinces = {
+				x2214C5 x34ABA3 x44B0D0 x4606C7 x4BFB55 x5F1A07 x6B4C3A x6FBC1A x71F349 x725961 x732A81 x75E1C3 x9BAC78 xC0B001 xD03080 xD0B080 xD6EED0 xE3628B xEC946F 
+			}
 		}
-		add_homeland = cu:purepecha
+		create_state = {
+			country = c:MES_OTO
+			owned_provinces = {
+				x749EC2 x70C1FF x503080
+			}
+		}
+		add_homeland = cu:otomi
 		add_homeland = cu:nahua
 	}
 	s:STATE_YUCATAN = {
@@ -162,17 +170,26 @@ STATES = {
 		add_homeland = cu:nahua
 		add_homeland = cu:zapotec
 		add_homeland = cu:mixtec
+		add_homeland = cu:otomi
 	}
 	s:STATE_VERACRUZ = {
 		create_state = {
 			country = c:NAH
-			owned_provinces = { x1B599E x1C69F0 x1CB3F9 x447790 x4BF28B x5ED62A x87A6C4 x9030C0 x9BDCE5 xD0EF80 xECF9FC xEE1E8B }
+			owned_provinces = { x1B599E x1C69F0 x447790 x4BF28B x5ED62A x87A6C4 x9030C0 x9BDCE5 xEE1E8B }
+		}
+		create_state = {
+			country = c:MES_OTO
+			owned_provinces = {
+				xECF9FC x1CB3F9 xD0EF80
+			}
 		}
 		create_state = {
 			country = c:MAY_CHO
 			owned_provinces = { x5CE75E x1B2176 xD08EE2 x253627 x067F2A x8A6294 }
 		}
 		add_homeland = cu:nahua
+		add_homeland = cu:mayan
+		add_homeland = cu:otomi
 	}
 	s:STATE_GUERRERO = {
 		create_state = {
