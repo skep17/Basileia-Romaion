@@ -303,3 +303,28 @@ building_Mecca = {
 	ai_value = 10
 }
 
+building_huey_teocalli = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/tge_huey_teocalli.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	production_method_groups = {
+		pmg_base_building_palace_complex
+	}
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_chichen_itza = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/tge_chichen_itza.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	production_method_groups = {
+		pmg_base_building_palace_complex
+	}
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

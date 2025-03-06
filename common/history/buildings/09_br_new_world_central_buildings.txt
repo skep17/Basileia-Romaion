@@ -257,6 +257,11 @@
 	s:STATE_YUCATAN={
 		region_state:NAH={	
 			create_building={
+				building="building_chichen_itza"
+				level=1
+				activate_production_methods={ "pm_default_building_palace_complex" }
+			}
+			create_building={
 				building="building_banana_plantation"
 				add_ownership={
 					building={
@@ -291,6 +296,11 @@
 	s:STATE_MEXICO={
 		region_state:NAH={
 			create_building={
+				building="building_huey_teocalli"
+				level=1
+				activate_production_methods={ "pm_default_building_palace_complex" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -300,11 +310,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
-			}
-			create_building={
-				building="building_palace_complex"
-				level=1
-				activate_production_methods={ "pm_default_building_palace_complex" }
 			}
 			create_building={
 				building="building_university"
