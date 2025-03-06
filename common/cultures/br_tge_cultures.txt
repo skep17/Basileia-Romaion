@@ -596,6 +596,52 @@ pueblo= {
 
 #### MESOAMERICAN CULTURES ####
 
+cahitan = {
+	color = { 77 67 68 }
+	religion = br_tge_religion_mesoamerican
+	traits = { mesoamerican_heritage cahitan }
+	male_common_first_names = {
+		Eiya
+		Jeeka
+		Jiapsi
+		Juakowi
+		Kubaji
+		Naposa
+		Taji
+		Tamekame
+		Wuiikam
+	}
+	female_common_first_names = {
+		Ji_ika
+		Sapam
+		Wiikit
+		Yuku
+		
+	}
+	noble_last_names = {
+		Baawo'i
+		Nakulia
+		Suluma
+		Taawe
+		Tekoe
+		Ya_ut
+	}
+	common_last_names = {
+		Bwa_ame
+		Bwise
+		Jojoame
+		Toosa
+		Utte_ak
+		Wo_i
+		Wiko_i
+		Yo_o
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
 cariban= { # Hispanicized. Also includes some Garifuna and Warao names.
 	color= { 52 120 25 }
 	religion = animist
@@ -1123,6 +1169,29 @@ taino = { #
 		Pae_z Palacio
 		Rivero Ramos
 		Zapata
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+tarahumara = {
+	color= { 52 120 25 }
+	religion = br_tge_religion_mesoamerican
+	traits = { mesoamerican_heritage tarahumara }
+	
+	male_common_first_names={
+		
+	}
+	female_common_first_names = {
+		
+	}	
+	noble_last_names = {
+		
+	}
+	common_last_names={
+		
 	}
 	ethnicities = {
 		1 = native_american

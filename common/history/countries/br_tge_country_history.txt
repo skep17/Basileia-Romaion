@@ -1,4 +1,12 @@
 ﻿COUNTRIES = {
+	# Aridoamerica
+	c:ARI_CAH ?= {
+		effect_starting_technology_tier_5_tech = yes
+		add_technology_researched = urban_planning
+		
+		effect_starting_politics_altepetl = yes
+	}
+	
 	# Mesoamerica
 	c:MAY_CHO ?= {
 		effect_starting_technology_tier_6_tech = yes
@@ -63,7 +71,7 @@
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_peasant_levies
-		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_professional_army
 	}
 	
 	c:MES_OTO ?= {

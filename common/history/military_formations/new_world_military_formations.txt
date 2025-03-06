@@ -799,6 +799,66 @@
 				state_region = s:STATE_MEXICO
 				count = 5
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_GRANDE
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CHIHUAHUA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SONORA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_DURANGO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_DURANGO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_GUERRERO
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_OAXACA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_JALISCO
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ZACATECAS
+				count = 8
+			}
 			
 			save_scope_as = NAH_army_1
 		}
@@ -828,42 +888,65 @@
 				state_region = s:STATE_MEXICO
 				count = 10
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_BAJIO
 				count = 10
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_BAJIO
 				count = 10
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_JALISCO
 				count = 5
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_ZACATECAS
 				count = 5
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_VERACRUZ
 				count = 3
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_SONORA
 				count = 2
 			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MEXICO
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_VERACRUZ
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SONORA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_DURANGO
+				count = 5
+			}
+			
 			save_scope_as = NAH_army_2
 		}
 		
@@ -882,6 +965,63 @@
 			transfer_to_formation = scope:NAH_army_2
 		}
 		
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_caravel
+				state_region = s:STATE_FLANDERS
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_carrack
+				state_region = s:STATE_FLANDERS
+				count = 2
+			}
+		}
+		
+	}
+
+	
+	c:MES_IRE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_JALISCO
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				service_type = conscript
+				state_region = s:STATE_JALISCO
+				count = 12
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_JALISCO
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				service_type = conscript
+				state_region = s:STATE_JALISCO
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_JALISCO
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_OAXACA
+				count = 2
+			}
+		}
 	}
 
 	c:br_atlantica = {

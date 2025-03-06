@@ -220,7 +220,7 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
-			country = c:MES_OTO
+			country = c:ARI_CAH
 			type = tributary
 		}
 		create_diplomatic_pact = {

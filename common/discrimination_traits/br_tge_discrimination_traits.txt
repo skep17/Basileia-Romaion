@@ -39,11 +39,13 @@ mesoamerican_tradition = {
 
 # Arido/Oasis America
 apache = {}
+cahitan = {}
 comanche = {}
 navajo = {}
 oodham = {}
 pueblo = {}
 tanoan = {}
+tarahumara = {}
 
 # Mesoamerica
 arawak = {}

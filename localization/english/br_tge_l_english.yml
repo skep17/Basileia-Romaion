@@ -33,6 +33,9 @@
  
  
  # countries
+ ARI_CAH: "Cahita"
+ ARI_CAH_ADJ: "Cahitan"
+ 
  MAY_COC: "Cocom"
  MAY_COC_ADJ: "Cocom"
  MAY_CHL: "Ch'ol"
@@ -131,8 +134,10 @@
  br_tge_religion_mayan: "Mayanism"
  
  # cultures
+ cahitan: "Cahitan"
  otomi: "Otomi"
  purepecha: "Purépecha"
+ tarahumara: "Tarahumara"
  wastek: "Wastek"
  west_mayan: "West Mayan"
  
@@ -151,6 +156,39 @@
  south_american_heritage: "South American Tradition"
  
  # general names
+ 
+ # Cahitan
+ ### Male First Names
+ Eiya: "Eiya"
+ Jeek: "Jeekaa"
+ Jiap: "Jiapsisi"
+ Juak: "Juakowiowi"
+ Kuba: "Kubajiji"
+ Napo: "Naposasa"
+ Taji: "Taji"
+ Tame: "Tamekamekame"
+ Wuii: "Wuiikamkam"
+ ### Female First Names
+ Ji_ika: "Ji'ika"
+ Sapa: "Sapamm"
+ Wiikit: "Wiikit"
+ Yuku: "Yuku"
+ ### Noble Last Names
+ Baaw: "Baawo'io'i"
+ Naku: "Nakulialia"
+ Sulu: "Sulumama"
+ Taaw: "Taawee"
+ Teko: "Tekoee"
+ Ya_ut: "Ya'ut"
+ ### Common Last Names
+ Bwa_ame: "Bwa’ame"
+ Bwis: "Bwisee"
+ Jojoame: "Jojoame"
+ Toos: "Toosaa"
+ Utte_ak: "Utte'ak""
+ Wo_i: "Wo'i"
+ Wiko_i: "Wiko'i"
+ Yo_o: "Yo'o"
  
  # Maya Names - These are shared between all Maya cultures for now
  ### Male First Names

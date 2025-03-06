@@ -177,11 +177,7 @@
 		region_state:PUE = {
 			create_pop = {
 				culture = pueblo
-				size = 152630
-			}
-			create_pop = {
-				culture = oodham
-				size = 13000
+				size = 72630
 			}
 			create_pop = {
 				culture = navajo
@@ -192,7 +188,36 @@
 				size = 4500
 			}
 		}
-
+		region_state:ARI_TAR = {
+			create_pop = {
+				culture = tarahumara
+				size = 165121
+			}
+			create_pop = {
+				culture = nahua
+				religion = br_tge_religion_teotl
+				size = 13000
+			}
+		}
+		region_state:NAH = {
+			create_pop = {
+				culture = nahua
+				religion = br_tge_religion_teotl
+				size = 13000
+			}
+			create_pop = {
+				culture = pueblo
+				size = 5630
+			}
+			create_pop = {
+				culture = navajo
+				size = 5636
+			}
+			create_pop = {
+				culture = apache
+				size = 4500
+			}
+		}
 	}
 	s:STATE_CALIFORNIA = {
 		region_state:NAH = {
@@ -303,7 +328,7 @@
 			}
 		}
 	}
-	s:STATE_CHIHUAHUA = { # total population: 132189 (1830), 147600 (1840)
+	s:STATE_CHIHUAHUA = {
 		region_state:NAH = {
 			create_pop = {
 				culture = nahua
@@ -311,8 +336,14 @@
 				size = 159961
 			}
 			create_pop = {
-				culture = oodham
-				size = 108000
+				culture = apache
+				size = 26000
+			}
+		}
+		region_state:ARI_TAR = {
+			create_pop = {
+				culture = tarahumara
+				size = 259961
 			}
 			create_pop = {
 				culture = apache
@@ -382,7 +413,8 @@
 				size = 159961
 			}
 			create_pop = {
-				culture = oodham
+				culture = cahitan
+				religion = br_tge_religion_teotl
 				size = 120000
 			}
 		}
@@ -392,11 +424,19 @@
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
+				size = 53478
+			}
+		}
+		region_state:ARI_CAH = {
+			create_pop = {
+				culture = cahitan
+				religion = br_tge_religion_teotl
 				size = 159961
 			}
 			create_pop = {
-				culture = oodham
-				size = 120000
+				culture = nahua
+				religion = br_tge_religion_teotl
+				size = 34771
 			}
 		}
 	}
@@ -409,6 +449,7 @@
 			}
 			create_pop = {
 				culture = otomi
+				religion = br_tge_religion_teotl
 				size = 355162
 			}
 			create_pop = {
@@ -543,15 +584,15 @@
 				size = 50000
 			}
 		}
-		region_state:MES_IRE = { # Only controls a single province, so only a few pops added in here
+		region_state:MES_IRE = {
 			create_pop = {
 				culture = purepecha
-				size = 10154
+				size = 60154
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = purepecha
-				size = 5045
+				size = 15045
 			}
 		}
 	}
@@ -602,7 +643,7 @@
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
-				size = 275961
+				size = 75961
 			}
 			create_pop = {
 				culture = purepecha
@@ -615,23 +656,19 @@
 				size = 10000
 			}
 		}
-		region_state:MES_IRE = { # taking 90% of tarascan from Drogan's initial math -Alex
+		region_state:MES_IRE = {
 			create_pop = {
 				culture = nahua
-				size = 112354
-			}
-			create_pop = {
-				culture = oodham
-				size = 92078
+				size = 212354
 			}
 			create_pop = {
 				culture = purepecha
-				size = 328646
+				size = 728646
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = purepecha
-				size = 90000
+				size = 120000
 			}
 		}
 	}
@@ -744,19 +781,15 @@
 		region_state:MES_IRE = {
 			create_pop = {
 				culture = purepecha
-				size = 11961
+				size = 41961
 			}
 			create_pop = {
 				culture = nahua
-				size = 1961
+				size = 11961
 			}
 			create_pop = {
 				culture = oodham
-				size = 6300
-			}
-			create_pop = {
-				culture = hokan
-				size = 2000
+				size = 16300
 			}
 		}
 	}

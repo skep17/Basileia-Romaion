@@ -244,6 +244,9 @@
 	}
 	c:JAP = {
 	}
+	c:NAH = {
+		add_declared_interest = region_japan
+	}
 }	
 
 

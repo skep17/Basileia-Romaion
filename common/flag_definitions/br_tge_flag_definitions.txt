@@ -25,7 +25,21 @@
 # //
 
 #### ARIO/OASIS-AMERICAN COUNTRIES ####
-# //
+ARI_CAH = {
+	flag_definition = {
+		coa = ARI_CAH
+		subject_canton = ARI_CAH
+		priority = 1
+	}
+}
+
+ARI_TAR = {
+	flag_definition = {
+		coa = ARI_TAR
+		subject_canton = ARI_TAR
+		priority = 1
+	}
+}
 
 #### MESOAMERICAN COUNTRIES ####
 
