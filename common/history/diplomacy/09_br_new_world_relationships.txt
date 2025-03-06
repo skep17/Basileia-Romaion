@@ -220,6 +220,14 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
+			country = c:MES_OTO
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:MAY_WAS
+			type = vassal
+		}
+		create_diplomatic_pact = {
 			country = c:ZAP
 			type = vassal
 		}
@@ -246,6 +254,10 @@
 		set_relations = {
 			country = c:br_elysium
 			value = 50
+		}
+		set_relations = {
+			country = c:br_atlantica
+			value = 25
 		}
 	}
 	

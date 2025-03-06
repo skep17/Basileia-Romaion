@@ -138,7 +138,7 @@ MES_OTO = {
 		}
 	}
 	colored_emblem = {
-		texture = "te_tge_otomi_circle.dds"
+		texture = "ce_tge_otomi_circle.dds"
 		color1 = "white"
         instance = {
 			scale = { 1.0 1.0 }

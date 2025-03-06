@@ -328,16 +328,28 @@
 				size = 159961
 			}
 			create_pop = {
-				culture = oodham
-				size = 57000
+				culture = wastek
+				religion = catholic
+				size = 21004
+			}
+			create_pop = {
+				culture = wastek
+				size = 68113
+			}
+		}
+		region_state:MAY_WAS = {
+			create_pop = {
+				culture = nahua
+				religion = br_tge_religion_teotl
+				size = 6961
+			}
+			create_pop = {
+				culture = wastek
+				size = 120004
 			}
 			create_pop = {
 				culture = wastek
 				religion = catholic
-				size = 70004
-			}
-			create_pop = {
-				culture = wastek
 				size = 68113
 			}
 		}
@@ -396,15 +408,30 @@
 				size = 456461
 			}
 			create_pop = {
-				culture = purepecha
+				culture = otomi
 				size = 355162
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = purepecha
+				culture = otomi
 				size = 150000
 			}
-		}	
+		}
+		region_state:MAY_WAS = {
+			create_pop = {
+				culture = nahua
+				religion = br_tge_religion_teotl
+				size = 6461
+			}
+			create_pop = {
+				culture = otomi
+				size = 5162
+			}
+			create_pop = {
+				culture = wastek
+				size = 30000
+			}
+		}
 	}
 	s:STATE_YUCATAN = { 
 		region_state:MAY_COC = {
@@ -434,21 +461,22 @@
 			}
 		}
 	}
-	# Mexico state (incl. Hidalgo): 1050153 in 1830, 1145759 in 1840, so averaging out to 1097956
-	# Puebla: 610950 in 1830, 661524 in 1840, so averaging out to 636237
-	# Tlaxcala: 72271 in 1830, 81524 in 1840, so averaging out to 76897
-	# working total number of 1811090
 	s:STATE_MEXICO = {
 		region_state:NAH = {
 			create_pop = {
 				culture = mixtec
 				religion = br_tge_religion_teotl
-				size = 249996
+				size = 149996
 			}
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
 				size = 2689604
+			}
+			create_pop = {
+				culture = otomi
+				religion = br_tge_religion_teotl
+				size = 1689604
 			}
 			create_pop = {
 				culture = zapotec
@@ -477,9 +505,6 @@
 			}
 		}
 	}
-
-	# total of 231319. This number was revealed to me in a dream.
-	# jk. Couldn't find estimates for Guerrero in 1830 or 1840, but they could be found for 1870 onwards, so some math trickery was done. Neighboring Oaxaca's estimated 1835 population is 74.7% of its 1870 population, and 50.61% of its 1900 population, so those percentages were applied to Guerrero's 1870 and 1900 population figures, and the two results were averaged together into the above.
 	s:STATE_GUERRERO = { 
 		region_state:MIX = {
 			create_pop = {

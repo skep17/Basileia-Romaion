@@ -487,6 +487,26 @@ west_mayan_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_west_mayan_standard_of_living_add = 1
 }
+otomi_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_otomi_standard_of_living_add = 1
+}
+
+otomi_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_otomi_standard_of_living_add = 1
+}
+
+wastek_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_wastek_standard_of_living_add = 1
+}
+
+wastek_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_wastek_standard_of_living_add = 1
+}
+
 
 ###Religion###
 

@@ -392,6 +392,21 @@ state_west_mayan_standard_of_living_add={
 	}
 }
 
+state_otomi_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_wastek_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
 
 ###Religion###
 
