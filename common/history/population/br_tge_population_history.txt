@@ -1,15 +1,67 @@
 ﻿POPULATION = {
-	c:NAH ?= {
+	# Woodlands
+	c:IRO ?= {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_baseline = yes
 	}
+	
+	# Aridoamerica
+	c:ARI_CAH ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:ARI_TAR ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	
+	# Mesoamerica
+	c:MAY_CHO ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_CHL ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_COC ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_ITZ ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_TZE ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_TZO ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_WAS ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAY_XIU ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	
 	c:MES_IRE ?= {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_baseline = yes
 	}
+	
 	c:MIX ?= {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_very_low = yes
+	}
+	
+	c:NAH ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
 	}
 	c:NAH_NIC ?= {
 		effect_starting_pop_wealth_low = yes
@@ -19,6 +71,7 @@
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_baseline = yes
 	}
+	
 	c:ZAP ?= {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_baseline = yes
@@ -27,8 +80,7 @@
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_baseline = yes
 	}
-	c:MAY_WAS ?= {
-		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_baseline = yes
-	}
+	
+	# Great Plains
+	
 }

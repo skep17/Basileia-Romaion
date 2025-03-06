@@ -48,7 +48,7 @@ STATES = {
 		}
 		add_homeland = cu:apache
 		add_homeland = cu:navajo
-		add_homeland = cu:oodham
+		add_homeland = cu:tarahumara
 		add_homeland = cu:hokan
 		add_homeland = cu:pueblo
 	}
@@ -59,7 +59,15 @@ STATES = {
 		}
 		create_state = {
 			country = c:PUE
-			owned_provinces = { x0DAC3E x4025EE x9C0FED x9C15D3 xAA2075 xFB0FA8 xBD8033 x37B6CF x84CE0F x2DF849 x53F9F0 x17660E xB566BA xC03080 x851687 xB636E0 xFD2B9D x8C6FA5 x5DA018 x67B298 x46C455 x99C48C x90EA7D x650434 x940839 xDF1965 xA156C7 x0E8A94 xA858F4 xD3611A xAE76ED x3CC82C x00E2A7 xB0BB90 xB6EC9A }
+			owned_provinces = {
+				x0DAC3E x4025EE x9C0FED x9C15D3 xAA2075 xFB0FA8 xBD8033 x37B6CF x84CE0F x2DF849 x53F9F0 x17660E xB566BA xC03080 x851687 xB636E0 xFD2B9D x8C6FA5 x5DA018 x67B298 x46C455 x99C48C x90EA7D x650434 x940839 xDF1965 xA156C7 x0E8A94 xA858F4 xD3611A xAE76ED x3CC82C x00E2A7 xB0BB90
+			}
+		}
+		create_state = {
+			country = c:ARI_TAR
+			owned_provinces = {
+				xB6EC9A
+			}
 		}
 		create_state = {
 			country = c:APC
@@ -67,6 +75,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:apache
+		add_homeland = cu:tarahumara
 		add_homeland = cu:comanche
 		add_homeland = cu:navajo
 		add_homeland = cu:pueblo

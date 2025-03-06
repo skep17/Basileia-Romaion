@@ -144,7 +144,25 @@
 				size = 74000
 			}
 			create_pop = {
-				culture = oodham
+				culture = tarahumara
+				size = 35442
+			}
+			create_pop = {
+				culture = hokan
+				size = 15169
+			}
+		}
+		region_state:ARI_TAR = {
+			create_pop = {
+				culture = apache
+				size = 8865
+			}
+			create_pop = {
+				culture = tarahumara
+				size = 74000
+			}
+			create_pop = {
+				culture = pueblo
 				size = 35442
 			}
 			create_pop = {
