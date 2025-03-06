@@ -1,6 +1,5 @@
 ﻿MILITARY_FORMATIONS = {
-
-	#North	
+	#### Atlantic Colonial Formations
 	c:br_elysium = {
 		create_military_formation = {
 			type = army
@@ -13,58 +12,49 @@
 				state_region = s:STATE_NEW_YORK
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_DELAWARE
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_PENNSYLVANIA
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_NEW_JERSEY
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_CONNECTICUT
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_MASSACHUSETTS
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_NEW_HAMPSHIRE
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_MAINE
 				count = 2
 			}
-
 		}
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_the_midwest
@@ -75,27 +65,22 @@
 				state_region = s:STATE_NEW_YORK
 				count = 1
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_VIRGINIA
 				count = 1
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_PENNSYLVANIA
 				count = 1
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_NEW_JERSEY
 				count = 1
 			}
-
 		}
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_dixie
@@ -107,37 +92,31 @@
 				state_region = s:STATE_VIRGINIA
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_MARYLAND
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_NORTH_CAROLINA
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_SOUTH_CAROLINA
 				count = 2
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_NORTH_CAROLINA
 				count = 2
 			}
-
 		}
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_dixie
@@ -148,15 +127,12 @@
 				state_region = s:STATE_DISTRICT_OF_COLUMBIA
 				count = 3
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_DISTRICT_OF_COLUMBIA
 				count = 2
 			}
-
 		}
-
 	}
 
 	c:br_apaleisia = {
@@ -373,8 +349,868 @@
 
 		}
 	}
+	
+	#### Pacific Colonial Formations
+	c:br_chinese_new_world = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CALIFORNIA
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CALIFORNIA
+				count = 5
+			}
+		}
+	}
 
-#Native
+	c:br_japanese_new_world = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BRITISH_COLUMBIA
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BRITISH_COLUMBIA
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WASHINGTON
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_WASHINGTON
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ALASKA
+				count = 1
+			}
+		}
+	}
+	
+	#### Carribean Colonial Formations
+	c:br_atlantica = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caribbean
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CUBA
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FLORIDA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_FLORIDA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CUBA
+				count = 3
+			}
+		}
+	}
+
+	c:br_kykladia = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caribbean
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BAHAMAS
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BAHAMAS
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HAITI
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_HAITI
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTO_DOMINGO
+				count = 1
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_caribbean
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_BAHAMAS
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_HAITI
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_SANTO_DOMINGO
+				count = 1
+			}
+
+		}
+	}
+
+	c:br_new_granada = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caribbean
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PUERTO_RICO
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_WEST_INDIES
+				count = 1
+			}
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_gran_colombia
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PANAMA
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ZULIA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ZULIA
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MIRANDA
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BOLIVAR
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ANTIOQUIA
+				count = 3
+			}
+		}
+	}
+
+	c:br_giamaica = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caribbean
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_JAMAICA
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_JAMAICA
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_HAITI
+				count = 2
+			}
+		}
+	}
+	
+	#### South American Colonial Formations
+	c:br_klein_venedig = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_gran_colombia
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GUAYANA
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_GUAYANA
+				count = 3
+			}
+		}
+	}
+
+	c:br_dutch_west_indies = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_brazil
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PARA
+				count = 2
+			}
+		}
+	}
+
+	c:br_new_angland = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_la_plata
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BUENOS_AIRES
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BUENOS_AIRES
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_URUGUAY
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTA_FE
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_GRANDE_DO_SUL
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PARANA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTA_CATARINA
+				count = 2
+			}
+		}
+	}
+
+	c:br_antarctique = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_brazil
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RIO_GRANDE_DO_NORTE
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SAO_PAULO
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MINAS_GERAIS
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_BAHIA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_GRANDE_DO_NORTE
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CEARA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PIAUI
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PARAIBA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_PERNAMBUCO
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MARANHAO
+				count = 2
+			}
+		}
+	}
+	
+	#### Woodlands Native Formations
+	
+	#### Aridoamerican Native Formations
+	
+	#### Mesoamerican Native Formations
+	c:NAH = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MEXICO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MEXICO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MEXICO
+				count = 8
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MEXICO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_MEXICO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_MEXICO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_RIO_GRANDE
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CHIHUAHUA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SONORA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_DURANGO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_DURANGO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_GUERRERO
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_OAXACA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_JALISCO
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ZACATECAS
+				count = 8
+			}
+			
+			save_scope_as = NAH_army_1
+		}
+		
+		create_character = {
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_2
+			traits = {
+				expert_offensive_planner
+				brave
+				popular_commander
+			}
+			save_scope_as = NAH_general_1
+		}
+		
+		scope:NAH_general_1 = {
+			transfer_to_formation = scope:NAH_army_1
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MEXICO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BAJIO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BAJIO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_JALISCO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ZACATECAS
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_VERACRUZ
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SONORA
+				count = 2
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_MEXICO
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_VERACRUZ
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SONORA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_DURANGO
+				count = 5
+			}
+			
+			save_scope_as = NAH_army_2
+		}
+		
+		create_character = {
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_2
+			traits = {
+				basic_offensive_planner
+				cruel
+			}
+			save_scope_as = NAH_general_2
+		}
+		
+		scope:NAH_general_2 = {
+			transfer_to_formation = scope:NAH_army_2
+		}
+		
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_caravel
+				state_region = s:STATE_FLANDERS
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_carrack
+				state_region = s:STATE_FLANDERS
+				count = 2
+			}
+		}
+		
+	}
+	
+	c:MES_IRE = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_JALISCO
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				service_type = conscript
+				state_region = s:STATE_JALISCO
+				count = 12
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_JALISCO
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				service_type = conscript
+				state_region = s:STATE_JALISCO
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_JALISCO
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_OAXACA
+				count = 2
+			}
+		}
+	}
+	
+	#### Great Plains Native Formations
+	
+	#### South American Native Formations
+	c:TWT = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_gran_colombia
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ICA
+				count = 8
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ECUADOR
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CUNDINAMARCA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CAUCA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SANTIAGO
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TARAPACA
+				count = 8
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ECUADOR
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CUNDINAMARCA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CAUCA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTIAGO
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_TARAPACA
+				count = 8
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ECUADOR
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CAUCA
+				count = 2
+			}
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ICA
+				count = 8
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ANTOFAGASTA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SANTA_CRUZ
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LA_PAZ
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ICA
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LOS_RIOS
+				count = 8
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ICA
+				count = 5
+			}
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_la_plata
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ICA
+				count = 8
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LIMA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_POTOSI
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_AREQUIPA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CAJAMARCA
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_LIMA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_POTOSI
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_AREQUIPA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CAJAMARCA
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CAJAMARCA
+				count = 4
+			}
+		}
+
+	}
+	
+	#### Unsorted Native Formations
 	c:IRO = {
 		create_military_formation = {
 			type = army
@@ -705,859 +1541,4 @@
 			}
 		}
 	}
-
-#West
-	c:br_chinese_new_world = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_pacific_coast
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CALIFORNIA
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_CALIFORNIA
-				count = 5
-			}
-		}
-	}
-
-	c:br_japanese_new_world = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_pacific_coast
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BRITISH_COLUMBIA
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_BRITISH_COLUMBIA
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_WASHINGTON
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_WASHINGTON
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_ALASKA
-				count = 1
-			}
-		}
-	}
-
-
-#Central
-	c:NAH = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_mexico
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MEXICO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MEXICO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_MEXICO
-				count = 8
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_MEXICO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_MEXICO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_MEXICO
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_RIO_GRANDE
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_CHIHUAHUA
-				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SONORA
-				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_DURANGO
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_DURANGO
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_GUERRERO
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_OAXACA
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_JALISCO
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_ZACATECAS
-				count = 8
-			}
-			
-			save_scope_as = NAH_army_1
-		}
-		
-		create_character = {
-			is_general = yes
-			hq = region_mexico
-			commander_rank = commander_rank_2
-			traits = {
-				expert_offensive_planner
-				brave
-				popular_commander
-			}
-			save_scope_as = NAH_general_1
-		}
-		
-		scope:NAH_general_1 = {
-			transfer_to_formation = scope:NAH_army_1
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_mexico
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MEXICO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_BAJIO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_BAJIO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_JALISCO
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_ZACATECAS
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_VERACRUZ
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_SONORA
-				count = 2
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_MEXICO
-				count = 20
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_VERACRUZ
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SONORA
-				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_DURANGO
-				count = 5
-			}
-			
-			save_scope_as = NAH_army_2
-		}
-		
-		create_character = {
-			is_general = yes
-			hq = region_mexico
-			commander_rank = commander_rank_2
-			traits = {
-				basic_offensive_planner
-				cruel
-			}
-			save_scope_as = NAH_general_2
-		}
-		
-		scope:NAH_general_2 = {
-			transfer_to_formation = scope:NAH_army_2
-		}
-		
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_mexico
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_caravel
-				state_region = s:STATE_FLANDERS
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_carrack
-				state_region = s:STATE_FLANDERS
-				count = 2
-			}
-		}
-		
-	}
-
-	
-	c:MES_IRE = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_mexico
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_JALISCO
-				count = 20
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				service_type = conscript
-				state_region = s:STATE_JALISCO
-				count = 12
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_JALISCO
-				count = 4
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				service_type = conscript
-				state_region = s:STATE_JALISCO
-				count = 4
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_JALISCO
-				count = 4
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_OAXACA
-				count = 2
-			}
-		}
-	}
-
-	c:br_atlantica = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_caribbean
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CUBA
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_FLORIDA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_FLORIDA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_CUBA
-				count = 3
-			}
-		}
-	}
-
-	c:br_kykladia = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_caribbean
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BAHAMAS
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_BAHAMAS
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_HAITI
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_HAITI
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SANTO_DOMINGO
-				count = 1
-			}
-		}
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_caribbean
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_BAHAMAS
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_HAITI
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_SANTO_DOMINGO
-				count = 1
-			}
-
-		}
-	}
-
-	c:br_new_granada = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_caribbean
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_PUERTO_RICO
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_WEST_INDIES
-				count = 1
-			}
-		}
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_gran_colombia
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_PANAMA
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ZULIA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_ZULIA
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_MIRANDA
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_BOLIVAR
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_ANTIOQUIA
-				count = 3
-			}
-		}
-	}
-
-	c:br_giamaica = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_caribbean
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_JAMAICA
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_JAMAICA
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_HAITI
-				count = 2
-			}
-		}
-	}
-
-#South
-	c:TWT = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_gran_colombia
-
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_ICA
-				count = 8
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_ECUADOR
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_CUNDINAMARCA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_CAUCA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SANTIAGO
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_TARAPACA
-				count = 8
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_ECUADOR
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_CUNDINAMARCA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_CAUCA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SANTIAGO
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_TARAPACA
-				count = 8
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ECUADOR
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_CAUCA
-				count = 2
-			}
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_andes
-
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_ICA
-				count = 8
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_ANTOFAGASTA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SANTA_CRUZ
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_LA_PAZ
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_ICA
-				count = 20
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_LOS_RIOS
-				count = 8
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ICA
-				count = 5
-			}
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_la_plata
-
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_ICA
-				count = 8
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_LIMA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_POTOSI
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_AREQUIPA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_CAJAMARCA
-				count = 4
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_LIMA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_POTOSI
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_AREQUIPA
-				count = 8
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_CAJAMARCA
-				count = 4
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_CAJAMARCA
-				count = 4
-			}
-		}
-
-	}
-
-	c:br_klein_venedig = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_gran_colombia
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GUAYANA
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_GUAYANA
-				count = 3
-			}
-		}
-	}
-
-	c:br_dutch_west_indies = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_brazil
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_PARA
-				count = 2
-			}
-		}
-	}
-
-	c:br_new_angland = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_la_plata
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BUENOS_AIRES
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_BUENOS_AIRES
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_URUGUAY
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SANTA_FE
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_RIO_GRANDE_DO_SUL
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_PARANA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SANTA_CATARINA
-				count = 2
-			}
-		}
-	}
-
-	c:br_antarctique = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_brazil
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_RIO_GRANDE_DO_NORTE
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_SAO_PAULO
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_MINAS_GERAIS
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_RIO_DE_JANEIRO
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_BAHIA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_RIO_GRANDE_DO_NORTE
-				count = 4
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_CEARA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_PIAUI
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_PARAIBA
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_PERNAMBUCO
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				service_type = conscript
-				state_region = s:STATE_MARANHAO
-				count = 2
-			}
-		}
-	}
-
 }
