@@ -154,3 +154,38 @@ pmg_base_tonalist_site = {
 		pm_default_tonalist_site
 	}
 }
+pmg_base_building_altiplano_network_roads = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_altiplano_unpaved_roads
+		pm_altiplano_plank_roads
+		pm_altiplano_asphalt_roads
+	}
+}
+
+pmg_base_building_altiplano_network_transportation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_altiplano_ox_carts
+		pm_altiplano_timber_tracks
+		pm_altiplano_railway_tracks
+		pm_altiplano_motor_cars
+	}
+}
+
+pmg_base_building_altiplano_network_administration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_altiplano_clerical_administration
+		pm_altiplano_secular_administration
+	}
+}

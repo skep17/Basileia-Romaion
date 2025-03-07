@@ -740,8 +740,90 @@
 	#### Woodlands Native Formations
 	
 	#### Aridoamerican Native Formations
+	c:ARI_TAR = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHIHUAHUA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CHIHUAHUA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CHIHUAHUA
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_ARIZONA
+				count = 3
+			}
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_pacific_coast
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NEW_MEXICO
+				count = 6
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_NEW_MEXICO
+				count = 3
+			}
+		}
+	}
+	c:ARI_CAH = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SINALOA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SINALOA
+				count = 3
+			}
+		}
+	}
 	
 	#### Mesoamerican Native Formations
+	c:MAY_WAS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SINALOA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_SINALOA
+				count = 3
+			}
+		}
+	}
+	
 	c:NAH = {
 		create_military_formation = {
 			type = army
@@ -750,22 +832,22 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MEXICO
-				count = 10
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MEXICO
-				count = 10
+				state_region = s:STATE_BAJIO
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_MEXICO
-				count = 8
+				count = 18
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_MEXICO
-				count = 10
+				state_region = s:STATE_BAJIO
+				count = 12
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
@@ -783,21 +865,18 @@
 				state_region = s:STATE_RIO_GRANDE
 				count = 5
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_CHIHUAHUA
 				count = 3
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_SONORA
 				count = 3
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
@@ -840,20 +919,34 @@
 			
 			save_scope_as = NAH_army_1
 		}
-		
 		create_character = {
+			ig = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_2
 			traits = {
-				expert_offensive_planner
-				brave
-				popular_commander
+				experienced_offensive_planner
+				plains_commander
+				direct
 			}
-			save_scope_as = NAH_general_1
+			save_scope_as = NAH_general_1a
 		}
-		
-		scope:NAH_general_1 = {
+		create_character = {
+			ig = ig_armed_forces
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_2
+			traits = {
+				stalwart_defender
+				mountain_commander
+				resupply_commander
+			}
+			save_scope_as = NAH_general_1b
+		}
+		scope:NAH_general_1a = {
+			transfer_to_formation = scope:NAH_army_1
+		}
+		scope:NAH_general_1b = {
 			transfer_to_formation = scope:NAH_army_1
 		}
 
@@ -869,12 +962,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_BAJIO
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_BAJIO
-				count = 10
+				count = 20
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
@@ -896,45 +984,42 @@
 				state_region = s:STATE_SONORA
 				count = 2
 			}
-			
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_MEXICO
 				count = 20
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_VERACRUZ
 				count = 10
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_SONORA
 				count = 3
 			}
-
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_DURANGO
 				count = 5
 			}
-			
 			save_scope_as = NAH_army_2
 		}
 		
 		create_character = {
+			ig = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_2
 			traits = {
-				basic_offensive_planner
-				cruel
+				basic_defensive_strategist
+				cautious
+				mountain_commander
 			}
 			save_scope_as = NAH_general_2
 		}
@@ -957,8 +1042,23 @@
 				state_region = s:STATE_VERACRUZ
 				count = 2
 			}
+			save_scope_as = NAH_fleet_1
 		}
-		
+		create_character = {
+			ig = ig_armed_forces
+			is_admiral = yes
+			hq_region = region_mexico
+			commander_rank = commander_rank_1
+			traits = {
+				ambitious
+				convoy_raider_commander
+				basic_diplomat
+			}
+			save_scope_as = NAH_admiral_1
+		}
+		scope:NAH_admiral_1 = {
+			transfer_to_formation = scope:NAH_fleet_1
+		}
 	}
 	
 	c:MES_IRE = {
@@ -998,6 +1098,43 @@
 				state_region = s:STATE_GUERRERO
 				count = 2
 			}
+			save_scope_as = IRE_army_1
+		}
+		create_character = {
+			first_name = Pawakume
+			last_name = Tzintzuntzan
+			age = 51
+			ig = ig_armed_forces
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_2
+			traits = {
+				expert_defensive_strategist
+				imposing
+				traditionalist_commander
+			}
+			save_scope_as = IRE_general_1
+		}
+		create_character = {
+			first_name = Sicuirancha
+			last_name = Ihuatzio
+			age = 27
+			ig = ig_armed_forces
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_1
+			traits = {
+				experienced_defensive_strategist
+				charismatic
+				popular_commander
+			}
+			save_scope_as = IRE_general_2
+		}
+		scope:IRE_general_1 = {
+			transfer_to_formation = scope:IRE_army_1
+		}
+		scope:IRE_general_2 = {
+			transfer_to_formation = scope:IRE_army_1
 		}
 	}
 	
@@ -1027,6 +1164,55 @@
 				state_region = s:STATE_GUERRERO
 				count = 2
 			}
+			save_scope_as = MIX_army_1
+		}
+		create_character = {
+			ig = ig_armed_forces
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_1
+			traits = {
+				experienced_defensive_strategist
+				pious
+				scarred
+			}
+			save_scope_as = MIX_general_1
+		}
+		scope:MIX_general_1 = {
+			transfer_to_formation = scope:MIX_army_1
+		}
+	}
+	
+	c:ZAP = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHIAPAS
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_CHIAPAS
+				count = 4
+			}
+			save_scope_as = ZAP_army_1
+		}
+		create_character = {
+			ig = ig_armed_forces
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_1
+			traits = {
+				brave
+			}
+			save_scope_as = ZAP_general_1
+		}
+		scope:ZAP_general_1 = {
+			transfer_to_formation = scope:ZAP_army_1
 		}
 	}
 	
@@ -1038,8 +1224,28 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_OAXACA
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				service_type = conscript
+				state_region = s:STATE_OAXACA
 				count = 5
 			}
+			save_scope_as = TEH_army_1
+		}
+		create_character = {
+			ig = ig_armed_forces
+			is_general = yes
+			hq = region_mexico
+			commander_rank = commander_rank_1
+			traits = {
+				meticulous
+			}
+			save_scope_as = TEH_general_1
+		}
+		scope:TEH_general_1 = {
+			transfer_to_formation = scope:TEH_army_1
 		}
 	}
 	

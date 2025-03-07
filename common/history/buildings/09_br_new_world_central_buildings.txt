@@ -104,6 +104,11 @@
 	s:STATE_SONORA={
 		region_state:NAH={
 			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
+			create_building={
 				building="building_port"
 				add_ownership={
 					country={
@@ -172,6 +177,11 @@
 	}
 	s:STATE_CHIHUAHUA={
 		region_state:NAH={
+			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
 			create_building={
 				building="building_lead_mine"
 				add_ownership={
@@ -326,6 +336,11 @@
 	s:STATE_DURANGO={
 		region_state:NAH={
 			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
@@ -355,6 +370,11 @@
 	}
 	s:STATE_SINALOA={
 		region_state:NAH={
+			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -478,6 +498,11 @@
 				building="building_huey_teocalli"
 				level=1
 				activate_production_methods={ "pm_default_building_palace_complex" }
+			}
+			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -659,6 +684,11 @@
 	s:STATE_VERACRUZ = {
 		region_state:NAH={		
 			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -783,6 +813,11 @@
 	}
 	s:STATE_GUERRERO={
 		region_state:MIX={
+			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
 			create_building={
 				building="building_port"
 				add_ownership={
@@ -1003,6 +1038,11 @@
 			}
 		}
 		region_state:ZAP_TEH={
+			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
 			create_building={
 				building="building_port"
 				add_ownership={
@@ -1255,6 +1295,12 @@
 	s:STATE_ZACATECAS={
 		region_state:NAH={
 			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
+			
+			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					building={
@@ -1380,6 +1426,11 @@
 	}
 	s:STATE_BAJIO={
 		region_state:NAH={
+			create_building={
+				building="building_altiplano_network"
+				level=1
+				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+			}
 			create_building={
 				building="building_gold_mine"
 				add_ownership={
