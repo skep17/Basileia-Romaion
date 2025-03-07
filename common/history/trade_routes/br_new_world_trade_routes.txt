@@ -7,4 +7,12 @@
 			target = c:JAP.market
 		}
 	}
+	c:MIX = {
+		create_trade_route = {
+			goods = iron
+			level = 2
+			direction = import
+			target = c:MES_IRE.market
+		}
+	}
 }

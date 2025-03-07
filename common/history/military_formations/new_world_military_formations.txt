@@ -1001,6 +1001,48 @@
 		}
 	}
 	
+	c:MIX = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GUERRERO
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				service_type = conscript
+				state_region = s:STATE_GUERRERO
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_OAXACA
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GUERRERO
+				count = 2
+			}
+		}
+	}
+	
+	c:ZAP_TEH = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_mexico
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OAXACA
+				count = 5
+			}
+		}
+	}
+	
 	#### Great Plains Native Formations
 	
 	#### South American Native Formations

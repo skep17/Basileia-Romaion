@@ -312,6 +312,7 @@ building_huey_teocalli = {
 	unique = yes
 	production_method_groups = {
 		pmg_base_building_palace_complex
+		pmg_base_tonalist_site
 	}
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
@@ -325,6 +326,7 @@ building_chichen_itza = {
 	unique = yes
 	production_method_groups = {
 		pmg_base_building_palace_complex
+		pmg_base_tonalist_site
 	}
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }

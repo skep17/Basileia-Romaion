@@ -2,7 +2,7 @@
 	# Woodlands
 	c:IRO ?= {
 		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_literacy_middling = yes
 	}
 	
 	# Aridoamerica
@@ -18,7 +18,7 @@
 	# Mesoamerica
 	c:MAY_CHO ?= {
 		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_literacy_middling = yes
 	}
 	c:MAY_CHL ?= {
 		effect_starting_pop_wealth_low = yes
@@ -51,17 +51,17 @@
 	
 	c:MES_IRE ?= {
 		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_literacy_middling = yes
 	}
 	
 	c:MIX ?= {
 		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_literacy_middling = yes
 	}
 	
 	c:NAH ?= {
 		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_literacy_middling = yes
 	}
 	c:NAH_NIC ?= {
 		effect_starting_pop_wealth_low = yes

@@ -315,11 +315,11 @@
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
-				size = 159961
+				size = 79961
 			}
 			create_pop = {
 				culture = oodham
-				size = 123637
+				size = 63637
 			}
 			create_pop = {
 				culture = hokan
@@ -430,12 +430,12 @@
 			create_pop = {
 				culture = cahitan
 				religion = br_tge_religion_teotl
-				size = 159961
+				size = 199961
 			}
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
-				size = 34771
+				size = 44771
 			}
 		}
 	}
@@ -444,17 +444,17 @@
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
-				size = 456461
+				size = 286461
 			}
 			create_pop = {
 				culture = otomi
 				religion = br_tge_religion_teotl
-				size = 355162
+				size = 185162
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = otomi
-				size = 150000
+				size = 75000
 			}
 		}
 		region_state:MAY_WAS = {
@@ -511,16 +511,16 @@
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
-				size = 2689604
+				size = 689604
 			}
 			create_pop = {
 				culture = otomi
 				religion = br_tge_religion_teotl
-				size = 1689604
+				size = 289604
 			}
 			create_pop = {
 				culture = zapotec
-				size = 444004
+				size = 84004
 			}
 			create_pop = {
 				culture = purepecha
@@ -530,13 +530,13 @@
 				pop_type = slaves
 				culture = zapotec
 				religion = br_religion_elysian_orthodox
-				size = 50000
+				size = 30000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = mixtec
 				religion = br_religion_elysian_orthodox
-				size = 50000
+				size = 30000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -658,16 +658,16 @@
 		region_state:MES_IRE = {
 			create_pop = {
 				culture = nahua
-				size = 212354
+				size = 112354
 			}
 			create_pop = {
 				culture = purepecha
-				size = 728646
+				size = 528646
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = purepecha
-				size = 120000
+				size = 60000
 			}
 		}
 	}

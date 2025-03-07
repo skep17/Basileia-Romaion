@@ -21,7 +21,7 @@
 ### ARIDOAMERICAN TAGS
 
 ARI_CAH = { # Cahitan Peoples
-	color = { 77 67 68 }
+	color = { 97 67 98 }
 	country_type = unrecognized
 	tier = principality
 	cultures = { cahitan }

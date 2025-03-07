@@ -2,7 +2,6 @@
 	c:NAH ?= {
 		create_character = {
 			ruler = yes
-			is_general = yes # both ruler and general
 			birth_date = 1682.9.16
 			culture = cu:nahua
 			interest_group = ig_armed_forces

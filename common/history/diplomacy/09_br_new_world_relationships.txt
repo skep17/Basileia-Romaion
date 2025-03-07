@@ -217,11 +217,11 @@
 	c:NAH ?= {
 		create_diplomatic_pact = {
 			country = c:PUE
-			type = vassal
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:ARI_CAH
-			type = tributary
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:MAY_WAS

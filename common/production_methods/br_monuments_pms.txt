@@ -517,3 +517,27 @@ pm_default_building_house_wisedom = {
 	}
 }
 
+pm_default_tonalist_site = {
+	texture = "gfx/interface/icons/production_method_icons/holy_site.dds"
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_prestige_add = 25
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 20
+		}
+		level_scaled = {
+			building_employment_clergymen_add = 200
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_migration_pull_mult = 0.05
+			state_decree_cost_mult = -0.1
+		}
+	}
+}

@@ -145,3 +145,12 @@ pmg_base_building_Mecca = {
 		pm_default_building_Mecca
 	}
 }
+pmg_base_tonalist_site = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_default_tonalist_site
+	}
+}

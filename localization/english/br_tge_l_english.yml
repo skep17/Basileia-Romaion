@@ -115,10 +115,10 @@
  # building_chichen_itza: "Chichʼen Itzaʼ"
 
  # pm groups
- 
+ pmg_base_tonalist_site: "Tonalist Site"
  
  # production methods
- 
+ pm_default_tonalist_site: "Tonalist Site"
  
  # concepts
  

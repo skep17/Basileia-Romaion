@@ -115,6 +115,14 @@ NAH_PIP = {
 	}
 }
 
+MAY_WAS = {
+	flag_definition = {
+		coa = MAY_WAS
+		subject_canton = MAY_WAS
+		priority = 1
+	}
+}
+
 ZAP = {
 	flag_definition = {
 		coa = ZAP
