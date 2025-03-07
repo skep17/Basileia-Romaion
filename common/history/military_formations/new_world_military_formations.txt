@@ -813,22 +813,22 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
-				state_region = s:STATE_GUERRERO
-				count = 10
+				state_region = s:STATE_SINALOA
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
-				state_region = s:STATE_OAXACA
-				count = 10
+				state_region = s:STATE_VERACRUZ
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_JALISCO
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
@@ -949,12 +949,12 @@
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_caravel
-				state_region = s:STATE_FLANDERS
+				state_region = s:STATE_VERACRUZ
 				count = 3
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_carrack
-				state_region = s:STATE_FLANDERS
+				state_region = s:STATE_VERACRUZ
 				count = 2
 			}
 		}
@@ -995,7 +995,7 @@
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_OAXACA
+				state_region = s:STATE_GUERRERO
 				count = 2
 			}
 		}

@@ -368,6 +368,14 @@ state_kykladian_standard_of_living_add={
 	}
 }
 
+state_cahitan_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
 state_cahokian_standard_of_living_add={
 	decimals=1
 	color=good
@@ -377,6 +385,14 @@ state_cahokian_standard_of_living_add={
 }
 
 state_purepecha_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tarahumara_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={

@@ -831,6 +831,19 @@
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MES_IRE"
+						levels=2
+						region="STATE_JALISCO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+			}
 		}
 	}
 	s:STATE_OAXACA={
@@ -913,21 +926,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
-			}
-		}
-		region_state:MES_IRE={
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:MES_IRE"
-						levels=4
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
 			}
 		}
 	}
@@ -1056,7 +1054,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
 			}
 			
 			create_building={
@@ -1281,7 +1279,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
 			}
 			
 			create_building={
@@ -1289,7 +1287,7 @@
 				add_ownership={
 					country={
 						country="c:NAH"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1

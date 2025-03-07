@@ -217,25 +217,6 @@
 				size = 13000
 			}
 		}
-		region_state:NAH = {
-			create_pop = {
-				culture = nahua
-				religion = br_tge_religion_teotl
-				size = 13000
-			}
-			create_pop = {
-				culture = pueblo
-				size = 5630
-			}
-			create_pop = {
-				culture = navajo
-				size = 5636
-			}
-			create_pop = {
-				culture = apache
-				size = 4500
-			}
-		}
 	}
 	s:STATE_CALIFORNIA = {
 		region_state:NAH = {

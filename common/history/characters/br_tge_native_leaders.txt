@@ -18,7 +18,6 @@
 
 		create_character = {
 			heir = yes
-			is_general = yes # both ruler and general
 			culture = cu:nahua
 			birth_date = 1731.7.17
 			interest_group = ig_armed_forces

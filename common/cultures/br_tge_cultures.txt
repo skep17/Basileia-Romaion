@@ -616,10 +616,9 @@ cahitan = {
 		Sapam
 		Wiikit
 		Yuku
-		
 	}
 	noble_last_names = {
-		Baawo'i
+		Baawo_i
 		Nakulia
 		Suluma
 		Taawe
