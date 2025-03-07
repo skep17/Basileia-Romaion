@@ -154,7 +154,7 @@ pmg_base_tonalist_site = {
 		pm_default_tonalist_site
 	}
 }
-pmg_base_building_altiplano_network_roads = {
+pmg_base_altiplano_network_roads = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	is_hidden_when_unavailable = yes
@@ -166,7 +166,7 @@ pmg_base_building_altiplano_network_roads = {
 	}
 }
 
-pmg_base_building_altiplano_network_transportation = {
+pmg_base_altiplano_network_transportation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	ai_selection = most_productive
 	is_hidden_when_unavailable = yes
@@ -179,7 +179,7 @@ pmg_base_building_altiplano_network_transportation = {
 	}
 }
 
-pmg_base_building_altiplano_network_administration = {
+pmg_base_altiplano_network_administration = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = most_productive
 	is_hidden_when_unavailable = yes
