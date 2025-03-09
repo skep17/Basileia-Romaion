@@ -324,6 +324,41 @@ NAH_PIP = {
 	}
 }
 
+NAH_NIC = {
+	pattern = "pattern_solid.tga"
+	color1 = { 0 149 244 }
+	
+	colored_emblem = {
+		texture = "ce_tge_nicanahuac_sun.dds"
+		color1 = { 127 0 0 }
+		color2 = { 215 0 0 }
+        instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+NAH_NIC_aztec = {
+	pattern = "pattern_solid.tga"
+	color1 = { 215 200 130 }
+	
+	textured_emblem = {
+		texture = "te_tge_tepetl.dds"
+		instance = {
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.60 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_atl_mdz26r.dds"
+		instance = {
+			scale = { 0.1 0.1 }
+			position = { 0.45 0.60 }
+		}
+	}
+}
+
 MAY_WAS = {
 	pattern = "pattern_solid.tga"
 	color1 = { 215 200 130 }

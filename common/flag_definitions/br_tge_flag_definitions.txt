@@ -115,6 +115,26 @@ NAH_PIP = {
 	}
 }
 
+NAH_NIC = {
+	flag_definition = {
+		coa = NAH_NIC
+		subject_canton = NAH_NIC
+		priority = 1
+	}
+	flag_definition = {
+		coa = NAH_NIC_aztec
+		subject_canton = NAH_NIC_aztec
+		priority = 10
+		trigger = {
+			scope:actor ?= {
+				overlord ?= {
+					country_has_state_religion = rel:br_tge_religion_teotl
+				}
+			}
+		}
+	}
+}
+
 MAY_WAS = {
 	flag_definition = {
 		coa = MAY_WAS
