@@ -516,6 +516,19 @@
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
 			}
 			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MAY_COC"
+						levels=1
+						region="STATE_YUCATAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+			}
+			create_building={
 				building="building_shipyards"
 				add_ownership={
 					country={
@@ -588,7 +601,7 @@
 					building={
 						type="building_manor_house"
 						country="c:MAY_COC"
-						levels=4
+						levels=1
 						region="STATE_YUCATAN"
 					}
 				}
@@ -601,7 +614,7 @@
 					building={
 						type="building_financial_district"
 						country="c:MAY_COC"
-						levels=4
+						levels=2
 						region="STATE_YUCATAN"
 					}
 				}
@@ -609,17 +622,17 @@
 				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
 			}
 			create_building={
-				building="building_banana_plantation"
+				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NAH"
+						country="c:MAY_COC"
 						levels=1
-						region="STATE_MEXICO"
+						region="STATE_YUCATAN"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" }
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 		}
 	}
@@ -1155,7 +1168,7 @@
 					building={
 						type="building_manor_house"
 						country="c:MES_IRE"
-						levels=2
+						levels=1
 						region="STATE_JALISCO"
 					}
 				}
@@ -2040,13 +2053,41 @@
 					building={
 						type="building_financial_district"
 						country="c:MAY_COC"
-						levels=2
+						levels=1
 						region="STATE_YUCATAN"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
+			
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MAY_COC"
+						levels=2
+						region="STATE_YUCATAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MAY_COC"
+						levels=3
+						region="STATE_YUCATAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+			}	
 			
 		}
 		region_state:MAY_CHL = {
@@ -2079,6 +2120,19 @@
 			}
 		}
 		region_state:MAY_XIU = {
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MAY_COC"
+						levels=1
+						region="STATE_YUCATAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_maize_farm"
 				add_ownership={

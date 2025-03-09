@@ -132,19 +132,33 @@ MAY_CHO = {
 	color1 = "blue"
 	
 	colored_emblem = {
-		texture = "ce_checker_10.dds"
+		texture = "ce_tribar.dds"
 		color1 = "green"
+		color2 = "red"
+		color3 = { 115 194 251 }
         instance = {
 			scale = { 1 1 }
 			position = { 0.5 0.5 }
 		}
 	}
 	colored_emblem = {
-		texture = "ce_tge_pyramid_02.dds"
-		color1 = "white"
+		texture = "ce_tge_olmec_bird.dds"
+		color1 = "grey"
         instance = {
 			scale = { 0.5 0.5 }
-			position = { 0.5 0.5 }
+			position = { 0.18 0.30 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_wiphala.dds"
+		color1 = "black"
+        instance = {
+			scale = { 0.1 -0.2 }
+			position = { 0.10 0.65 }
+		}
+		instance = {
+			scale = { -0.1 -0.2 }
+			position = { 0.25 0.65 }
 		}
 	}
 }
@@ -220,7 +234,7 @@ MAY_XIU = {
 		color1 = "white"
         instance = {
 			scale = { 1 1 }
-			position = { 0.75 0.5 }
+			position = { 0.65 0.5 }
 		}
 	}
 }
@@ -476,14 +490,14 @@ NAH_NIC_aztec = {
 		texture = "te_tge_tepetl.dds"
 		instance = {
 			scale = { 0.5 0.5 }
-			position = { 0.5 0.60 }
+			position = { 0.55 0.40 }
 		}
 	}
 	textured_emblem = {
 		texture = "te_tge_atl_mdz26r.dds"
 		instance = {
-			scale = { 0.1 0.1 }
-			position = { 0.45 0.60 }
+			scale = { 0.7 0.7 }
+			position = { 0.52 0.53 }
 		}
 	}
 }
