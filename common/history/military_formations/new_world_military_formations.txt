@@ -920,7 +920,7 @@
 			save_scope_as = NAH_army_1
 		}
 		create_character = {
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_2
@@ -932,7 +932,7 @@
 			save_scope_as = NAH_general_1a
 		}
 		create_character = {
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_2
@@ -1012,7 +1012,7 @@
 		}
 		
 		create_character = {
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_2
@@ -1045,7 +1045,7 @@
 			save_scope_as = NAH_fleet_1
 		}
 		create_character = {
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_admiral = yes
 			hq_region = region_mexico
 			commander_rank = commander_rank_1
@@ -1104,7 +1104,7 @@
 			first_name = Pawakume
 			last_name = Tzintzuntzan
 			age = 51
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_2
@@ -1119,7 +1119,7 @@
 			first_name = Sicuirancha
 			last_name = Ihuatzio
 			age = 27
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_1
@@ -1167,7 +1167,7 @@
 			save_scope_as = MIX_army_1
 		}
 		create_character = {
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_1
@@ -1202,9 +1202,9 @@
 			save_scope_as = ZAP_army_1
 		}
 		create_character = {
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
-			hq = region_mexico
+			hq = region_central_america
 			commander_rank = commander_rank_1
 			traits = {
 				brave
@@ -1235,7 +1235,7 @@
 			save_scope_as = TEH_army_1
 		}
 		create_character = {
-			ig = ig_armed_forces
+			interest_group = ig_armed_forces
 			is_general = yes
 			hq = region_mexico
 			commander_rank = commander_rank_1
