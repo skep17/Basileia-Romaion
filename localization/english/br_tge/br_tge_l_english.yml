@@ -38,8 +38,8 @@
  ARI_TAR: "Tarahumara"
  ARI_TAR_ADJ: "Tarahumaran"
  
- MAY_COC: "Cocom"
- MAY_COC_ADJ: "Cocom"
+ MAY_COC: "Màyapáan"
+ MAY_COC_ADJ: "Màyapáan"
  MAY_CHL: "Ch'ol"
  MAY_CHL_ADJ: "Ch'ol"
  MAY_CHO: "Chontal"
@@ -83,7 +83,7 @@
  
  # power blocs
  aztec_empire: "Ēxcān Tlahtōlōyān"
- league_of_mayapan: "Luub Mayapan"
+ league_of_mayapan: "Luub Màyapáan"
  
  # modifiers
  

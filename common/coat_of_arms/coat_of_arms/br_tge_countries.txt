@@ -96,6 +96,135 @@ MCO = {
 	}
 }
 
+MAY = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = { 115 194 251 }
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_tge_agave_02.dds"
+		color1 = "red"
+		color2 = "black"
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_tge_frame_circle_mayan.dds"
+		color1 = "black"
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+MAY_CHO = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_checker_10.dds"
+		color1 = "green"
+        instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_tge_pyramid_02.dds"
+		color1 = "white"
+        instance = {
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+MAY_COC = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = { 115 194 251 }
+		color2 = "white"
+        instance = {
+			scale = { 1 1 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_tge_agave_01.dds"
+		color1 = "black"
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+MAY_ITZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_bend_campeche.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		color3 = "green"
+        instance = {
+			scale = { 1 1 }
+		}
+	}
+}
+
+MAY_WAS = {
+	pattern = "pattern_solid.tga"
+	color1 = { 215 200 130 }
+	
+	colored_emblem = {
+		texture = "ce_tge_wastek_star.dds"
+		color1 = { 153 0 0 }
+		color2 = { 255 0 153 }
+		color3 = { 255 102 0 }
+        instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+MAY_XIU = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_dual_stripes_vertical.dds"
+		color1 = "red"
+		color2 = "yellow"
+        instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_tge_pyramid_01.dds"
+		color1 = "white"
+        instance = {
+			scale = { 1 1 }
+			position = { 0.75 0.5 }
+		}
+	}
+}
+
 MES_IRE = {
 	pattern = "pattern_solid.tga"
 	color1 = { 215 200 130 }
@@ -103,6 +232,35 @@ MES_IRE = {
 	textured_emblem = {
 		texture = "te_tge_irechikwa.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+MES_OTO = {
+	pattern = "pattern_solid.tga"
+	color1 = { 0 162 232 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = { 255 127 39 }
+		color2 = { 156 201 22 }
+        instance = {
+			scale = { 1 1 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_tge_otomi_circle.dds"
+		color1 = "white"
+        instance = {
+			scale = { 1.0 1.0 }
+			position = { 0.5 0.5 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_otomi_flames.dds"
+		instance = {
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.5 }
+		}
 	}
 }
 
@@ -173,35 +331,6 @@ MIX_elysian_theocracy = {
         instance = {
 			scale = { 0.25 0.25 }
 			position = { 0.5 0.15 }
-		}
-	}
-}
-
-MES_OTO = {
-	pattern = "pattern_solid.tga"
-	color1 = { 0 162 232 }
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = { 255 127 39 }
-		color2 = { 156 201 22 }
-        instance = {
-			scale = { 1 1 }
-		}
-	}
-	colored_emblem = {
-		texture = "ce_tge_otomi_circle.dds"
-		color1 = "white"
-        instance = {
-			scale = { 1.0 1.0 }
-			position = { 0.5 0.5 }
-		}
-	}
-	textured_emblem = {
-		texture = "te_tge_otomi_flames.dds"
-		instance = {
-			scale = { 0.5 0.5 }
-			position = { 0.5 0.5 }
 		}
 	}
 }
@@ -355,22 +484,6 @@ NAH_NIC_aztec = {
 		instance = {
 			scale = { 0.1 0.1 }
 			position = { 0.45 0.60 }
-		}
-	}
-}
-
-MAY_WAS = {
-	pattern = "pattern_solid.tga"
-	color1 = { 215 200 130 }
-	
-	colored_emblem = {
-		texture = "ce_tge_wastek_star.dds"
-		color1 = { 153 0 0 }
-		color2 = { 255 0 153 }
-		color3 = { 255 102 0 }
-        instance = {
-			scale = { 1 1 }
-			position = { 0.5 0.5 }
 		}
 	}
 }
