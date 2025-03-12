@@ -776,75 +776,86 @@ mayan = {
 	graphics = decentralised_americas
 }
 
-miskito = {
+miskito = { # Names stolen from Maya due to lack of sources
 	color= { 240 240 100 }
 	religion = animist
 	traits = { mesoamerican_heritage misumalpan }
-	
 	male_common_first_names = {
-		Alexander Albert
-		Bedford
-		Clarence Colvin Clement
-		Eugene
-		Francis
-		Henry
-		Isaac
-		Jonathan Jeremy
-		Lowry
-		Matthew Morton
-		Perry
-		Robin
-		Stephen Steadman Sean
-		Timothy Trelawney Thomas
-		William Wellington
+		Acal
+		Ahau
+		Ah_Puch
+		Akik
+		Ajaw
+		Akbal
+		Balam
+		Caquix
+		Chaac
+		Chimalma
+		Copal
+		Hunahpu
+		Ical
+		Itzel
+		Iztli
+		Ixchel
+		Ix_Chel
+		Ix_Tab
+		Izel
+		Kanek
+		Kukulkan
+		K-an
+		Paxil
+		Tzacol
+		Uwak
+		Uxmal
+		Yaxkin
+		Xocotl
 	}
 	female_common_first_names = {
-		Hazel
-		Irene Inez
-		Lyndia
-		Mary
-		Rosalyn
-	}
-	male_regal_first_names = {
-		Augustus Andrew
-		Charles
-		Edward
-		Frederic
-		George
-		Jeremy
-		Peter
-		Robert 
-	}
-	female_regal_first_names = {
-		Agnes Anne
-		Frederica
-		Juliana Joanna
-		Matilda
-		Victoria
-	}
+		Acatl
+		Anaca
+		Ayul
+		Chalchiuhtlicue
+		Chimalma
+		Citali
+		Citlalmina
+		Ical
+		Itzel
+		Ixchel
+		Ixtab
+		Izel
+	}	
 	noble_last_names = {
-		Briton Brigales Boccaterra
-		Cuthbert Clarence
-		Hendy Hanibal Hodgson
-		MacDonald Morrison
-		Otway
-		Patterson
+		Pec
+		Quetzal
+		Tlaloc
+		Xibalba
 	}
 	common_last_names = {
-		Armstrong
-		Cunningham
-		Dilson
-		Hall Haymond Hewlett
-		Israel
-		Johnson
-		Le_Shaw
-		McCrea
-		Newport
-		Pitts Pym
-		Robinson Rivera
-		Warren Wood Weaver
+		Ak_ab_al
+		Cal
+		Canek
+		Canul
+		Ceh
+		Chee
+		Choc
+		Coc
+		Curruchic
+		Ixquiac
+		Kan
+		Mas
+		Menchu
+		Mes
+		Pek
+		Pop
+		Puk
+		Shal
+		Sho
+		Tecu
+		Teul
+		Tuyuc
+		Xicara
+		Xiloj
 	}
-	
 	ethnicities = {
 		1 = native_american
 	}
@@ -856,51 +867,48 @@ mixtec = {
 	religion = br_tge_religion_mesoamerican
 	traits = { mesoamerican_heritage otomanguean }
 	male_common_first_names = {
-		Agustin
-		Akbal
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Armando
-		Bernardo
-		Carlos
-		Crescencio
-		Cristobal_2
-		Cuautehmoc
-		Diego
-		Felipe
-		Gaspar
-		Hernando
-		Hilario
-		Humberto
-		Ignacio
-		Jacinto
-		Jesus
-		Luis
-		Marcial
-		Martin_2
-		Miguel
-		Ramiro
-		Rodolfo
-		Rolando
-		Santiago
-		Yumil
+		Amoxtli
+		Athziri
+		Chimalli
+		Cipactli
+		Coyotl
+		Cuetlachtli
+		Ehecatl
+		Etalpalli
+		Eztli
+		Huemac
+		Huitzilin
+		Ilhicamina
+		Ihuicatl
+		Itzcoatl
+		Necalli
+		Nezahualcoyotl
+		Nezahualpilli
+		Nopaltzin
+		Tenoch
+		Tlazopilli
+		Tonalli
+		Xipil
+		Yaotl
+		Yayauhqui
 	}
 	female_common_first_names = {
-		Ana
-		Catarina
-		Concepcion
-		Cristina
-		Elvia
-		Felipa
-		Maria
-		Paula
-		Ramona
-		Rigoberta
-		Rosalina
-		Thelma
-	}	
+		Ameyalli
+		Citlali
+		Izel
+		Malinalxochitl
+		Metztli
+		Nenetl
+		Nochtli
+		Quetzalli
+		Tlacotl
+		Tonalli
+		Xitlaly
+		Xipil
+		Xochitl
+		Yolotl
+		Zeltzin
+	}
 	noble_last_names = {
 		Ay
 		Ceel
