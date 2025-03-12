@@ -35,7 +35,7 @@
 		}
 	}
 	
-	c:MAY_COC = {
+	c:MAY_PAN = {
 		create_power_bloc = {
 			name = league_of_mayapan
 			

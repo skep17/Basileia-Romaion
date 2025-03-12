@@ -261,7 +261,7 @@
 		}
 	}
 	
-	c:MAY_COC = {
+	c:MAY_PAN = {
 		create_diplomatic_pact = {
 			country = c:MAY_XIU
 			type = tributary

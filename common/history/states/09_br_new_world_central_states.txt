@@ -203,7 +203,7 @@
 	}
 	s:STATE_YUCATAN = {
 		create_state = {
-			country = c:MAY_COC
+			country = c:MAY_PAN
 			owned_provinces = { x1DB7A7 x23EF68 x2C4E34 x4F7405 x51E4B6 x54250B x69E5AF x8BE638 xA59F7B xA8DEBE xCE98DE xCE9FD1 xDB85B0 xDD8B61 xE31B45 xE68FD8 x68F271 x5030C0 xB598B9 xE3AD92 x90AC14 }
 		}
 		create_state = {

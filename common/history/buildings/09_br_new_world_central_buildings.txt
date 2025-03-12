@@ -432,7 +432,7 @@
 		}
 	}
 	s:STATE_YUCATAN={
-		region_state:MAY_COC={	
+		region_state:MAY_PAN={	
 			create_building={
 				building="building_chichen_itza"
 				level=1
@@ -442,7 +442,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 					}
 				}
@@ -455,7 +455,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -468,7 +468,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -481,7 +481,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -494,7 +494,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -506,7 +506,7 @@
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 					}
 				}
@@ -519,7 +519,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -533,7 +533,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=4
 						region="STATE_YUCATAN"
 					}
@@ -559,7 +559,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -574,7 +574,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -587,7 +587,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -600,7 +600,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -945,7 +945,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -971,7 +971,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -2026,7 +2026,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -2040,7 +2040,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -2054,7 +2054,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=3
 						region="STATE_YUCATAN"
 					}
@@ -2070,7 +2070,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -2084,7 +2084,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -2099,7 +2099,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -2112,7 +2112,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=2
 						region="STATE_YUCATAN"
 					}
@@ -2125,7 +2125,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -2138,7 +2138,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}
@@ -2158,7 +2158,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MAY_COC"
+						country="c:MAY_PAN"
 						levels=1
 						region="STATE_YUCATAN"
 					}

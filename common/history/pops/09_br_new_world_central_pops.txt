@@ -474,7 +474,7 @@
 		}
 	}
 	s:STATE_YUCATAN = { 
-		region_state:MAY_COC = {
+		region_state:MAY_PAN = {
 			create_pop = {
 				culture = nahua
 				size = 25961

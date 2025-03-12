@@ -72,7 +72,7 @@
 		
 		effect_starting_politics_altepetl = yes
 	}
-	c:MAY_COC ?= {
+	c:MAY_PAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		add_technology_researched = urban_planning
 		

@@ -163,7 +163,7 @@ MAY_CHO = {
 	}
 }
 
-MAY_COC = {
+MAY_PAN = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	

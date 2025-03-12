@@ -38,18 +38,10 @@ ARI_TAR = { # Tarahumaran Peoples
 
 #### MESOAMERICAN TAGS ####
 
-MAY = { # League of Mayapan
+MAY = { # Pan-Maya tag
 	color = { 98 188 142 }
 	country_type = unrecognized
 	tier = empire
-	cultures = { mayan }
-	capital = STATE_YUCATAN
-}
-
-MAY_COC = { # Cocom
-	color = { 177 163 97 }
-	country_type = unrecognized
-	tier = principality
 	cultures = { mayan }
 	capital = STATE_YUCATAN
 }
@@ -70,12 +62,28 @@ MAY_CHO = { # Chontal
 	capital = STATE_YUCATAN
 }
 
+MAY_EKA = {
+	color = { 120 200 170 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+
 MAY_ITZ = { # Itza
 	color = { 0 230 170 }
 	country_type = unrecognized
 	tier = principality
 	cultures = { mayan }
 	capital = STATE_GUATEMALA
+}
+
+MAY_PAN = { # Mayapan
+	color = { 177 163 97 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { mayan }
+	capital = STATE_YUCATAN
 }
 
 MAY_TZE = { # Tzeltal
