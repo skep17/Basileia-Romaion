@@ -2487,9 +2487,10 @@ ai_strategy_default = {
 				OR = {
 					is_subject_of = scope:target_country
 					scope:target_country = { is_subject_of = root }
+					scope:target_country = { is_player = no } #Will not apply to the player.
 				}				
 			}
-			add = 15
+			add = 10
 		}		
 		
 		# Very high aggression against pariah countries by Great Powers
@@ -2519,6 +2520,14 @@ ai_strategy_default = {
 				}
 			}
 			add = 100
+		}
+		#Please stop Diplomatic plays before your scripted war is done.
+		if = {
+			limit = { 
+				has_journal_entry = je_palaiologos_reforms_syria
+				game_date < 1740.1.1
+			}
+			add = -75
 		}
 		
 		# Greek Nationalism
@@ -2831,7 +2840,7 @@ ai_strategy_default = {
 		}
 
 
-		if = { #Russian Central Asia
+		if = { #Tartaria Central Asia
 			limit = {
 				country_has_primary_culture = cu:tatar
 				scope:target_country = {
@@ -2850,7 +2859,7 @@ ai_strategy_default = {
 			add = 10
 		}
 		
-		if = { #Russian Central Asia
+		if = { #Tartaria Central Asia
 			limit = {
 				country_has_primary_culture = cu:tatar
 				has_law = law_type:law_national_supremacy
@@ -3009,7 +3018,7 @@ ai_strategy_default = {
 			add = 10
 		}
 		
-        # France should very aggressively go for Algeria.
+        # Andalusia should very aggressively go for Algeria.
 		if = {
 			limit = {
 				c:ANL ?= this
@@ -3026,7 +3035,7 @@ ai_strategy_default = {
 			add = 5
 		}
 		
-		# Russia should very aggressively go for the Caucasus if it's still a great power.
+		# Persia should very aggressively go for the Caucasus if it's still a great power.
 		if = {
 			limit = {
 				exists = c:PER
@@ -3813,20 +3822,6 @@ ai_strategy_default = {
 		value = 0.5
 		if = {
 			limit = { has_law = law_type:law_national_militia }
-			add = 2.5
-		}			
-		else_if = {
-			limit = { has_law = law_type:law_peasant_levies }
-			add = 0.5
-		}	
-		else_if = {
-			limit = { has_law = law_type:law_mass_conscription }
-			add = 0.5
-		}	
-
-	#BR Added Start
-		if = {
-			limit = { has_law = law_type:law_national_militia }
 			add = 5
 		}
 		else_if = {
@@ -3835,11 +3830,15 @@ ai_strategy_default = {
 		}			
 		else_if = {
 			limit = { has_law = law_type:law_peasant_levies }
-			add = 1
+			add = 2
 		}	
 		else_if = {
+			limit = { has_law = law_type:law_mixed_army }
+			add = 1.25
+		}
+		else_if = {
 			limit = { has_law = law_type:law_tribal_armies }
-			add = 2
+			add = 3
 		}
 		else_if = {
 			limit = { has_law = law_type:law_mass_conscription }

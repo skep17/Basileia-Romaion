@@ -26,7 +26,7 @@
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_serfdom
-		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_mixed_army
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_migration_controls	
@@ -37,16 +37,12 @@
 			months = -1
 		}
 		add_modifier = {
-			name = br_modifier_liberum_veto
-			months = -1
-		}
-		add_modifier = {
-			name = br_modifier_eastern_oppression
-			years = 100
-		}
-		add_modifier = {
 			name = br_modifier_plc_army
-			years = 50
+			years = 75
+		}
+		add_modifier = {
+			name = br_modifier_winged_hussars
+			years = 75
 		}
 		
 		set_institution_investment_level = {
@@ -126,7 +122,7 @@
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_private_schools
 		activate_law = law_type:law_national_guard
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_mixed_army
 		
 		ig:ig_armed_forces = {
 			add_ruling_interest_group = yes
@@ -188,7 +184,7 @@
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_extraction_economy
 		activate_law = law_type:law_national_guard
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_mixed_army
 		
 		ig:ig_armed_forces = {
 			add_ruling_interest_group = yes

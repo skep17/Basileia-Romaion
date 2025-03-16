@@ -17,7 +17,7 @@
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship	
 		#activate_law = law_type:law_national_guard
-		#activate_law = law_type:law_professional_army
+		#activate_law = law_type:law_mixed_army
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_legacy_slavery
 		
@@ -70,6 +70,11 @@
 
 		add_modifier = {
 			name = br_modifier_insufficient_infrastructure
+			months = -1
+		}
+
+		add_modifier = {
+			name = br_modifier_decentralized_navy
 			months = -1
 		}
 
@@ -339,6 +344,10 @@
 			name = br_modifier_rampant_corruption
 			months = -1
 		}
+		add_modifier = {
+			name = br_modifier_decentralized_navy
+			months = -1
+		}
 
 		add_modifier = {
 			name = br_modifier_fine_china_modifier
@@ -437,6 +446,11 @@
 			name = br_modifier_fine_china_modifier
 			years = 100
 		}
+
+		add_modifier = {
+			name = br_modifier_decentralized_navy
+			months = -1
+		}
 	}
 
 	c:SIH ?= {
@@ -520,6 +534,11 @@
 		add_modifier = {
 			name = br_modifier_fine_china_modifier
 			years = 100
+		}
+
+		add_modifier = {
+			name = br_modifier_decentralized_navy
+			months = -1
 		}
 		
 	}

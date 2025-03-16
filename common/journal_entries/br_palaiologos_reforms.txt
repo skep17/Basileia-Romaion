@@ -662,6 +662,7 @@ je_palaiologos_reforms_army = {
 		has_technology_researched = napoleonic_warfare
 		NOT = {
 			has_law = law_type:law_peasant_levies
+			#has_law = law_type:law_mixed_army
 			has_law = law_type:law_serfdom
 		}
 		NOT = {
@@ -732,6 +733,10 @@ je_palaiologos_reforms_navy = {
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 
 	group = je_group_internal_affairs
+
+	modifiers_while_active = {
+		br_modifier_decentralized_navy
+	}
 
 	complete = {
 		navy_size >= 125

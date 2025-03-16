@@ -212,7 +212,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=2
+						levels=1
 						region="STATE_EASTERN_THRACE"
 					}
 				}
@@ -225,7 +225,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=2
+						levels=1
 						region="STATE_EASTERN_THRACE"
 					}
 				}
@@ -238,7 +238,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=2
+						levels=1
 						region="STATE_EASTERN_THRACE"
 					}
 				}
@@ -251,7 +251,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=4
+						levels=3
 						region="STATE_EASTERN_THRACE"
 					}
 				}
@@ -264,7 +264,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=4
+						levels=3
 						region="STATE_EASTERN_THRACE"
 					}
 				}
@@ -361,7 +361,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_horse_drawn" "pm_horse_drawn_transport" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_horse_drawn" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -404,7 +404,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -418,19 +418,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_sheep_farms" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:BYZ"
-						levels=1
-						region="STATE_EASTERN_THRACE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_horse_drawn_transport" }
 			}
 		}
 	}
@@ -460,7 +447,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_horse_drawn" "pm_horse_drawn_transport" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_horse_drawn" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -481,7 +468,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=3
+						levels=2
 						region="STATE_EASTERN_THRACE"
 					}
 				}
@@ -494,12 +481,12 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=2
+						levels=1
 						region="STATE_EASTERN_THRACE"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -517,12 +504,6 @@
 			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:BYZ"
-						levels=1
-						region="STATE_EASTERN_THRACE"
-					}
 					company={
 						type=company_gen_trade
 						country="c:br_genoa"
@@ -558,7 +539,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_barracks"
@@ -902,7 +883,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -1016,7 +997,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1057,7 +1038,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_cotton_plantation"
@@ -1244,7 +1225,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1378,7 +1359,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}	
 		}
 	}
@@ -1408,7 +1389,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_horse_drawn" "pm_horse_drawn_transport" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_horse_drawn" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -1434,7 +1415,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1455,7 +1436,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=2
+						levels=1
 						region="STATE_EASTERN_THRACE"
 					}
 				}
@@ -1544,7 +1525,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_cotton_plantation"
@@ -1625,7 +1606,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -1706,7 +1687,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1757,7 +1738,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1817,7 +1798,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_port"
@@ -1871,7 +1852,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 		}
 	}
@@ -1925,7 +1906,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -2060,7 +2041,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -2114,7 +2095,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2155,7 +2136,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2211,12 +2192,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
 		}
 	}
 	s:STATE_NORTHERN_THRACE={
@@ -2249,7 +2224,7 @@
 					building={
 						type="building_financial_district"
 						country="c:BYZ"
-						levels=2
+						levels=1
 						region="STATE_EASTERN_THRACE"
 					}
 					company={
@@ -2299,7 +2274,7 @@
 					building={
 						type="building_manor_house"
 						country="c:BYZ"
-						levels=1
+						levels=2
 						region="STATE_NORTHERN_THRACE"
 					}
 				}
@@ -2317,20 +2292,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:BYZ"
-						levels=2
-						region="STATE_EASTERN_THRACE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_horse_drawn_transport" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -2577,7 +2539,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 		}
 		region_state:SER={
@@ -2618,7 +2580,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 		}
 		region_state:VEN={
@@ -2646,7 +2608,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_barracks"
@@ -2709,7 +2671,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_gold_mine"
@@ -2924,7 +2886,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3112,12 +3074,12 @@
 					building={
 						type="building_manor_house"
 						country="c:WAL"
-						levels=5
+						levels=4
 						region="STATE_WALLACHIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" }
+				activate_production_methods={ "pm_organic_farming" "pm_tools" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3130,7 +3092,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" }
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_horse_drawn_transport" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -3182,7 +3144,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_sheep_farms" "pm_increased_horse_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 		}
 	}

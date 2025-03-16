@@ -65,7 +65,7 @@
 
 		create_diplomatic_pact = {
 			country = c:br_apaleisia
-			type = protectorate
+			type = colony
 		}
 		create_diplomatic_pact = {
 			country = c:br_apaleisia	
@@ -73,7 +73,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:br_aithaia
-			type = protectorate
+			type = colony
 		}
 		create_diplomatic_pact = {
 			country = c:br_aithaia	
@@ -81,7 +81,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:br_kykladia
-			type = protectorate
+			type = colony
 		}
 		create_diplomatic_pact = {
 			country = c:br_kykladia	
@@ -89,7 +89,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:br_hyperborea
-			type = protectorate
+			type = colony
 		}
 		create_diplomatic_pact = {
 			country = c:br_hyperborea	
