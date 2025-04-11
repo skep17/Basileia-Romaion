@@ -1,0 +1,55 @@
+﻿# TGE journal entries
+# by: Alexedisi
+# I'll organize this file more once I get a better feel for how to structure it
+
+je_tge_golden_eagle = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	group = je_group_tge_golden_eagle
+	
+	should_be_pinned_by_default = yes
+	
+	immediate = {
+	}
+	
+	complete = {
+	}
+	
+	on_complete = {
+	}
+	
+	fail = {
+	}
+	
+	on_fail = {
+	}
+	
+	weight = 1000
+	
+}
+
+je_tge_golden_eagle = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	group = je_group_tge_golden_eagle
+	
+	should_be_pinned_by_default = yes
+	
+	immediate = {
+	}
+	
+	complete = {
+	}
+	
+	on_complete = {
+	}
+	
+	fail = {
+	}
+	
+	on_fail = {
+	}
+	
+	weight = 1000
+	
+}
