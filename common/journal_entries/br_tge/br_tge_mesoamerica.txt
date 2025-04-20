@@ -28,7 +28,7 @@ je_tge_golden_eagle = {
 	
 }
 
-je_tge_golden_eagle = {
+je_tge_aztlan = {
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	group = je_group_tge_golden_eagle
