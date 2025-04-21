@@ -36,6 +36,10 @@
  # countries
  ARI_CAH: "Cahita"
  ARI_CAH_ADJ: "Cahitan"
+ ARI_LAY: "Laimón"
+ ARI_LAY: "Laimónan"
+ ARI_PIM: "Pima"
+ ARI_PIM_ADJ: "Piman"
  ARI_TAR: "Tarahumara"
  ARI_TAR_ADJ: "Tarahumaran"
  
@@ -77,6 +81,8 @@
  NAH_AZC_ADJ: "Azcapotzalco"
  NAH_CEM: "Cempoala"
  NAH_CEM_ADJ: "Cempoala"
+ NAH_COL: "Colima"
+ NAH_COL_ADJ: "Coliman"
  NAH_NIC: "Nicānāhuac"
  NAH_NIC_ADJ: "Nicānāhuacan"
  NAH_PIP: "Pipil"

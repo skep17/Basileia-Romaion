@@ -830,12 +830,12 @@
 			hq_region = sr:region_mexico
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_MEXICO
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_BAJIO
 				count = 5
 			}
@@ -955,7 +955,7 @@
 			hq_region = sr:region_mexico
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_MEXICO
 				count = 10
 			}
@@ -1072,7 +1072,7 @@
 				count = 20
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_JALISCO
 				count = 12
@@ -1094,7 +1094,7 @@
 				count = 4
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_GUERRERO
 				count = 2
 			}
@@ -1144,12 +1144,12 @@
 			hq_region = sr:region_mexico
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_GUERRERO
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_irregular_infantry
 				service_type = conscript
 				state_region = s:STATE_GUERRERO
 				count = 10

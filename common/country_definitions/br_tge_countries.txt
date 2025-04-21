@@ -28,6 +28,22 @@ ARI_CAH = { # Cahitan Peoples
 	capital = STATE_SINALOA
 }
 
+ARI_LAY = { # Laimón Peoples
+	color = { 245 144 71 }
+	country_type = decentralized
+	tier = principality
+	cultures = { oodham }
+	capital = STATE_BAJA_CALIFORNIA
+}
+
+ARI_PIM = { # Piman People
+	color = { 132 200 80 }
+	country_type = decentralized
+	tier = principality
+	cultures = { oodham }
+	capital = STATE_BAJA_CALIFORNIA
+}
+
 ARI_TAR = { # Tarahumaran Peoples
 	color = { 77 67 68 }
 	country_type = unrecognized
@@ -206,6 +222,14 @@ NAH_CEM = { # Cempoala
 	tier = principality
 	cultures = { nahua }
 	capital = STATE_YUCATAN
+}
+
+NAH_COL = { # Colima
+	color = { 0 103 205 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { nahua }
+	capital = STATE_JALISCO
 }
 
 NAH_NIC = { # Nicarao

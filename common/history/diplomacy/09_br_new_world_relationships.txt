@@ -1,4 +1,5 @@
 ﻿DIPLOMACY = {
+	## European Overlordships
 	c:HRE ?= {
 		create_diplomatic_pact = {
 			country = c:br_louisiane
@@ -11,7 +12,8 @@
 		set_relations = { country = c:br_louisiane value = 50 }
 		set_relations = { country = c:br_antarctique value = 50 }
 	}
-
+	
+	## New World Colonizers
 	c:br_vinland ?= {
 		create_unidirectional_truce = {
 			country = c:CTF
@@ -112,7 +114,6 @@
 			country = c:br_creek
 			months = 80
 		}
-	
 	}
 
 	c:br_apaleisia = {
@@ -213,8 +214,29 @@
 		}
 	}
 	
-	## Mesoamerican Relationships
+	## Mesoamerican Native Tags
 	c:NAH ?= {
+		set_relations = {
+			country = c:br_louisiane 
+			value = -50
+		}
+		set_relations = {
+			country = c:br_elysium
+			value = 50
+		}
+		set_relations = {
+			country = c:br_atlantica
+			value = 25
+		}
+		set_relations = {
+			country = c:MAY_PAN 
+			value = -15
+		}
+		set_relations = {
+			country = c:MES_IRE 
+			value = -50
+		}
+		
 		create_diplomatic_pact = {
 			country = c:PUE
 			type = tributary
@@ -239,29 +261,43 @@
 			country = c:NAH_NIC
 			type = tributary
 		}
+		
 		create_bidirectional_truce = {
 			country = c:br_louisiane
 			months = 60
 		}
-		set_relations = {
-			country = c:br_louisiane 
-			value = -50
+		create_bidirectional_truce = {
+			country = c:MES_IRE
+			months = 24
 		}
-		create_diplomatic_pact = {
-			country = c:br_elysium
-			type = defensive_pact
-		}
-		set_relations = {
-			country = c:br_elysium
-			value = 50
-		}
-		set_relations = {
-			country = c:br_atlantica
-			value = 25
+		create_bidirectional_truce = {
+			country = c:NAH_COL
+			months = 24
 		}
 	}
 	
 	c:MAY_PAN = {
+		set_relations = {
+			country = c:NAH 
+			value = -15
+		}
+		set_relations = {
+			country = c:MAY_XIU
+			value = 20
+		}
+		set_relations = {
+			country = c:MAY_ITZ 
+			value = 20
+		}
+		set_relations = {
+			country = c:MAY_CHL 
+			value = 20
+		}
+		set_relations = {
+			country = c:MAY_CHO 
+			value = 20
+		}
+		
 		create_diplomatic_pact = {
 			country = c:MAY_XIU
 			type = tributary
@@ -277,6 +313,17 @@
 		create_diplomatic_pact = {
 			country = c:MAY_CHO
 			type = tributary
+		}
+	}
+	
+	c:MES_IRE = {
+		set_relations = {
+			country = c:NAH_COL 
+			value = 20
+		}
+		create_diplomatic_pact = {
+			country = c:NAH_COL
+			type = guarantee_independence
 		}
 	}
 

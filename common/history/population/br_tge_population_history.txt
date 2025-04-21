@@ -10,6 +10,14 @@
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_baseline = yes
 	}
+	c:ARI_LAY ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:ARI_PIM ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
 	c:ARI_TAR ?= {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_baseline = yes
@@ -62,6 +70,10 @@
 	c:NAH ?= {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_middling = yes
+	}
+	c:NAH_COL ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
 	}
 	c:NAH_NIC ?= {
 		effect_starting_pop_wealth_low = yes

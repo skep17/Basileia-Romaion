@@ -54,6 +54,28 @@ ARI_CAH = {
 	}
 }
 
+ARI_LAY = {
+	pattern = "pattern_solid.tga"
+	color1 = { 71 152 156 }
+	
+	colored_emblem = {
+		texture = "ce_conch_shell.dds"
+		color1 = "light_blue"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+ARI_PIM = {
+	pattern = "pattern_solid.tga"
+	color1 = { 71 152 156 }
+	
+	colored_emblem = {
+		texture = "ce_frame_circle_doted.dds"
+		color1 = "red"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
 ARI_TAR = {
 	pattern = "pattern_solid.tga"
 	color1 = { 215 200 130 }
@@ -442,6 +464,27 @@ NAH_AZT_monarchy = {
 		instance = {
 			scale = { 0.50 0.50 }
 			position = { 0.50 0.85 }
+		}
+	}
+}
+
+NAH_COL = {
+	pattern = "pattern_solid.tga"
+	color1 = { 64 0 255 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = { 255 255 255 }
+		color2 = { 64 0 255 }
+        instance = {
+			scale = { 1 1 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_tge_colima.dds"
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
 		}
 	}
 }

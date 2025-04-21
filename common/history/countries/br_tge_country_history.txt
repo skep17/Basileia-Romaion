@@ -46,6 +46,40 @@
 		
 		effect_starting_politics_chiefdom = yes
 	}
+	c:ARI_LAY ?= {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_altepetl = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		activate_law = law_type:law_tribal_armies
+		activate_law = law_type:law_debt_slavery
+		
+	}
+	c:ARI_PIM ?= {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_altepetl = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_closed_borders
+
+		effect_native_conscription_9 = yes
+		activate_law = law_type:law_tribal_armies
+		activate_law = law_type:law_debt_slavery
+		
+	}
 	c:ARI_TAR ?= {
 		effect_starting_technology_tier_5_tech = yes
 		add_technology_researched = urban_planning
@@ -150,6 +184,11 @@
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_slave_trade
+	}
+	c:NAH_COL ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_altepetl = yes
 	}
 	c:NAH_NIC ?= {
 		effect_starting_technology_tier_6_tech = yes
