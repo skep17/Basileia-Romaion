@@ -1,4 +1,4 @@
-﻿eocfm_specific_country_setups_effect = {
+eocfm_specific_country_setups_effect = {
 	c:BYZ = {
 		#add_modifier = modifier_eocfm_reformed_synod
 		#add_modifier = modifier_eocfm_dissolved_monasteries
@@ -197,5 +197,273 @@ eocfm_initialize_patriarchs_effect = {
 	set_global_variable = {
 		name = eocfm_mixtec_liturgical_rite_var
 		value = 102 # Mixtec
+=======
+﻿eocfm_update_elysium_effect = {
+	# First, try to find the character in the void
+	if = {
+		limit = {
+			any_character_in_void = {
+				has_template = template_eocfm_elysium_patriarch
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_template = template_eocfm_elysium_patriarch
+			}
+			save_scope_as = eocfm_elysium_patriarch_scope
+		}
+	}
+	# Failing that, generate a new character
+	else = {
+		# Attempt to generate using the elysium controller
+		if = {
+			limit = {
+				any_country = {
+					has_variable = eocfm_controls_elysium
+					eocfm_is_christian_trigger = yes
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = eocfm_controls_elysium
+				}
+				create_character = {
+					template = template_eocfm_elysium_patriarch
+					on_created = {
+						place_character_in_void = 180 # 15 year shelf life
+					}
+				}
+			}
+		}
+		# Fallback to Elysian Orthodox
+		else = {
+			create_character = {
+				template = template_eocfm_elysium_patriarch
+				culture = cu:
+				religion = rel:
+				on_created = {
+					place_character_in_void = 180 # 15 year shelf life
+				}
+			}
+		}
+		# Update Relations Variables
+		every_country = {
+			limit = {
+				eocfm_is_christian_trigger = yes
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_variable = eocfm_elysium_relations_var
+					}
+				}
+				set_variable = {
+					name = eocfm_elysium_relations_var
+					value = 0
+				}
+			}
+			change_variable = {
+				name = eocfm_elysium_relations_var
+				add = -25
+			}
+			clamp_variable = {
+				name = eocfm_elysium_relations_var
+				min = 0
+				max = 50
+			}
+			post_notification = notification_eocfm_elysium_replaced
+		}
+		# Save the new character
+		random_character_in_void = {
+			limit = {
+				has_template = template_eocfm_elysium_patriarch
+			}
+			save_scope_as = eocfm_elysium_patriarch_scope
+		}
+	}
+	# Finally, set the new variable
+	set_variable = {
+		name = eocfm_elysium_patriarch_var
+		value = scope:eocfm_elysium_patriarch_scope
+	}
+}
+
+eocfm_update_mixtec_effect = {
+	# First, try to find the character in the void
+	if = {
+		limit = {
+			any_character_in_void = {
+				has_template = template_eocfm_mixtec_patriarch
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_template = template_eocfm_mixtec_patriarch
+			}
+			save_scope_as = eocfm_mixtec_patriarch_scope
+		}
+	}
+	# Failing that, generate a new character
+	else = {
+		# Attempt to generate using the mixtec controller
+		if = {
+			limit = {
+				any_country = {
+					has_variable = eocfm_controls_mixtec
+					eocfm_is_christian_trigger = yes
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = eocfm_controls_mixtec
+				}
+				create_character = {
+					template = template_eocfm_mixtec_patriarch
+					on_created = {
+						place_character_in_void = 180 # 15 year shelf life
+					}
+				}
+			}
+		}
+		# Fallback to Mixtec Elysian Orthodox
+		else = {
+			create_character = {
+				template = template_eocfm_mixtec_patriarch
+				culture = cu:
+				religion = rel:
+				on_created = {
+					place_character_in_void = 180 # 15 year shelf life
+				}
+			}
+		}
+		# Update Relations Variables
+		every_country = {
+			limit = {
+				eocfm_is_christian_trigger = yes
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_variable = eocfm_mixtec_relations_var
+					}
+				}
+				set_variable = {
+					name = eocfm_mixtec_relations_var
+					value = 0
+				}
+			}
+			change_variable = {
+				name = eocfm_mixtec_relations_var
+				add = -25
+			}
+			clamp_variable = {
+				name = eocfm_mixtec_relations_var
+				min = 0
+				max = 50
+			}
+			post_notification = notification_eocfm_mixtec_replaced
+		}
+		# Save the new character
+		random_character_in_void = {
+			limit = {
+				has_template = template_eocfm_mixtec_patriarch
+			}
+			save_scope_as = eocfm_mixtec_patriarch_scope
+		}
+	}
+	# Finally, set the new variable
+	set_variable = {
+		name = eocfm_mixtec_patriarch_var
+		value = scope:eocfm_mixtec_patriarch_scope
+	}
+}
+
+eocfm_update_cahokia_effect = {
+	# First, try to find the character in the void
+	if = {
+		limit = {
+			any_character_in_void = {
+				has_template = template_eocfm_cahokia_patriarch
+			}
+		}
+		random_character_in_void = {
+			limit = {
+				has_template = template_eocfm_cahokia_patriarch
+			}
+			save_scope_as = eocfm_cahokia_patriarch_scope
+		}
+	}
+	# Failing that, generate a new character
+	else = {
+		# Attempt to generate using the Cahokia controller
+		if = {
+			limit = {
+				any_country = {
+					has_variable = eocfm_controls_cahokia
+					eocfm_is_christian_trigger = yes
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = eocfm_controls_cahokia
+				}
+				create_character = {
+					template = template_eocfm_cahokia_patriarch
+					on_created = {
+						place_character_in_void = 180 # 15 year shelf life
+					}
+				}
+			}
+		}
+		# Fallback to Illiniwek Elysian Orthodox 
+		else = {
+			create_character = {
+				template = template_eocfm_cahokia_patriarch
+				culture = cu:
+				religion = rel:
+				on_created = {
+					place_character_in_void = 180 # 15 year shelf life
+				}
+			}
+		}
+		# Update Relations Variables
+		every_country = {
+			limit = {
+				eocfm_is_christian_trigger = yes
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_variable = eocfm_cahokia_relations_var
+					}
+				}
+				set_variable = {
+					name = eocfm_cahokia_relations_var
+					value = 0
+				}
+			}
+			change_variable = {
+				name = eocfm_cahokia_relations_var
+				add = -25
+			}
+			clamp_variable = {
+				name = eocfm_cahokia_relations_var
+				min = 0
+				max = 50
+			}
+			post_notification = notification_eocfm_cahokia_replaced
+		}
+		# Save the new character
+		random_character_in_void = {
+			limit = {
+				has_template = template_eocfm_cahokia_patriarch
+			}
+			save_scope_as = eocfm_cahokia_patriarch_scope
+		}
+	}
+	# Finally, set the new variable
+	set_variable = {
+		name = eocfm_cahokia_patriarch_var
+		value = scope:eocfm_cahokia_patriarch_scope
 	}
 }
