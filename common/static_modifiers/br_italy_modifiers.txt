@@ -24,7 +24,7 @@ br_modifier_italy_accessible_stock_exchanges = {
 	country_loan_interest_rate_add = -0.02
 
 	#debuff
-	state_peasants_consumption_multiplier_add= 0.1
+	state_expected_sol_mult = 0.15
 }
 
 br_modifier_italy_colonial_dividends = {  #will rework this one later.
@@ -36,13 +36,9 @@ br_modifier_italy_colonial_dividends = {  #will rework this one later.
 br_modifier_italy_gunboat_trade_diplomacy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_manowar_positive.dds
 	country_max_companies_add = 1
-
-	#Military
 	country_prestige_from_navy_power_projection_mult = 0.25
 	unit_navy_defense_mult = 0.25
-
-	country_trade_route_cost_mult = -0.25
-	country_trade_route_competitiveness_mult = 0.25
+	state_trade_advantage_mult = 0.25
 }
 
 br_modifier_italy_craftsmanship = {

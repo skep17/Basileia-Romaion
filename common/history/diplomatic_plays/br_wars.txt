@@ -129,18 +129,18 @@
 #				type = return_state
 #				target_state = s:STATE_CONSTANTINE.region_state:CNN
 #			}
-#		}		
+#		}
 #	}
 
-	c:br_atlantica = {
-		create_diplomatic_play = {
-			name = VCA_WAR
-			target_country = c:SML
-			add_initiator_backers = { c:br_louisiane }
-			war = yes
-			type = dp_annex_war #dp_annex_subject #dp_secession
-		}			
-	}
+#	c:br_atlantica = {
+#		create_diplomatic_play = {
+#			name = VCA_WAR
+#			target_country = c:SML
+#			add_initiator_backers = { c:br_louisiane }
+#			war = yes
+#			type = dp_annex_war #dp_annex_subject #dp_secession
+#		}
+#	}
 
 	c:CHI = {
 		create_diplomatic_play = {
@@ -151,27 +151,16 @@
 		}			
 	}
 
-	c:MUG = {
-		create_diplomatic_play = {
-			name = GWA_WAR
-			target_country = c:GWA
-			add_initiator_backers = { c:BGL c:GUJ c:BUN c:SIN c:ORI }
-			add_target_backers = { c:MHR c:NAG c:RAJ  }
-			war = yes
-			type = dp_annex_subject
-		}			
-	}
-	
 	c:NAH = {
 		create_diplomatic_play = {
 			target_country = c:ZAP_TEH
-			type = dp_annex_subject 
+			type = dp_annex_subject
 			add_initiator_backers = {
 				c:PUE c:ZAP c:NAH_PIP c:NAH_NIC c:MAY_WAS c:ARI_CAH
 			}
 		}
 	}
-	
+
 	c:ARI_TAR = {
 		create_diplomatic_play = {
 			target_country = c:NAH
@@ -181,7 +170,7 @@
 				type = return_state
 				target_state = s:STATE_CHIHUAHUA.region_state:NAH
 			}
-			add_war_goal = { 
+			add_war_goal = {
 				holder = c:NAH
 				type = revoke_claim
 				target_state = s:STATE_CHIHUAHUA.region_state:NAH

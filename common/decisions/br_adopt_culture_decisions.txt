@@ -13,6 +13,10 @@
 			has_law = law_type:law_ethnostate 
 			country_has_primary_culture = cu:armenian
 		}
+		cultural_acceptance_base = { 
+			target = cu:armenian 
+			value >= acceptance_status_5
+		}
 	}
 
 	when_taken = {
@@ -39,7 +43,7 @@
 	}
 
 	ai_chance = {
-		base = 0
+		value = 0
 	}
 }
 
@@ -58,6 +62,18 @@ br_end_slavic_oppression_decision = {
 			NOT = { has_law = law_type:law_national_supremacy }
 			NOT = { has_law = law_type:law_ethnostate }
 			has_modifier = br_modifier_slavic_cultural_discrimination
+		}
+		cultural_acceptance_base = { 
+			target = cu:serb 
+			value >= acceptance_status_5
+		}
+		cultural_acceptance_base = { 
+			target = cu:bulgarian 
+			value >= acceptance_status_5
+		}
+		cultural_acceptance_base = { 
+			target = cu:albanian 
+			value >= acceptance_status_5
 		}
 		
 	}
@@ -86,7 +102,7 @@ br_end_slavic_oppression_decision = {
 	}
 
 	ai_chance = {
-		base = 0
+		value = 0
 	}
 }
 
@@ -129,7 +145,7 @@ br_end_muslim_oppression_decision = {
 	}
 
 	ai_chance = {
-		base = 0
+		value = 0
 	}
 }
 
@@ -150,6 +166,10 @@ accept_english_decision = {
 			has_law = law_type:law_ethnostate 
 			country_has_primary_culture = cu:british
 		}
+		cultural_acceptance_base = { 
+			target = cu:british 
+			value >= acceptance_status_5
+		}
 	}
 
 	when_taken = {
@@ -162,7 +182,7 @@ accept_english_decision = {
 	}
 
 	ai_chance = {
-		base = 0
+		value = 0
 	}
 }
 
@@ -183,6 +203,10 @@ accept_anglo_dane_decision = {
 			has_law = law_type:law_ethnostate 
 			country_has_primary_culture = cu:anglo_dane
 		}
+		cultural_acceptance_base = { 
+			target = cu:anglo_dane 
+			value >= acceptance_status_5
+		}
 	}
 
 	when_taken = {
@@ -195,9 +219,9 @@ accept_anglo_dane_decision = {
 	}
 
 	ai_chance = {
-		base = 5
-		modifier = {
-			trigger = {
+		value = 5
+		if = {
+			limit = {
 				game_date > 1800.1.1
 			}
 			add = 5
@@ -218,6 +242,10 @@ azerbaijani_decision = {
 			has_law = law_type:law_ethnostate 
 			country_has_primary_culture = cu:azerbaijani
 		}
+		cultural_acceptance_base = { 
+			target = cu:azerbaijani 
+			value >= acceptance_status_5
+		}
 	}
 
 	when_taken = {
@@ -229,9 +257,9 @@ azerbaijani_decision = {
 	}
 
 	ai_chance = {
-		base = 5
-		modifier = {
-			trigger = {
+		value = 5
+		if = {
+			limit = {
 				game_date > 1800.1.1
 			}
 			add = 5
@@ -265,6 +293,10 @@ accept_baltic_german_decision = {
 			has_law = law_type:law_ethnostate 
 			country_has_primary_culture = cu:baltic_german
 		}
+		cultural_acceptance_base = { 
+			target = cu:baltic_german 
+			value >= acceptance_status_5
+		}
 	}
 
 	when_taken = {
@@ -277,9 +309,9 @@ accept_baltic_german_decision = {
 	}
 
 	ai_chance = {
-		base = 5
-		modifier = {
-			trigger = {
+		value = 5
+		if = {
+			limit = {
 				game_date > 1800.1.1
 			}
 			add = 5

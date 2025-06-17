@@ -14,8 +14,8 @@
 		add_taxed_goods = g:luxury_furniture
 		add_taxed_goods = g:porcelain
 		add_taxed_goods = g:meat
-		set_tariffs_import_priority = g:spices
-		set_tariffs_import_priority = g:sugar
+		#set_tariffs_import_priority = g:spices
+		#set_tariffs_import_priority = g:sugar
 
 		set_market_capital = STATE_KANTO
 		
@@ -150,14 +150,14 @@
 		add_taxed_goods = g:services
 		
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_racial_segregation
 
-		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_agrarianism
 		
 		activate_law = law_type:law_censorship
 
@@ -211,6 +211,8 @@
 
 		ig:ig_landowners = {
 			add_ideology = ideology_frontier_expansionist
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_patrician
 		}
 
 		ig:ig_devout = {
@@ -272,6 +274,8 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 			add_ideology = ideology_frontier_expansionist
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_patrician
 		}
 
 		ig:ig_rural_folk = {
@@ -320,6 +324,8 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 			add_ideology = ideology_frontier_expansionist
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_patrician
 		}
 
 		ig:ig_rural_folk = {

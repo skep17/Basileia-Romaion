@@ -372,6 +372,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = manchu
+				religion = br_religion_tengri
 				size = 10000
 			}
 			create_pop = {
@@ -1016,7 +1017,7 @@
 			create_pop = {
 				culture = apoikoi
 				size = 22800
-				working_adult_ratio = 0.45
+				working_adult_ratio = 0.75
 			}
 			create_pop = {
 				culture = latinoi
@@ -1308,7 +1309,7 @@
 			create_pop = {
 				culture = colonial_dutch
 				size = 8500
-				working_adult_ratio = 0.45
+				working_adult_ratio = 0.65
 			}
 		}
 		region_state:FRS = {

@@ -37,63 +37,54 @@ br_hun_annex_trs = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
 br_byz_easy_agy = {
 	is_shown = {
-		exists = c:BYZ
-		c:BYZ = ROOT
-		c:BYZ = {
-			is_player = no
-		}
+		exists = c:br_aegypt
+		c:br_aegypt = ROOT
 		c:br_aegypt = {
 			is_player = no
 		}
-		c:br_romaioi_india_company = {
-			is_player = no
-			is_subject_of = c:br_aegypt
-		}
 		NOT = {
-			c:br_romaioi_india_company = {
-				is_subject_of = ROOT
+			c:br_aegypt = {
+				is_subject_of = c:BYZ
 			}
+		}
+		hidden_trigger = {
+			NOT = { has_variable = aegyptian_crisis_started }
 		}
 	}
 
 	possible = {
+		hidden_trigger = {
+			NOT = { has_variable = aegyptian_crisis_started }
+		}
 		NOT = {
-			c:br_romaioi_india_company = {
-				is_subject_of = ROOT
+			c:br_aegypt = {
+				is_subject_of = c:BYZ
 			}
 		}
 	}
 
 	when_taken = {
-		create_diplomatic_pact = {
-			country = c:br_romaioi_india_company	
-			type = chartered_company
+		set_variable = {
+			name = aegyptian_crisis_started
+			value = yes
 		}
-	#	create_diplomatic_pact = {
-	#		country = c:br_australis	
-	#		type = colony
-	#	}
-	#	create_diplomatic_pact = {
-	#		country = c:br_kyrenaica
-	#		type = colony
-	#	}
+		c:BYZ ?= {
+			trigger_event = {
+				id = aegyptian_crisis_events.4
+				days = 65
+			}
+		}
 	}
 
 	ai_chance = {
-		base = 10
-		modifier = {
-			trigger = {
-				game_date > 1750.1.1
-			}
-			add = 25
-		}
-		modifier = {
+		value = 75
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -148,14 +139,14 @@ br_hre_annex_franks = {
 	}
 
 	ai_chance = {
-		base = 1
-		modifier = {
-			trigger = {
+		value = 1
+		if = {
+			limit = {
 				game_date > 1750.1.1
 			}
 			add = 25
 		}
-		modifier = {
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -197,14 +188,14 @@ br_eet_annex_suakin = {
 	}
 
 	ai_chance = {
-		base = 25
-		modifier = {
-			trigger = {
+		value = 25
+		if = {
+			limit = {
 				game_date > 1740.1.1
 			}
 			add = 25
 		}
-		modifier = {
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -268,14 +259,76 @@ br_serb_chaos = {
 	}
 
 	ai_chance = {
-		base = 15
-		modifier = {
-			trigger = {
+		value = 15
+		if = {
+			limit = {
 				game_date > 1740.1.1
 			}
 			add = 25
 		}
-		modifier = {
+		if = {
+			OR = {
+				is_diplomatic_play_committed_participant = yes
+				is_at_war = yes
+			}
+			add = -1000
+		}
+	}
+}
+
+br_india_chaos = {
+	is_shown = {
+		exists = c:MUG
+		exists = c:MHR
+		c:MUG = ROOT
+		c:MUG = {
+			is_player = no
+		}
+		c:MHR = {
+			is_player = no
+		}
+		hidden_trigger = {
+			NOT = { has_variable = india_kerfuffle_started }
+		}
+	}
+
+	possible = {
+		is_at_war = no
+		c:MUG = {
+			is_player = no
+		}
+		hidden_trigger = {
+			NOT = { has_variable = india_kerfuffle_started }
+		}
+	}
+
+	when_taken = {
+		set_variable = {
+			name = india_kerfuffle_started
+			value = yes
+		}
+		c:MUG = {
+			trigger_event = {
+				id = br_india_kerfuffle.1
+			}
+		}
+		c:br_romaioi_india_company = {
+			trigger_event = {
+				id = br_india_kerfuffle.2
+				days = 25
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 25
+		if = {
+			limit = {
+				game_date > 1740.1.1
+			}
+			add = 25
+		}
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -302,6 +355,7 @@ br_anl_annex_west_africa_01 = {
 		c:ANL = {
 			is_player = no
 		}
+		NOT = { has_variable = ai_annex_venice_africa_started }
 	}
 
 	possible = {
@@ -311,9 +365,14 @@ br_anl_annex_west_africa_01 = {
 			is_player = no
 			is_subject_of = c:VEN
 		}
+		NOT = { has_variable = ai_annex_venice_africa_started }
 	}
 
 	when_taken = {
+		set_variable = {
+			name = ai_annex_venice_africa_started
+			value = yes
+		}
 		create_diplomatic_play = {
 			war = yes
 			type = dp_annex_war
@@ -341,14 +400,14 @@ br_anl_annex_west_africa_01 = {
 	}
 
 	ai_chance = {
-		base = 5
-		modifier = {
-			trigger = {
+		value = 5
+		if = {
+			limit = {
 				game_date > 1745.1.1
 			}
 			add = 25
 		}
-		modifier = {
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -373,9 +432,11 @@ br_anl_annex_west_africa_02 = {
 		c:ANL = {
 			is_player = no
 		}
+		NOT = { has_variable = ai_annex_genoa_africa_started }
 	}
 
 	possible = {
+		NOT = { has_variable = ai_annex_genoa_africa_started }
 		is_at_war = no
 		is_subject = no
 		c:br_genonese_africa_company = {
@@ -385,6 +446,10 @@ br_anl_annex_west_africa_02 = {
 	}
 
 	when_taken = {
+		set_variable = {
+			name = ai_annex_genoa_africa_started
+			value = yes
+		}
 		create_diplomatic_play = {
 			war = yes
 			type = dp_annex_war
@@ -412,14 +477,14 @@ br_anl_annex_west_africa_02 = {
 	}
 
 	ai_chance = {
-		base = 5
-		modifier = {
-			trigger = {
+		value = 5
+		if = {
+			limit = {
 				game_date > 1745.1.1
 			}
 			add = 25
 		}
-		modifier = {
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -447,6 +512,7 @@ br_louisiane_annex_atlantis = {
 				is_player = no
 			}
 		}
+		NOT = { has_variable = ai_annex_atlantis_started }
 	}
 
 	possible = {
@@ -458,9 +524,14 @@ br_louisiane_annex_atlantis = {
 				is_player = no
 			}
 		}
+		NOT = { has_variable = ai_annex_atlantis_started }
 	}
 
 	when_taken = {
+		set_variable = {
+			name = ai_annex_atlantis_started
+			value = yes
+		}
 		create_diplomatic_play = {
 			war = yes
 			type = dp_annex_war
@@ -488,14 +559,14 @@ br_louisiane_annex_atlantis = {
 	}
 
 	ai_chance = {
-		base = 1
-		modifier = {
-			trigger = {
+		value = 1
+		if = {
+			limit = {
 				game_date > 1746.1.1
 			}
 			add = 25
 		}
-		modifier = {
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -523,6 +594,7 @@ br_dutch_indies_annex_giamaica = {
 				is_player = no
 			}
 		}
+		NOT = { has_variable = ai_annex_giamaica_started }
 	}
 
 	possible = {
@@ -537,9 +609,14 @@ br_dutch_indies_annex_giamaica = {
 				}
 			}
 		}
+		NOT = { has_variable = ai_annex_giamaica_started }
 	}
 
 	when_taken = {
+		set_variable = {
+			name = ai_annex_giamaica_started
+			value = yes
+		}
 		create_diplomatic_play = {
 			war = yes
 			type = dp_annex_war
@@ -567,14 +644,14 @@ br_dutch_indies_annex_giamaica = {
 	}
 
 	ai_chance = {
-		base = 1
-		modifier = {
-			trigger = {
+		value = 1
+		if = {
+			limit = {
 				game_date > 1746.1.1
 			}
 			add = 25
 		}
-		modifier = {
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -648,8 +725,8 @@ br_ai_owns_constantinople = {
 	}
 
 	ai_chance = {
-		base = 100
-		modifier = {
+		value = 100
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -729,8 +806,8 @@ br_ai_owns_venice = {
 	}
 
 	ai_chance = {
-		base = 100
-		modifier = {
+		value = 100
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes
@@ -816,8 +893,8 @@ br_ai_owns_genoa = {
 	}
 
 	ai_chance = {
-		base = 100
-		modifier = {
+		value = 100
+		if = {
 			OR = {
 				is_diplomatic_play_committed_participant = yes
 				is_at_war = yes

@@ -32,8 +32,8 @@
 		set_government_wage_level = low
 		add_taxed_goods = g:services
 		add_taxed_goods = g:opium
-		set_tariffs_export_priority = g:dyes
-		set_tariffs_export_priority = g:sugar
+		#set_tariffs_export_priority = g:dyes
+		#set_tariffs_export_priority = g:sugar
 
 
 		ig:ig_landowners = {
@@ -86,12 +86,6 @@
 		}
 		ig:ig_trade_unions = {
 			set_interest_group_name = ig_syndikalistai
-			add_modifier = {
-				name = ig_attraction_modifier
-				multiplier = -0.5
-				years = 75
-				is_decaying = yes
-			}
 		}
 
 		add_modifier = {
@@ -279,12 +273,6 @@
 
 		ig:ig_rural_folk = {
 			set_interest_group_name = ig_agrotikos
-			add_modifier = {
-				name = ig_attraction_modifier
-				multiplier = -0.25
-				years = 75
-				is_decaying = yes
-			}
 		}
 
 		ig:ig_petty_bourgeoisie = {
@@ -321,12 +309,6 @@
 
 		ig:ig_trade_unions = {
 			set_interest_group_name = ig_syndikalistai
-			add_modifier = {
-				name = ig_attraction_modifier
-				multiplier = -0.25
-				years = 75
-				is_decaying = yes
-			}
 		}
 
 		ig:ig_devout = {
@@ -363,7 +345,7 @@
 		#effect_starting_wealthy_merchants = yes
 
 		add_company = company_type:company_suez_company
-		add_company = company_type:company_byz_ric
+		#add_company = company_type:company_byz_ric
 
 	}
 
@@ -375,8 +357,8 @@
 		add_technology_researched = colonization
 		
 
-		set_tariffs_import_priority = g:artillery
-		set_tariffs_import_priority = g:small_arms
+		#set_tariffs_import_priority = g:artillery
+		#set_tariffs_import_priority = g:small_arms
 
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_freedom_of_conscience
@@ -414,7 +396,8 @@
 		#In-Government
 		ig:ig_landowners = {
 			set_interest_group_name = ig_themata_patricians
-			add_ideology = ideology_romaioi_hegemony
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_patrician
 			add_ruling_interest_group = yes
 		}
 
@@ -463,12 +446,6 @@
 
 		ig:ig_trade_unions = {
 			set_interest_group_name = ig_syndikalistai
-			add_modifier = {
-				name = ig_attraction_modifier
-				multiplier = -0.25
-				years = 75
-				is_decaying = yes
-			}
 		}
 
 

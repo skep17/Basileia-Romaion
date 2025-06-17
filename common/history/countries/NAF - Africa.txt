@@ -13,9 +13,9 @@
 		add_taxed_goods = g:wine
 		add_taxed_goods = g:services
 		
-		set_tariffs_import_priority = g:spices
-		set_tariffs_export_priority = g:fruit
-		set_tariffs_export_priority = g:sugar
+		#set_tariffs_import_priority = g:spices
+		#set_tariffs_export_priority = g:fruit
+		#set_tariffs_export_priority = g:sugar
 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_oligarchy 
@@ -99,12 +99,6 @@
 		}
 		ig:ig_trade_unions = {
 			set_interest_group_name = ig_syndikalistai
-			add_modifier = {
-				name = ig_attraction_modifier
-				multiplier = -0.5
-				years = 75
-				is_decaying = yes
-			}
 		}
 
 		add_modifier = {
@@ -230,12 +224,6 @@
 		}
 		ig:ig_trade_unions = {
 			set_interest_group_name = ig_syndikalistai
-			add_modifier = {
-				name = ig_attraction_modifier
-				multiplier = -0.25
-				years = 75
-				is_decaying = yes
-			}
 		}
 
 		add_modifier = {

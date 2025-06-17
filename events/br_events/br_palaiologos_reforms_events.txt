@@ -31,187 +31,177 @@ palaiologos_reforms.1 = {
 			name = palaiologos_reforms_separatist_var
 			value = 0
 		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_main
+		#Moved to start of game so prestige starts with the debuff
+	#	add_journal_entry = {
+	#		type = je_palaiologos_reforms_main
+	#	}
+	hidden_effect = {
+		change_infamy = -50
+		add_treasury = 999999
+		add_loyalists = {
+			pop_type = aristocrats
+			culture = cu:greek
+			value = very_large_radicals
 		}
+		add_loyalists = {
+			pop_type = officers
+			culture = cu:greek
+			value = very_large_radicals
+		}
+		add_loyalists = {
+			pop_type = soldiers
+			culture = cu:greek
+			value = very_large_radicals
+		}
+		add_loyalists = {
+			pop_type = clergymen
+			culture = cu:greek
+			value = very_large_radicals
+		}
+		add_loyalists = {
+			pop_type = bureaucrats
+			culture = cu:greek
+			value = very_large_radicals
+		}
+		capital = {
+			add_loyalists_in_state = {
+				value = large_radicals
+				culture = cu:greek
+			}
+		}
+		random_scope_state = {
+			limit = {	
+				state_region = s:STATE_KONYA
+			}
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				pop_type = peasants
+				value = very_large_radicals
+			}
+			add_radicals_in_state = {
+				pop_type = farmers
+				value = very_large_radicals
+			}
+		}
+		random_scope_state = {
+			limit = {	
+				state_region = s:STATE_ANKARA
+			}
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				pop_type = peasants
+				value = very_large_radicals
+			}
+			add_radicals_in_state = {
+				pop_type = farmers
+				value = very_large_radicals
+			}
+		}
+		random_scope_state = {
+			limit = {	
+				state_region = s:STATE_KASTAMONU
+			}
+			add_radicals_in_state = {
+				value = large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				value = large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				pop_type = peasants
+				value = large_radicals
+			}
+			add_radicals_in_state = {
+				pop_type = farmers
+				value = very_large_radicals
+			}
+		}
+		random_scope_state = {
+			limit = {	
+				state_region = s:STATE_TRABZON
+			}
+			add_radicals_in_state = {
+				value = large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				value = large_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				pop_type = peasants
+				value = large_radicals
+			}
+			add_radicals_in_state = {
+				pop_type = farmers
+				value = very_large_radicals
+			}
+		}
+		random_scope_state = {
+			limit = {	
+				state_region = s:STATE_ADANA
+			}
+			add_radicals_in_state = {
+				value = medium_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				value = medium_radicals
+				pop_type = aristocrats
+			   }
+			add_radicals_in_state = {
+				pop_type = peasants
+				value = medium_radicals
+			}
+			add_radicals_in_state = {
+				pop_type = farmers
+				value = very_large_radicals
+			}
+		}
+		random_scope_state = {
+			limit = {	
+				state_region = s:STATE_ATTICA
+			}
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = shopkeepers
+			   }
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = clerks
+			   }
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = academics
+			}
+			add_radicals_in_state = {
+				value = very_large_radicals
+				pop_type = academics
+			}
+		}
+	}
 	}
 
 	option = {
 		name = palaiologos_reforms.1.a
 
-		hidden_effect = {
-			change_infamy = -50
-			add_treasury = 999999
-			add_loyalists = {
-				pop_type = aristocrats
-				culture = cu:greek
-				value = very_large_radicals
-			}
-			add_loyalists = {
-				pop_type = officers
-				culture = cu:greek
-				value = very_large_radicals
-			}
-			add_loyalists = {
-				pop_type = soldiers
-				culture = cu:greek
-				value = very_large_radicals
-			}
-			add_loyalists = {
-				pop_type = clergymen
-				culture = cu:greek
-				value = very_large_radicals
-			}
-			add_loyalists = {
-				pop_type = bureaucrats
-				culture = cu:greek
-				value = very_large_radicals
-			}
-			capital = {
-				add_loyalists_in_state = {
-					value = large_radicals
-					culture = cu:greek
-				}
-			}
-			random_scope_state = {
-				limit = {	
-					state_region = s:STATE_KONYA
-				}
-				add_radicals_in_state = {
-            		value = very_large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-            		value = very_large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-					pop_type = peasants
-					value = very_large_radicals
-				}
-			}
-			random_scope_state = {
-				limit = {	
-					state_region = s:STATE_ANKARA
-				}
-				add_radicals_in_state = {
-            		value = very_large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-            		value = very_large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-					pop_type = peasants
-					value = very_large_radicals
-				}
-			}
-			random_scope_state = {
-				limit = {	
-					state_region = s:STATE_KASTAMONU
-				}
-				add_radicals_in_state = {
-            		value = large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-            		value = large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-					pop_type = peasants
-					value = large_radicals
-				}
-			}
-			random_scope_state = {
-				limit = {	
-					state_region = s:STATE_TRABZON
-				}
-				add_radicals_in_state = {
-            		value = large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-            		value = large_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-					pop_type = peasants
-					value = large_radicals
-				}
-			}
-			random_scope_state = {
-				limit = {	
-					state_region = s:STATE_ADANA
-				}
-				add_radicals_in_state = {
-            		value = medium_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-            		value = medium_radicals
-					pop_type = aristocrats
-          	 	}
-				add_radicals_in_state = {
-					pop_type = peasants
-					value = medium_radicals
-				}
-			}
-			random_scope_state = {
-				limit = {	
-					state_region = s:STATE_ATTICA
-				}
-				add_radicals_in_state = {
-            		value = very_large_radicals
-					pop_type = shopkeepers
-          	 	}
-				add_radicals_in_state = {
-            		value = very_large_radicals
-					pop_type = clerks
-          	 	}
-				add_radicals_in_state = {
-					value = very_large_radicals
-					pop_type = academics
-				}
-			}
-		}
-
-		add_journal_entry = {
-			type = je_palaiologos_reforms_syria
-		}
-	#Do Syria first to unlock rest.	Or not
-		
-		add_journal_entry = {
-			type = je_palaiologos_reforms_economy
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_education
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_separatism
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_army
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_navy
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_bureaucracy
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_centralization_west
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_centralization_east
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_end_curruption
-		}
-		add_journal_entry = {
-			type = je_palaiologos_reforms_end_latin_privileges
-		}
+		#Moved Journals to Country file so the debuffs are active from start so prestige isn't higher than intended at start of game.
 		show_as_tooltip = {
 			add_modifier = {
 				name = br_modifier_corrupt_pronoia

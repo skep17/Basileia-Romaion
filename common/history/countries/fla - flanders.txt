@@ -57,11 +57,6 @@
 			}
 		}
 
-		add_company = company_type:company_fla_trade
-		company:company_fla_trade = {
-			set_company_establishment_date = 1325.1.1
-			set_company_state_region = s:STATE_FLANDERS
-		}
 
 		add_modifier = {
 			name = br_modifier_corporate_reforms
@@ -88,8 +83,8 @@
 
 		set_tax_level = medium
 		
-		set_tariffs_import_priority = g:artillery
-		set_tariffs_import_priority = g:small_arms
+		#set_tariffs_import_priority = g:artillery
+		#set_tariffs_import_priority = g:small_arms
 		add_taxed_goods = g:liquor
 		
 		# Laws
@@ -109,6 +104,8 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 			add_ideology = ideology_frontier_expansionist
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_patrician
 			add_modifier = {
 				name = ig_attraction_modifier
 				multiplier = -0.25
@@ -136,12 +133,6 @@
 		}
 
 		ig:ig_rural_folk = {
-			add_modifier = {
-				name = ig_attraction_modifier
-				multiplier = -0.5
-				years = 75
-				is_decaying = yes
-			}
 		}
 		
 		add_journal_entry = { type = je_br_colonial_subject }
