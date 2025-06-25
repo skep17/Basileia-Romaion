@@ -64,6 +64,7 @@
 		set_relations = { country = c:IRO value = -100 }
 		set_relations = { country = c:CTF value = -100 }
 		set_relations = { country = c:CHE value = -100 }
+		set_relations = { country = c:MIX value = 75 }
 
 		create_diplomatic_pact = {
 			country = c:br_apaleisia
@@ -113,6 +114,11 @@
 		create_unidirectional_truce = {
 			country = c:br_creek
 			months = 80
+		}
+
+		set_secret_goal = {
+			country = c:MIX
+			secret_goal = protect
 		}
 	}
 
@@ -167,10 +173,6 @@
 			months = 24
 		}
 		create_unidirectional_truce = {
-			country = c:G1A
-			months = 14
-		}
-		create_unidirectional_truce = {
 			country = c:PAT
 			months = 24
 		}
@@ -180,18 +182,6 @@
 	c:br_antarctique = {
 		set_relations = { country = c:br_giamaica value = 25 }
 		set_relations = { country = c:br_atlantica value = 25 }
-		create_unidirectional_truce = {
-			country = c:GJ1
-			months = 24
-		}
-		create_unidirectional_truce = {
-			country = c:AC1
-			months = 24
-		}
-		create_unidirectional_truce = {
-			country = c:GJ1
-			months = 32
-		}
 	}
 
 	c:br_chinese_new_world = {
@@ -204,14 +194,6 @@
 	c:br_japanese_new_world = {
 		set_relations = { country = c:br_chinese_new_world value = -50 }
 		add_liberty_desire = 10
-		create_unidirectional_truce = {
-			country = c:L04
-			months = 90
-		}
-		create_unidirectional_truce = {
-			country = c:T06
-			months = 90
-		}
 	}
 	
 	## Mesoamerican Native Tags
@@ -321,9 +303,16 @@
 			country = c:NAH_COL 
 			value = 20
 		}
-		create_diplomatic_pact = {
-			country = c:NAH_COL
-			type = guarantee_independence
+	}
+
+	c:MIX = {
+		set_relations = {
+			country = c:br_elysium
+			value = 50
+		}
+		set_secret_goal = {
+			country = c:br_elysium
+			secret_goal = befriend
 		}
 	}
 
