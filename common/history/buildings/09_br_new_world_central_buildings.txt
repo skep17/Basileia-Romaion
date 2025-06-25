@@ -106,29 +106,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NAH"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:NAH"
-						levels = 1
-						region = "STATE_MEXICO"
-					}
-				}
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -150,7 +128,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=5
+						levels=2
 						region="STATE_MEXICO"
 					}
 				}
@@ -164,7 +142,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_lead_mine"
@@ -216,7 +194,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=2
+						levels=1
 						region="STATE_MEXICO"
 					}
 				}
@@ -237,25 +215,12 @@
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:NAH"
-						levels=1
-						region="STATE_MEXICO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
-			}
-			create_building={
 				building="building_cotton_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=3
+						levels=1
 						region="STATE_MEXICO"
 					}
 				}
@@ -295,7 +260,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=5
+						levels=3
 						region="STATE_MEXICO"
 					}
 				}
@@ -322,7 +287,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -357,20 +322,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:NAH"
-						levels=1
-						region="STATE_MEXICO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 		}
 		region_state:ARI_CAH={
@@ -392,7 +344,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=4
+						levels=1
 						region="STATE_MEXICO"
 					}
 				}
@@ -419,7 +371,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=5
+						levels=1
 						region="STATE_MEXICO"
 					}
 				}
@@ -446,7 +398,7 @@
 			create_building={
 				building="building_chichen_itza"
 				level=1
-				activate_production_methods={ "pm_default_building_palace_complex" }
+				activate_production_methods={ "br_pm_building_great_palace_active" }
 			}
 			create_building={
 				building="building_port"
@@ -625,28 +577,23 @@
 			create_building={
 				building="building_huey_teocalli"
 				level=1
-				activate_production_methods={ "pm_default_building_palace_complex" }
-			}
+				activate_production_methods={ "br_pm_building_great_palace_active" }
+			}br_pm_building_great_palace_active
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
 						country="c:NAH"
-						levels=2
+						levels=5
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
-			}
-			create_building={
-				building="building_palace_complex"
-				level=1
-				activate_production_methods={ "pm_default_building_palace_complex" }
 			}
 			create_building={
 				building="building_university"
@@ -708,19 +655,6 @@
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
-			create_building={
-				building="building_arms_industry"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NAH"
-						levels=1
-						region="STATE_MEXICO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
-			}
 
 			create_building={
 				building="building_logging_camp"
@@ -728,25 +662,12 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=4
+						levels=3
 						region="STATE_MEXICO"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
-			}
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NAH"
-						levels=1
-						region="STATE_MEXICO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 
 			create_building={
@@ -782,7 +703,7 @@
 					building={
 						type="building_manor_house"
 						country="c:br_atlantica"
-						levels=2
+						levels=1
 						region="STATE_CUBA"
 					}
 					company={
@@ -820,7 +741,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -828,7 +749,6 @@
 					country={
 						country="c:NAH"
 						levels=1
-						region="STATE_MEXICO"
 					}
 				}
 				reserves=1
@@ -910,7 +830,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=10
+						levels=4
 						region="STATE_MEXICO"
 					}
 				}
@@ -934,19 +854,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" }
-			}			
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:NAH"
-						levels=1
-						region="STATE_MEXICO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
 		}
 		region_state:MAY_CHO = {
@@ -1018,7 +925,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_port"
@@ -1030,33 +937,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-
-			create_building={
-				building="building_arms_industry"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MIX"
-						levels=1
-						region="STATE_GUERRERO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
-			}
-			create_building={
-				building="building_artillery_foundries"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MIX"
-						levels=1
-						region="STATE_GUERRERO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
 			}
 
 			create_building={
@@ -1243,7 +1123,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_port"
@@ -1311,21 +1191,6 @@
 		}
 	}
 	s:STATE_JALISCO={
-		region_state:NAH={
-			create_building={
-				building="building_tooling_workshops"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NAH"
-						levels=1
-						region="STATE_MEXICO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
-			}
-		}
 		region_state:MES_IRE={
 			create_building={
 				building="building_port"
@@ -1400,32 +1265,6 @@
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
-			create_building={
-				building="building_arms_industry"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MES_IRE"
-						levels=1
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
-			}
-			create_building={
-				building="building_artillery_foundries"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MES_IRE"
-						levels=1
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
-			}
 
 			create_building={
 				building="building_iron_mine"
@@ -1499,7 +1338,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 
 			create_building={
@@ -1540,19 +1379,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
-			}
-			create_building={
-				building="building_artillery_foundries"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:NAH"
-						levels=1
-						region="STATE_MEXICO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
 			}
 
 			create_building={
@@ -1631,7 +1457,7 @@
 			create_building={
 				building="building_altiplano_network"
 				level=1
-				activate_production_methods={ "pm_altiplano_unpaved_roads" "pm_altiplano_ox_carts" "pm_altiplano_clerical_administration" }
+				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
 			}
 			create_building={
 				building="building_gold_mine"
@@ -1651,7 +1477,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NAH"
-						levels=4
+						levels=2
 						region="STATE_MEXICO"
 					}
 				}
@@ -1661,12 +1487,6 @@
 			create_building={
 				building="building_dye_plantation"
 				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_atlantica"
-						levels=1
-						region="STATE_CUBA"
-					}
 					company={
 						type=company_ven_trade
 						country="c:VEN"
