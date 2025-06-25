@@ -578,7 +578,7 @@
 				building="building_huey_teocalli"
 				level=1
 				activate_production_methods={ "br_pm_building_great_palace_active" }
-			}br_pm_building_great_palace_active
+			}
 			create_building={
 				building="building_altiplano_network"
 				level=1
