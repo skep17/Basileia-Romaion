@@ -20,7 +20,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 15004
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian
@@ -44,7 +44,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 150
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = polynesian
@@ -67,12 +67,12 @@
 			create_pop = {
 				culture = colonial_dutch
 				size = 25004
-				working_adult_ratio = 0.58
+				# removed in 1.9.2 working_adult_ratio = 0.58
 			}
 			create_pop = {
 				culture = colonial_german
 				size = 25004
-				working_adult_ratio = 0.58
+				# removed in 1.9.2 working_adult_ratio = 0.58
 			}
 			create_pop = {
 				culture = dutch
@@ -89,12 +89,12 @@
 			create_pop = {
 				culture = baltic_german
 				size = 1500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = saxon
 				size = 5004
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = cariban
@@ -120,7 +120,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 9300
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian
@@ -133,24 +133,14 @@
 				pop_type = slaves
 			}
 		}
-		region_state:TR0 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = cariban
-				size = 5004
-			}
-			create_pop = {
-				culture = amazonian
-				size = 24004
-			}
-		}
-		region_state:WY1 = {
-			create_pop = {
-				culture = cariban
-				size = 2000
-			}
-			create_pop = {
-				culture = amazonian
 				size = 8004
+			}
+			create_pop = {
+				culture = amazonian
+				size = 31004
 			}
 		}
 	}
@@ -179,7 +169,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 93004
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian
@@ -218,7 +208,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 25004
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian
@@ -238,7 +228,7 @@
 		}
 	}
 	s:STATE_BOLIVAR = {
-		region_state:YN1 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = cariban
 				size = 8004
@@ -267,7 +257,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 39004	
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian
@@ -310,7 +300,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 55004
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian
@@ -350,28 +340,10 @@
 				size = 15200
 			}
 		}
-		region_state:BN1 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
-				size = 23800
-			}
-		}
-		region_state:ARW = {
-			create_pop = {
-				culture = amazonian
-				size = 15800
-			}
-		}
-		region_state:YAA = {
-			create_pop = {
-				culture = amazonian
-				size = 15800
-			}
-		}
-		region_state:TK2 = {
-			create_pop = {
-				culture = amazonian
-				size = 3800
+				size = 64800
 			}
 		}
 	}
@@ -408,7 +380,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 8004
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian
@@ -442,22 +414,10 @@
 				size = 15004
 			}
 		}
-		region_state:ARW = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
-				size = 20000
-			}
-		}
-		region_state:YAA = {
-			create_pop = {
-				culture = amazonian
-				size = 12000
-			}
-		}
-		region_state:DN1 = {
-			create_pop = {
-				culture = amazonian
-				size = 2200
+				size = 36000
 			}
 		}
 	}
@@ -510,7 +470,7 @@
 				size = 92000
 			}
 		}
-		region_state:CH5 = {
+		region_state:GNI = {
 			create_pop = {
 				culture = amazonian
 				size = 38000
@@ -541,16 +501,10 @@
 				size = 38000
 			}
 		}
-		region_state:CM2 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
-				size = 20000
-			}
-		}
-		region_state:KW1 = {
-			create_pop = {
-				culture = amazonian
-				size = 35000
+				size = 55000
 			}
 		}
 	}
@@ -594,7 +548,7 @@
 				size = 9000
 			}
 		}
-		region_state:CM2 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
 				size = 36000
@@ -612,7 +566,7 @@
 				size = 9000
 			}
 		}
-		region_state:CM2 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
 				size = 25000
@@ -641,7 +595,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 45000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = british
@@ -710,7 +664,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 55000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = british
@@ -736,16 +690,10 @@
 				size = 35000
 			}	
 		}
-		region_state:TL4 = {
+		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 5000
-			}	
-		}
-		region_state:CH2 = {
-			create_pop = {
-				culture = patagonian
-				size = 5000
+				size = 9500
 			}	
 		}
 	}
@@ -777,49 +725,20 @@
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 16000
-			}
-		}
-		region_state:TL4 = {
-			create_pop = {
-				culture = patagonian
-				size = 4000
-			}
-		}
-		region_state:CH2 = {
-			create_pop = {
-				culture = patagonian
-				size = 8000
+				size = 26000
 			}
 		}
 	}
 	s:STATE_LA_PAMPA = {
-		region_state:HP1 = {
-			create_pop = {
-				culture = patagonian
-				size = 33000
-			}
-			create_pop = {
-				culture = colonial_british
-				size = 500
-				working_adult_ratio = 0.38
-			}
-		}
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 9000
-			}
-		}
-		region_state:TL4 = {
-			create_pop = {
-				culture = patagonian
-				size = 15000
+				size = 53000
 			}
 			create_pop = {
 				culture = colonial_british
-				size = 500
-				working_adult_ratio = 0.38
+				size = 1500
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 		}
 	}
@@ -828,7 +747,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 42000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = british
@@ -868,24 +787,14 @@
 				size = 2000
 			}
 		}
-		region_state:HP1 = {
+		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
+				size = 8500
+			}
+			create_pop = {
+				culture = guarani
 				size = 3500
-			}
-			create_pop = {
-				culture = guarani
-				size = 2500
-			}	
-		}
-		region_state:TL4 = {
-			create_pop = {
-				culture = patagonian
-				size = 4000
-			}
-			create_pop = {
-				culture = guarani
-				size = 1000
 			}	
 		}
 	}
@@ -898,7 +807,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 		}
 	}
@@ -936,7 +845,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = quechua # Santiagueño Quechua
@@ -1020,92 +929,20 @@
 		}
 	}
 	s:STATE_ACRE={
-		region_state:CM2 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
 				size = 25750
 			}
 		}
 	}
-	s:STATE_AMAZONAS = {
-		region_state:MAW = {
+	s:STATE_AMAZONAS = {	
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
-				size = 15000
+				size = 175000
 			}
 		}	
-		region_state:JA2 = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}	
-		region_state:YN1 = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}	
-		region_state:TK2 = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}
-		region_state:TH1 = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}
-		region_state:SRI = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}
-		region_state:AR1 = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}
-		region_state:WPS = {
-			create_pop = {
-				culture = amazonian
-				size = 17000
-			}
-		}
-		region_state:CM2 = {
-			create_pop = {
-				culture = amazonian
-				size = 8000
-			}
-		}
-		region_state:YAA = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}
-		region_state:KOA = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}	
-		region_state:DN1 = {
-			create_pop = {
-				culture = amazonian
-				size = 15000
-			}
-		}	
-		region_state:BN1 = {
-			create_pop = {
-				culture = amazonian
-				size = 2500
-			}
-		}
 		region_state:br_dutch_west_indies = {
 			create_pop = {
 				culture = amazonian
@@ -1114,7 +951,7 @@
 			create_pop = {
 				culture = colonial_dutch
 				size = 2000
-				working_adult_ratio = 0.65
+				# removed in 1.9.2 working_adult_ratio = 0.65
 			}
 			create_pop = {
 				culture = dutch
@@ -1134,109 +971,41 @@
 		}	
 	}
 	s:STATE_MATO_GROSSO = {
-		region_state:GU2 = {
-			create_pop = {
-				culture = guarani
-				size = 10000
-			}
-		}
-		region_state:AW2 = {
-			create_pop = {
-				culture = guarani
-				size = 6000
-			}
-			create_pop = {
-				culture = tupinamba
-				size = 6000
-			}
-		}
-		region_state:GTO = {
-			create_pop = {
-				culture = guarani
-				size = 10000
-			}
-		}
-		region_state:NMK = {
-			create_pop = {
-				culture = amazonian
-				size = 28000
-			}
-			create_pop = {
-				culture = guarani
-				size = 4000
-			}
-		}
-		region_state:SRI = {
-			create_pop = {
-				culture = amazonian
-				size = 11500
-			}
-		}
-		region_state:CH5 = {
-			create_pop = {
-				culture = amazonian
-				size = 8000
-			}
-		}
-		region_state:TH1 = {
-			create_pop = {
-				culture = amazonian
-				size = 8000
-			}
-		}
-		region_state:KW1 = {
-			create_pop = {
-				culture = amazonian
-				size = 11500
-			}
-		}
-		region_state:AR1 = {
-			create_pop = {
-				culture = amazonian
-				size = 11500
-			}
-		}
-		region_state:XAV = {
-			create_pop = {
-				culture = guarani
-				size = 3000
-			}
-			create_pop = {
-				culture = amazonian
-				size = 10000
-			}
-		}
-		region_state:KAY = {
-			create_pop = {
-				culture = tupinamba
-				size = 6000
-			}
-			create_pop = {
-				culture = amazonian
-				size = 9000
-			}
-		}
-		region_state:BO1 = {
-			create_pop = {
-				culture = guarani
-				size = 9000
-			}
-			create_pop = {
-				culture = tupinamba
-				size = 5000
-			}
-		}
-		region_state:OF1 = {
-			create_pop = {
-				culture = guarani
-				size = 5000
-			}
-			create_pop = {
-				culture = tupinamba
-				size = 4000
-			}
-		}
 		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 33000
+			}
+		}
+		region_state:TPI = {
+			create_pop = {
+				culture = guarani
+				size = 6000
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 6000
+			}
+		}
+		region_state:AMZ = {
+			create_pop = {
+				culture = amazonian
+				size = 71000
+			}
+			create_pop = {
+				culture = guarani
+				size = 8000
+			}
+		}
+		region_state:TPI = {
+			create_pop = {
+				culture = tupinamba
+				size = 18000
+			}
+			create_pop = {
+				culture = amazonian
+				size = 9000
+			}
 			create_pop = {
 				culture = guarani
 				size = 9000
@@ -1252,7 +1021,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 8000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = british
@@ -1276,7 +1045,7 @@
 		}
 	}
 	s:STATE_PARANA = { # Parana, 1830. 36566 total.
-		region_state:G1A = {
+		region_state:GNI = {
 			create_pop = {
 				culture = guarani
 				size = 24000
@@ -1290,7 +1059,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 4500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = british
@@ -1322,7 +1091,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 4500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = british
@@ -1344,7 +1113,7 @@
 				pop_type = bureaucrats
 			}
 		}
-		region_state:G1A = {
+		region_state:GNI = {
 			create_pop = {
 				culture = guarani
 				size = 4000
@@ -1371,7 +1140,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 12000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1379,7 +1148,7 @@
 				pop_type = slaves
 			}
 		}
-		region_state:OF1 = {
+		region_state:TPI = {
 			create_pop = {
 				culture = tupinamba
 				size = 26000
@@ -1389,7 +1158,7 @@
 				size = 2000
 			}
 		}
-		region_state:GU2 = {
+		region_state:GNI = {
 			create_pop = {
 				culture = guarani
 				size = 2000
@@ -1416,25 +1185,13 @@
 			create_pop = {
 				culture = colonial_french
 				size = 6000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 		}
-		region_state:CT1 = {
+		region_state:TPI = {
 			create_pop = {
 				culture = tupinamba
-				size = 41000
-			}
-		}
-		region_state:OF1 = {
-			create_pop = {
-				culture = tupinamba
-				size = 4000
-			}
-		}
-		region_state:BO1 = {
-			create_pop = {
-				culture = tupinamba
-				size = 3000
+				size = 46000
 			}
 		}
 	}
@@ -1458,7 +1215,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 44000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1468,7 +1225,7 @@
 		}
 	}
 	s:STATE_BAHIA = {
-		region_state:AC1 = {
+		region_state:TPI = {
 			create_pop = {
 				culture = tupinamba
 				size = 31000
@@ -1493,7 +1250,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 12000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1527,7 +1284,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 74000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1551,7 +1308,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 15000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1561,7 +1318,7 @@
 		}
 	}
 	s:STATE_PIAUI = { # Piaui, 1835 estimate. Total population of 94932.
-		region_state:GJ1 = {
+		region_state:TPI = {
 			create_pop = {
 				culture = tupinamba
 				size = 21000
@@ -1586,7 +1343,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 7000	
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1615,7 +1372,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 16000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1639,7 +1396,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 8500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1668,7 +1425,7 @@
 			create_pop = {
 				culture = colonial_french
 				size = 7000
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1676,7 +1433,7 @@
 				pop_type = slaves
 			}
 		}
-		region_state:GJ1 = {
+		region_state:TPI = {
 			create_pop = {
 				culture = tupinamba
 				size = 23000
@@ -1684,34 +1441,10 @@
 		}
 	}
 	s:STATE_GOIAS = { # total ballpark figure: 73918
-		region_state:AP2 = {
+		region_state:TPI = {
 			create_pop = {
 				culture = tupinamba
-				size = 11994 # 1825 estimate
-			}
-		}
-		region_state:AW1 = {
-			create_pop = {
-				culture = tupinamba
-				size = 13994 # 1825 estimate
-			}
-		}
-		region_state:KAY = {
-			create_pop = {
-				culture = tupinamba
-				size = 5994 # 1825 estimate
-			}
-		}
-		region_state:AW2 = {
-			create_pop = {
-				culture = tupinamba
-				size = 15994 # 1825 estimate
-			}
-		}
-		region_state:BO1 = {
-			create_pop = {
-				culture = tupinamba
-				size = 15994 # 1825 estimate
+				size = 52994
 			}
 		}
 	}
@@ -1724,7 +1457,7 @@
 			create_pop = {
 				culture = colonial_dutch
 				size = 6646
-				working_adult_ratio = 0.65
+				# removed in 1.9.2 working_adult_ratio = 0.65
 			}
 			create_pop = {
 				culture = latvian
@@ -1733,7 +1466,7 @@
 			create_pop = {
 				culture = baltic_german
 				size = 500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1741,40 +1474,16 @@
 				pop_type = slaves
 			}
 		}
-		region_state:WY1 = {
+		region_state:AMZ = {
 			create_pop = {
 				culture = amazonian
-				size = 15800
+				size = 65800
 			}
 		}
-		region_state:MAW = {
+		region_state:TPI = {
 			create_pop = {
 				culture = amazonian
 				size = 3800
-			}
-		}
-		region_state:MN1 = {
-			create_pop = {
-				culture = amazonian
-				size = 18800
-			}
-		}
-		region_state:UKG = {
-			create_pop = {
-				culture = amazonian
-				size = 19800
-			}
-		}
-		region_state:KAY = {
-			create_pop = {
-				culture = amazonian
-				size = 3800
-			}
-		}
-		region_state:TR0 = {
-			create_pop = {
-				culture = amazonian
-				size = 8800
 			}
 		}
 	}
@@ -1783,7 +1492,7 @@
 			create_pop = {
 				culture = colonial_british
 				size = 5400
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = british
@@ -1794,7 +1503,7 @@
 			create_pop = {
 				culture = colonial_dutch
 				size = 5000
-				working_adult_ratio = 0.65
+				# removed in 1.9.2 working_adult_ratio = 0.65
 			}
 			create_pop = {
 				culture = afro_dutch
@@ -1814,7 +1523,7 @@
 			create_pop = {
 				culture = colonial_andalusian
 				size = 4500
-				working_adult_ratio = 0.38
+				# removed in 1.9.2 working_adult_ratio = 0.38
 			}
 			create_pop = {
 				culture = afro_andalusian

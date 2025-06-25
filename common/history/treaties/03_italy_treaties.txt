@@ -10,21 +10,8 @@
 		binding_period = { years = 50 }
 
 		articles_to_create = {
-			{
-				article = treaty_port
-				source_country = c:BYZ
-				target_country = c:VEN
-				inputs = {
-					{ state = s:STATE_IONIAN_ISLANDS.region_state:BYZ }
-				}
-			}
-		#	{ # Trade Agreement
-		#		article = trade_privilege
-		#		source_country = c:BYZ
-		#		target_country = c:VEN
-		#	}
-			{  # Investment Rights
-				article = foreign_investment_rights
+			{ # Trade Agreement
+				article = trade_privilege
 				source_country = c:BYZ
 				target_country = c:VEN
 			}
@@ -40,16 +27,8 @@
 		binding_period = { years = 50 }
 
 		articles_to_create = {
-			{
-				article = treaty_port
-				source_country = c:SER
-				target_country = c:VEN
-				inputs = {
-					{ state = s:STATE_MONTENEGRO.region_state:SER }
-				}
-			}
-			{  # Investment Rights
-				article = foreign_investment_rights
+			{ # Trade Agreement
+				article = trade_privilege
 				source_country = c:SER
 				target_country = c:VEN
 			}
@@ -154,21 +133,8 @@
 		binding_period = { years = 50 }
 
 		articles_to_create = {
-			{
-				article = treaty_port
-				source_country = c:BYZ
-				target_country = c:br_genoa
-				inputs = {
-					{ state = s:STATE_WESTERN_THRACE.region_state:BYZ }
-				}
-			}
 			{ # Trade Agreement
 				article = trade_privilege
-				source_country = c:BYZ
-				target_country = c:br_genoa
-			}
-			{  # Investment Rights
-				article = foreign_investment_rights
 				source_country = c:BYZ
 				target_country = c:br_genoa
 			}

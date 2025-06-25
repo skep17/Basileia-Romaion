@@ -1,5 +1,48 @@
 ####id 2880120246
 
+# Update 138
+
+
+
+# Update 137
+
+- companies and prestige goods
+	- reworked the mods companies
+	- added new textiles companies for Venice and ERE.
+	- added four new prestige goods; new luxury clothing prestige goods for the Venetian and Roman companies and also added a prestige silk for the Roman,Venice and Genoa trade companies.
+	- I gave all the other mod companies a generic prestige good for now.
+	- moved a lot of the company building types to extension buildings
+	- converted and resized all the company logos and added some new ones.
+
+- South American Decentralized merged
+	- After my earlier merges we got down to 424 which is the max amount before the game lags. That means if a bunch of revolts were to happen prior to any annexations the game would start to lag and stutter.
+	- This gives us the nessisary space for futher world building
+	- nativized the names all meaning Culture tribes or Tribes of Culture except for Amazon because it seems there is no dominant language that I could find.
+
+- recolored the maps water to appear more blue less redish especially on the great empires map. Map generally should be a tiny bit brighter idk. 
+
+- fixed company HQs not showing up
+- updated some diplo pacts to treaties
+	- made scripted effects for the treaties, to avoid repetition
+- fixed tech bugs
+- Lots of other 1.9 bugs fixed
+
+
+
+
+# Update 136
+
+- Fixed an issue where navies were not applying blockade.
+
+- Rebalanced the Economic Dependence debuff to improve gameplay pacing and reduce harshness in managing subjects.
+
+- Merged several decentralized nations to reduce country count and avoid hitting the new 1.9 data structure cap
+	- This means we didn't need to merge all of Africa
+	- However, we may introduce a game rule in the future that allows full Africa merging as an option.
+
+- fixed random bugs
+
+
 
 # Update 132 Patch Notes
 

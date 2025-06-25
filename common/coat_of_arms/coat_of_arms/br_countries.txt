@@ -15,8 +15,8 @@ BYZ_monarchy = {
 	color3 = "yellow"
 	
 	textured_emblem = {
-		texture = "BRFLAG2.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		texture = "BRFLAG2.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -27,8 +27,8 @@ HRE = {
 	color3 = "yellow"
 
 	textured_emblem = {
-		texture = "frencehre.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		texture = "frencehre.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -39,8 +39,8 @@ HRE_western_roman_republic = {
 	color3 = "yellow"
 
 	textured_emblem = {
-		texture = "hre_wrr_flag.jpg"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		texture = "hre_wrr_flag.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -51,8 +51,8 @@ HRE_western_roman_republic_comunism = {
 	color3 = "yellow"
 
 	textured_emblem = {
-		texture = "hre_wrr_flag_comunism.jpg"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		texture = "hre_wrr_flag_comunism.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -63,8 +63,8 @@ HRE_western_roman_republic_junta = {
 	color3 = "yellow"
 
 	textured_emblem = {
-		texture = "hre_wrr_flag_junta.jpg"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		texture = "hre_wrr_flag_junta.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -75,8 +75,8 @@ HRE_western_roman_republic_french = {
 	color3 = "yellow"
 
 	textured_emblem = {
-		texture = "hre_wrr_flag_french.jpg"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		texture = "hre_wrr_flag_french.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -430,7 +430,7 @@ JAV = {
 		instance = { scale = { 0.76 1.0 }  }
 	}	
 	textured_emblem = {
-		texture = "Surya_Majapahit.png"	
+		texture = "Surya_Majapahit.dds"
 		instance = { scale = { 0.75 0.75 }  }
 	}		
 }
@@ -441,7 +441,7 @@ CHI = {
 	color2 = "yellow"
 	
 	textured_emblem = {
-		texture = "Seal_of_Ming_dynasty.png"
+		texture = "Seal_of_Ming_dynasty.dds"
 		instance = { scale = { 0.75 0.75 }  }			
 	}		
 }
@@ -452,7 +452,7 @@ CHI_absolute_monarchy = {
 	color2 = "blue"
 	
 	textured_emblem = {
-		texture = "Seal_of_Ming_dynasty.png"
+		texture = "Seal_of_Ming_dynasty.dds"
 		instance = { scale = { 0.75 0.75 }  }			
 	}
 
@@ -569,7 +569,7 @@ DEN = {
 		texture = "ce_waves_04.dds"
 		color1 = "blue"
 		color2 = "white"
-		instance = { position = { 0.5 0.7 } scale = { 1 1 }  }
+		instance = { position = { 0.5 0.7 } scale = { 1.0 1.0 }  }
 	}
 
 	colored_emblem = {
@@ -787,7 +787,7 @@ HNA = {
 	
 	textured_emblem = {
 		texture = "HNA.tga"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -797,7 +797,7 @@ YUE = {
 	
 	textured_emblem = {
 		texture = "YUE.tga"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -807,8 +807,79 @@ YUE_republic = {
 	
 	textured_emblem = {
 		texture = "YUE_republic.tga"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
 MHR = SAT
+
+TWT_monarchy = {
+	# Cusco rainbow flag
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	@twt_stripe = @[1/7]
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		instance = { scale = { 1.0 @twt_stripe } position = { 0.5 @[twt_stripe*0.5] } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "orange"
+		instance = { scale = { 1.0 @twt_stripe } position = { 0.5 @[twt_stripe*1.5] } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "yellow"
+		instance = { scale = { 1.0 @twt_stripe } position = { 0.5 @[twt_stripe*2.5] } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "green"
+		instance = { scale = { 1.0 @twt_stripe } position = { 0.5 @[twt_stripe*3.5] } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue_light"
+		instance = { scale = { 1.0 @twt_stripe } position = { 0.5 @[twt_stripe*4.5] } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		instance = { scale = { 1.0 @twt_stripe } position = { 0.5 @[twt_stripe*5.5] } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "purple"
+		instance = { scale = { 1.0 @twt_stripe } position = { 0.5 @[twt_stripe*6.5] } }
+	}
+	textured_emblem = {
+		texture = "inca.dds"
+		instance = { scale = { 1.1 1.1 } }
+	}
+}
+
+NAH_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "white"
+	color3 = "red"
+	
+	colored_emblem = {		
+		texture = "ce_solid.dds"
+		color1 = color2
+        instance = { scale = { 1 @[4/6]} }				
+	}			
+	colored_emblem = {		
+		texture = "ce_solid.dds"
+		color1 = color3
+        instance = { scale = { 1 @[2/6]} }				
+	}		
+	textured_emblem = {
+		texture = "Aztec_Triple_Alliance.dds"
+		instance = { scale = { 0.5 0.5 } }
+	}	
+}
+

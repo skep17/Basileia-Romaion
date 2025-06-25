@@ -320,7 +320,7 @@
 					building={
 						type="building_manor_house"
 						country="c:br_dutch_west_indies"
-						levels=1
+						levels=2
 						region="STATE_GHANA"
 					}
 				}
@@ -329,28 +329,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:BLE={
-			create_building={
-				building="building_millet_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_dutch_west_indies"
-						levels=1
-						region="STATE_GHANA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -398,7 +377,7 @@
 					activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 				}
 		}
-		region_state:BLE={
+		region_state:AYI={
 			create_building={
 				building="building_millet_farm"
 				add_ownership={
@@ -414,7 +393,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -1134,6 +1113,12 @@
 						levels=1
 						region="STATE_HAUSALAND"
 					}
+					building={
+						type="building_manor_house"
+						country="c:br_genonese_africa_company"
+						levels=1
+						region="STATE_SOUTH_CAMEROON"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
@@ -1144,7 +1129,7 @@
 					building={
 						type="building_manor_house"
 						country="c:br_genonese_africa_company"
-						levels=1
+						levels=2
 						region="STATE_SOUTH_CAMEROON"
 					}
 					building={
@@ -1163,7 +1148,7 @@
 					building={
 						type="building_manor_house"
 						country="c:br_genonese_africa_company"
-						levels=1
+						levels=2
 						region="STATE_SOUTH_CAMEROON"
 					}
 					building={
@@ -1178,54 +1163,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=25
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:br_nupe={
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_genonese_africa_company"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
-			}
-			create_building={
-				building="building_millet_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_genonese_africa_company"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_genonese_africa_company"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" }
-			}
-			create_building={
-				building="building_barracks"
-				level=10
+				level=35
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -1346,77 +1284,22 @@
 		}
 	}
 	s:STATE_EAST_HAUSALAND={
-		region_state:br_nupe={
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_genonese_africa_company"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
-			}
-			create_building={
-				building="building_cotton_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_genonese_africa_company"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
-			}
-			create_building={
-				building="building_millet_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_genonese_africa_company"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:br_genonese_africa_company"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" }
-			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
 		region_state:SOK={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_manor_house"
+						country="c:br_genonese_africa_company"
+						levels=1
+						region="STATE_SOUTH_CAMEROON"
+					}
+					building={
+						type="building_manor_house"
 						country="c:SOK"
 						levels=1
 						region="STATE_HAUSALAND"
 					}
-
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
@@ -1429,12 +1312,6 @@
 						country="c:br_genonese_africa_company"
 						levels=1
 						region="STATE_SOUTH_CAMEROON"
-					}
-					building={
-						type="building_manor_house"
-						country="c:SOK"
-						levels=1
-						region="STATE_HAUSALAND"
 					}
 				}
 				reserves=1
@@ -1471,7 +1348,7 @@
 					building={
 						type="building_manor_house"
 						country="c:SOK"
-						levels=1
+						levels=2
 						region="STATE_HAUSALAND"
 					}
 				}
@@ -1480,7 +1357,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=25
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -1889,11 +1766,7 @@
 	}
 	
 	s:STATE_LINDI={
-		region_state:HHE={
-		}
-		region_state:GGO={
-		}
-		region_state:SNG={
+		region_state:BMB={
 		}
 	}
 	s:STATE_TANGANYIKA={
@@ -1901,11 +1774,7 @@
 		}
 		region_state:MSI={
 		}
-		region_state:KRG={	
-		}
-		region_state:RWD={
-		}
-		region_state:BRD={		
+		region_state:BUG={
 		}
 	}
 	s:STATE_KENYA={
@@ -1940,9 +1809,7 @@
 	s:STATE_RIFT_VALLEY={
 		region_state:MSI={
 		}
-		region_state:LUO={
-		}
-		region_state:TRK={
+		region_state:TPS={
 		}
 	}
 	s:STATE_KAZEMBE={
@@ -2105,12 +1972,6 @@
 		region_state:BUG={
 
 		}
-		region_state:BNY={
-
-		}
-		region_state:ANK={
-
-		}
 		region_state:ACH={
 
 		}
@@ -2120,14 +1981,14 @@
 		}
 		region_state:NUE={
 		}
-		region_state:DFT={
+		region_state:ZND={
 		}
 		region_state:TPS={
 		}
 	}
 
 	s:STATE_WADDAI={
-		region_state:WAD={
+		region_state:DFR={
 			create_building={
 				building="building_barracks"
 				level=10
@@ -2308,7 +2169,7 @@
 		}
 	}
 	s:STATE_CONGO={
-		region_state:BOB={
+		region_state:BNG={
 		}
 		region_state:KON={
 			create_building={
@@ -2350,15 +2211,11 @@
 		}
 		region_state:ZND={
 		}
-		region_state:LGA={
-		}
-		region_state:HMB={
-		}
 		region_state:LBA={
 		}
 	}
 	s:STATE_KASAI={
-		region_state:KBA={
+		region_state:KON={
 		}
 		region_state:LBA={
 		}
@@ -2438,8 +2295,6 @@
 	}
 	s:STATE_EQUATEUR={
 		region_state:BNG={
-		}
-		region_state:BOB={
 		}
 	}
 	s:STATE_NORTH_ANGOLA={
@@ -2525,17 +2380,15 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:OVM={
+		region_state:LND={
 		}
 	}
 	s:STATE_EAST_ANGOLA={
-		region_state:CHK={
-		}
 		region_state:LND={
 		}
-		region_state:KSN={
+		region_state:KON={
 		}
-		region_state:LZO={
+		region_state:KZM={
 		}
 	}
 	s:STATE_KATANGA={
@@ -2549,26 +2402,20 @@
 	s:STATE_GABON={
 		region_state:FNG={
 		}
-		region_state:LNG={
+		region_state:KON={
 		}
 	}
 	s:STATE_ZAMBIA={
-		region_state:LZO={
+		region_state:KZM={
 		}
 		region_state:BMB={
 		}
 	}
 	s:STATE_ZAMBEZIA={
-		region_state:MSK={
-		}
 		region_state:MNC={
 		}
 	}
 	s:STATE_ZAMBEZI={
-		region_state:MTB={
-		}
-		region_state:MSH={
-		}
 		region_state:MNC={
 		}
 	}
@@ -2754,7 +2601,7 @@
 	s:STATE_BOTSWANA={
 		region_state:TSW={
 		}
-		region_state:LZO={
+		region_state:KZM={
 		}
 	}
 	s:STATE_SAHARA={
