@@ -737,37 +737,30 @@
 
 	}
 	s:STATE_VERACRUZ = {
-		region_state:NAH={
-			create_building={
-				building="building_altiplano_network"
-				level=1
-				activate_production_methods={ "pm_gbbf_unpaved_roads" "pm_gbbf_ox_carts" "pm_gbbf_clerical_administration" }
-			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:NAH"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" }
-			}
-		}
-	}
-	s:STATE_VERACRUZ = {
 		region_state:NAH={		
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
 						country="c:NAH"
-						levels=2
+						levels=4
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:NAH"
+						levels=3
+						region="STATE_MEXICO"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_shipyards"
@@ -932,11 +925,24 @@
 				add_ownership={
 					country={
 						country="c:MIX"
-						levels=1
+						levels=4
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MIX"
+						levels=2
+						region="STATE_GUERRERO"
+					}
+				}
+				reserves=1
 			}
 
 			create_building={
@@ -945,7 +951,7 @@
 					building={
 						type="building_manor_house"
 						country="c:MIX"
-						levels=3
+						levels=5
 						region="STATE_GUERRERO"
 					}
 				}
@@ -962,6 +968,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MIX"
+						levels=1
+						region="STATE_MEXICO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1189,6 +1208,19 @@
 				}
 				reserves=2
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MES_IRE"
+						levels=2
+						region="STATE_JALISCO"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_shipyards"

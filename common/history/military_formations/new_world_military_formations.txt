@@ -1017,7 +1017,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_JALISCO
-				count = 20
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
@@ -1044,7 +1044,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_GUERRERO
-				count = 2
+				count = 12
 			}
 			save_scope_as = IRE_army_1
 		}

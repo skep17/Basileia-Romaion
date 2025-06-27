@@ -158,6 +158,9 @@
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_professional_army
+
+		add_taxed_goods = g:grain
+		add_taxed_goods = g:liquor
 	}
 	
 	c:MIX ?= {
@@ -169,10 +172,14 @@
 		activate_law = law_type:law_theocracy
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_religious_schools
+
+		add_taxed_goods = g:tobacco
+		add_taxed_goods = g:services
 	}
 	
 	c:NAH ?= {
 		set_state_religion = rel:br_tge_religion_teotl
+
 		effect_starting_technology_tier_4_tech = yes
 		add_technology_researched = line_infantry
 		add_technology_researched = br_tech_lines_of_communication
@@ -184,6 +191,10 @@
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_slave_trade
+
+		add_taxed_goods = g:tobacco
+		add_taxed_goods = g:grain
+		add_taxed_goods = g:fruit
 	}
 	c:NAH_COL ?= {
 		effect_starting_technology_tier_5_tech = yes
