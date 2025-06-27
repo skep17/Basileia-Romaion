@@ -2,7 +2,7 @@
 	s:STATE_NEVADA = {
 		create_state = {
 			country = c:MPA
-			owned_provinces = { x005C93 x374A87 x80FCE4 xA4D6D1 xCC1818 }
+			owned_provinces = {  x005C93 x374A87 x80FCE4 xA4D6D1 xCC1818 }
 		}
 		create_state = {
 			country = c:YKT
@@ -311,14 +311,23 @@
 	}
 	s:STATE_HONDURAS = {
 		create_state = {
+			country = c:NAH_PIP
+			owned_provinces = {
+				x90EF40
+			}
+		}
+		create_state = {
 			country = c:MKT
-			owned_provinces = { x98E7D7 xC77E76 x55B06A xC27057 xE2A108 xD08FCB xEF5C1F x3D20D1 x600AC6 x907080 x528F3B }
+			owned_provinces = {
+				x98E7D7 xC77E76 x55B06A xC27057 xE2A108 xD08FCB xEF5C1F x3D20D1 x600AC6 x907080 x528F3B
+			}
 		}
 		create_state = {
 			country = c:br_lenca
-			owned_provinces = { x10EF40 x0E5459 x63D186 x9A0C09 x964591 x3C64D6 x907040 x52914C xE521E1 x5C25CB xFA595E x90EF40 }
+			owned_provinces = {
+				x10EF40 x0E5459 x63D186 x9A0C09 x964591 x3C64D6 x907040 x52914C xE521E1 x5C25CB xFA595E
+			}
 		}
-
 		add_homeland = cu:mayan
 		add_homeland = cu:miskito
 	}
