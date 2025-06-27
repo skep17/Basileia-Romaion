@@ -114,7 +114,7 @@
 			tlim_is_active_trigger = no
 		}
 		s:STATE_HEDJAZ={
-			region_state:HDJ={
+			random_scope_state={
 				create_building={
 					building="eocfm_building_masjid_al_haram"
 					level=1

@@ -5525,6 +5525,12 @@ eocfm.900 = { # The Partiarch's Variable Dumpster Fire
 		remove_variable = eocfm_moscow_patriarch_var
 		remove_variable = eocfm_crusade_counter
 		remove_variable = eocfm_deposition_counter
+		remove_variable = eocfm_rome_liturgical_rite_var
+		remove_variable = eocfm_constantinople_liturgical_rite_var
+		remove_variable = eocfm_antioch_liturgical_rite_var
+		remove_variable = eocfm_jerusalem_liturgical_rite_var
+		remove_variable = eocfm_alexandria_liturgical_rite_var
+		remove_variable = eocfm_moscow_liturgical_rite_var
 	}
 	
 	orphan = yes

@@ -398,7 +398,7 @@
 			create_building={
 				building="building_chichen_itza"
 				level=1
-				activate_production_methods={ "br_pm_building_great_palace_active" }
+				activate_production_methods={ "br_pm_default_building_palace_complex" }
 			}
 			create_building={
 				building="building_port"
@@ -577,7 +577,7 @@
 			create_building={
 				building="building_huey_teocalli"
 				level=1
-				activate_production_methods={ "br_pm_building_great_palace_active" }
+				activate_production_methods={ "br_pm_default_building_palace_complex" }
 			}
 			create_building={
 				building="building_altiplano_network"
@@ -887,7 +887,7 @@
 					building={
 						type="building_financial_district"
 						country="c:MAY_CHO"
-						levels=2
+						levels=1
 						region="STATE_VERACRUZ"
 					}
 				}
@@ -1024,19 +1024,6 @@
 		}
 
 		region_state:MES_IRE={
-			create_building={
-				building="building_lead_mine"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:MES_IRE"
-						levels=1
-						region="STATE_JALISCO"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
-			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -1833,7 +1820,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+				activate_production_methods={ "pm_anchorage" }
 			}
 
 		}
@@ -1900,7 +1887,7 @@
 						type="building_manor_house"
 						country="c:MAY_PAN"
 						levels=1
-						region="STATE_ANDALUSIA"
+						region="STATE_YUCATAN"
 					}
 				}
 				reserves=1

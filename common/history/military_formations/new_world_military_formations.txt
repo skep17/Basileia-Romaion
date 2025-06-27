@@ -995,7 +995,7 @@
 		create_character = {
 			interest_group = ig_armed_forces
 			is_admiral = yes
-			hq_region = region_mexico
+			hq = region_mexico
 			commander_rank = commander_rank_1
 			traits = {
 				ambitious
