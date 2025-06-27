@@ -199,6 +199,42 @@
 	## Mesoamerican Native Tags
 	c:NAH ?= {
 		set_relations = {
+			country = ARI_CAH
+			value = 30
+		}
+		set_relations = {
+			country = NAH_PIP
+			value = 50
+		}
+		set_relations = {
+			country = NAH_NIC
+			value = 30
+		}
+		set_relations = {
+			country = MAY_WAS
+			value = 35
+		}
+		set_relations = {
+			country = PUE
+			value = -10
+		}
+		set_relations = {
+			country = ZAP
+			value = 50
+		}
+		set_relations = {
+			country = ARI_TAR
+			value = -50
+		}
+		set_relations = {
+			country = MIX
+			value = -75
+		}
+		set_relations = {
+			country = ZAP_TEH
+			value = -50
+		}
+		set_relations = {
 			country = c:br_louisiane 
 			value = -50
 		}
