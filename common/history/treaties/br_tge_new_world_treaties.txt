@@ -47,7 +47,7 @@
 		}
 	}
 
-	# Irechiwka-Colima Defensive Pact
+	# Blood Pact of Colima
 	create_treaty = {
 		name = treaty_name_colima_pact
 		first_country = c:MES_IRE
@@ -60,13 +60,59 @@
 		}
 
 		articles_to_create = {
-			{ # Irechiwka-Colima Pact Against Mexcia
+			{ # Iréchikwa-Colima Pact Against Mexica
 				article = defensive_pact
 			}
-			{ # Irechiwka Military Support to Colima
+			{ # Iréchikwa Military Support to Colima
 				article = military_assistance
 				source_country = c:MES_IRE
 				target_country = c:NAH_COL
+			}
+		}
+	}
+	# Blood Pact of Colima
+	create_treaty = {
+		name = treaty_name_colima_pact
+		first_country = c:MES_IRE
+		second_country = c:MIX
+
+		is_draft = no
+		entered_into_force_on = 1733.6.10
+		binding_period = {
+			years = 15
+		}
+
+		articles_to_create = {
+			{ # Iréchikwa-Mixtec Pact Against Mexica
+				article = defensive_pact
+			}
+			{ # Iréchikwa-Mixtec Trade Agreement
+				article = trade_privilege
+				source_country = c:MES_IRE
+				target_country = c:MIX
+			}
+			{ # Iréchikwa-Mixtec Trade Agreement
+				article = trade_privilege
+				source_country = c:MIX
+				target_country = c:MES_IRE
+			}
+		}
+	}
+	# Blood Pact of Colima
+	create_treaty = {
+		name = treaty_name_colima_pact
+		first_country = c:MIX
+		second_country = c:NAH_COL
+
+		is_draft = no
+		entered_into_force_on = 1733.6.10
+		binding_period = {
+			years = 15
+		}
+
+		articles_to_create = {
+			{ # Colima-Mixtec Pact Against Mexica
+				article = defensive_pact
 			}
 		}
 	}

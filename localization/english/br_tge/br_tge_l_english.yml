@@ -186,7 +186,12 @@
  
  
  # traits
- 
+
+
+ # treaties
+ treaty_name_nahua_elysian_pact: "Elysium-Mexica Cooperation Agreement"
+ treaty_name_elysian_holy_alliance: "Elysian Holy Alliance"
+ treaty_name_colima_pact: "Blood Pact of Colima"
  
  # general names
  
