@@ -403,17 +403,21 @@
 			}
 		}
 	}
-	s:STATE_VERACRUZ = { # 242658 in 1830, 259463 in 1840
-		# Initial number of 651061 split three ways here
+	s:STATE_VERACRUZ = {
 		region_state:NAH = {
 			create_pop = {
 				culture = nahua
 				religion = br_tge_religion_teotl
-				size = 117020
+				size = 215481
 			}
 			create_pop = {
 				culture = mayan
-				size = 117020
+				size = 129413
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mayan
+				size = 50000
 			}
 		}
 		region_state:MAY_CHO = {
@@ -682,12 +686,17 @@
 			}
 			create_pop = {
 				culture = purepecha
-				size = 528646
+				size = 628646
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = nahua
+				size = 60000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = purepecha
-				size = 60000
+				size = 20000
 			}
 		}
 		region_state:NAH_COL = {
@@ -905,6 +914,17 @@
 		}
 	}
 	s:STATE_HONDURAS = {
+		region_state:NAH_PIP = {
+			create_pop = {
+				culture = nahua
+				size = 3132
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = miskito
+				size = 7320
+			}
+		}
 		region_state:MKT = {
 			create_pop = {
 				culture = mayan
